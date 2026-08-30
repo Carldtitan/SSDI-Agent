@@ -338,11 +338,15 @@ def on_call_start(call: guava.Call):
             "Briefly read back the request method and turnaround so they can correct you.",
         ],
         completion_criteria=(
-            "The task is complete once you know how to submit a request and "
-            "whether the patient must act personally. If the office refuses to "
-            "share its process or asks you to call back, the task is also "
-            "complete. Never keep a busy clerk on the line to fill optional "
-            "fields."
+            "Four answers matter: how to submit the request, whether a signed "
+            "SSA-827 is enough, whether the treatment window is covered, and "
+            "whether the clinician will complete a medical source statement. "
+            "Once you have those, the task is complete. Treat everything else as "
+            "a bonus you pick up only if the conversation is going easily. "
+            "The task is also complete if the office refuses to share its "
+            "process, asks you to call back, or the person needs to go. Never "
+            "keep a busy clerk on the line to fill optional fields, and never "
+            "ask a question you already have the answer to."
         ),
     )
 
