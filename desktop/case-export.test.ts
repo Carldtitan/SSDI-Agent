@@ -30,7 +30,7 @@ const { exportCaseFolder } = require("./case-export.cjs") as {
 
 describe("case folder export", () => {
   it("creates five PDFs, copies linked evidence, and records missing evidence", async () => {
-    const parent = await mkdtemp(path.join(tmpdir(), "ssdiAgent-case-export-"));
+    const parent = await mkdtemp(path.join(tmpdir(), "ssdi-agent-case-export-"));
     try {
       const evidencePath = path.join(parent, "passport scan.jpg");
       await writeFile(evidencePath, "real evidence");

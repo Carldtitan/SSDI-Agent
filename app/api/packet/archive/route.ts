@@ -35,7 +35,7 @@ export async function POST(request: Request) {
       status: 200,
       headers: {
         "Cache-Control": "no-store, max-age=0",
-        "Content-Disposition": 'attachment; filename="ssdiAgent-case-forms.zip"',
+        "Content-Disposition": 'attachment; filename="ssdi-agent-case-forms.zip"',
         "Content-Length": String(archive.byteLength),
         "Content-Type": "application/zip",
         "X-Packet-Documents": String(documents.length),

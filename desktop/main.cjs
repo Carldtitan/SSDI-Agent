@@ -14,7 +14,7 @@ const { createFileTools } = require("./file-tools.cjs");
 const { createWindowsControl } = require("./windows-control.cjs");
 const { exportCaseFolder } = require("./case-export.cjs");
 
-const DEFAULT_WEB_URL = "https://ssdiAgent-kappa.vercel.app";
+const DEFAULT_WEB_URL = "https://ssdi-agent.vercel.app";
 const requestedUrl = readUrlArgument() || process.env.SSDI_AGENT_WEB_URL || DEFAULT_WEB_URL;
 const webUrl = new URL(requestedUrl);
 const allowedOrigin = webUrl.origin;

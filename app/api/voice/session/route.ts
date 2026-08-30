@@ -28,7 +28,7 @@ function websocketBase() {
 
 function apiBaseUrl() {
   const raw =
-    process.env.GUAVA_API_BASE_URL?.trim() || "https://api.goguava.ai";
+    process.env.GUAVA_API_BASE_URL?.trim() || "https://app.goguava.ai";
   return raw.replace(/\/+$/, "");
 }
 
