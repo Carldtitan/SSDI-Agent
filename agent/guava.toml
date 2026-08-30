@@ -1,0 +1,9 @@
+project_id = "gp-41c12017-9d2a-4bce-b712-62cd3ed800c9"
+org_id = "6a90b53205f8725f3426f62a"
+name = "ssdi-records"
+call_direction = "outbound"
+base_image = "python-sandbox:3.14"
+phone_number = "+14842707493"
+tier = "guava-seed"
+replicas = 1
+enable_healthcheck = true
