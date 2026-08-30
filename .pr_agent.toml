@@ -1,0 +1,16 @@
+# Qodo Merge / PR-Agent: disable all automatic actions on this repository.
+# Everything lands as a direct commit to main during the hackathon, so there is
+# nothing for an automatic reviewer to act on.
+
+[github_app]
+pr_commands = []
+handle_pr_actions = []
+push_commands = []
+auto_review = false
+auto_describe = false
+auto_improve = false
+
+[github_action_config]
+auto_review = false
+auto_describe = false
+auto_improve = false
