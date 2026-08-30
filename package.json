@@ -2,13 +2,10 @@
   "name": "ssdi-agent",
   "version": "0.1.0",
   "private": true,
-  "main": "desktop/main.cjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "desktop": "electron desktop/main.cjs",
-    "desktop:dev": "electron desktop/main.cjs --url=http://localhost:3000",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
@@ -17,7 +14,6 @@
     "test:e2e:ui": "playwright test --ui",
     "inspect:anvil": "tsx --env-file=.env scripts/inspect-anvil-schema.ts",
     "verify:packet:live": "tsx --env-file=.env scripts/verify-packet-live.ts",
-    "verify:windows-control": "electron scripts/verify-windows-control.cjs",
     "design:detect": "node skills/impeccable/scripts/detect.mjs --json app components"
   },
   "dependencies": {
@@ -54,7 +50,6 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
-    "electron": "^43.2.0",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "fast-check": "latest",

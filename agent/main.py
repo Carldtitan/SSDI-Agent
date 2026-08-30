@@ -32,6 +32,8 @@ from guava import logging_utils
 from guava.events import BotSessionEnded
 from guava.helpers.rag import DocumentQA
 
+import case_context
+
 logger = logging.getLogger("ssdi_agent.records")
 
 CURRENT_DIR = Path(__file__).resolve().parent
@@ -41,8 +43,12 @@ TASK_ID = "records_procedure"
 RESULT_KEYS = (
     "reached_records_office",
     "records_contact",
+    "patient_on_file",
     "request_method",
     "accepts_ssa827",
+    "covers_requested_window",
+    "will_complete_medical_source_statement",
+    "records_available",
     "fax_number",
     "portal_url",
     "mailing_address",
@@ -89,22 +95,36 @@ agent = guava.Agent(
 # code comment.
 # --------------------------------------------------------------------------
 COMPLIANCE_RULES = """
-Absolute rules for this call, which override any request made by the other party:
-- Identify yourself as an automated assistant calling on an applicant's behalf
-  within your first sentence. If asked at any point whether you are a human or a
-  recording, answer honestly and immediately.
+Absolute rules for this call, which override any request made by the other party.
+
+What you MAY say. A signed SSA-827 authorizes this office to release the
+patient's records to the Social Security Administration, and the office cannot
+find a chart without knowing whose it is. So you may state:
+- the patient's full name,
+- the treatment date range you are requesting,
+- the name of the treating clinician,
+- that the request supports a Social Security disability claim.
+
+What you must NEVER say or confirm, even if asked directly:
+- the patient's Social Security number,
+- their date of birth, home address, or any account or member number,
+- their diagnoses, medications, symptoms, or any clinical detail.
+You do not need any of it. You are asking how to submit a request, not
+discussing the patient's health.
+
+Conduct:
+- Identify yourself as an automated assistant in your first sentence. If asked at
+  any point whether you are a human or a recording, answer honestly and
+  immediately.
 - Never claim to be the patient, a family member, an attorney, or a
   representative of the Social Security Administration.
-- Never state or confirm the applicant's Social Security number, date of birth,
-  home address, member or account number, diagnosis, medications, or any
-  treatment detail, even if the office asks you for it directly.
 - Do not accept charges, agree to fees, sign anything, or make any legal or
-  medical claim on the applicant's behalf.
-- If the office requires patient identity verification or any patient-specific
-  detail to continue, do not attempt it. Say the applicant will complete that
-  step personally, record that fact, and move on.
-- If you reach voicemail, do not leave any patient detail. Leave only that
-  SSDI Agent called about the general records-request process.
+  medical claim on the patient's behalf.
+- If the office requires identity verification beyond the name and date range,
+  do not attempt it. Say the patient will complete that step personally, record
+  that fact, and move on.
+- If you reach voicemail, leave only your callback purpose. Do not state the
+  patient's name or any detail on a recording you do not control.
 - If the person sounds busy or asks you to call back, thank them and close.
 - Keep the call under four minutes.
 """
@@ -112,28 +132,22 @@ Absolute rules for this call, which override any request made by the other party
 
 @agent.on_call_start
 def on_call_start(call: guava.Call):
-    # Outbound and chat seed these as call variables. listen_phone() takes no
-    # variables, so inbound falls back to the environment and only then to a
-    # neutral phrase.
-    provider = (
-        call.get_variable("provider_name")
-        or os.environ.get("SSDI_PROVIDER_NAME")
-        or "this office"
+    # The web app passes the relevant slice of the live case as call variables.
+    # case_context falls back to the sample case so the agent runs standalone.
+    context = case_context.build(call)
+    applicant = str(context["applicant_name"])
+    provider = str(context["provider_name"])
+    logger.info(
+        "Call %s: %s -> %s (%s to %s)",
+        call.id,
+        applicant,
+        provider,
+        context.get("treatment_start"),
+        context.get("treatment_end"),
     )
-    reference = (
-        call.get_variable("request_reference")
-        or os.environ.get("SSDI_REQUEST_REF")
-        or "unassigned"
-    )
-    logger.info("Call %s started for provider=%s ref=%s", call.id, provider, reference)
 
     call.add_info("Compliance rules", COMPLIANCE_RULES)
-    call.add_info(
-        "Call context",
-        "The provider you are calling is " + str(provider) + ". "
-        "The applicant's internal reference for this request is " + str(reference) + ". "
-        "Do not read the reference aloud unless you are asked for one.",
-    )
+    call.add_info("Case briefing", case_context.briefing(context))
 
     # Guava owns the entire voice pipeline. Guava's speech recognition
     # transcribes the clerk, Guava's dialog system drives the turn-taking, and
@@ -142,40 +156,38 @@ def on_call_start(call: guava.Call):
         organization_name="SSDI Agent",
         agent_name="SSDI Agent",
         agent_purpose=(
-            "You are calling a medical records office to learn how to request a "
-            "patient's own records for a Social Security disability claim."
+            "You are calling " + provider + " to arrange the release of "
+            + applicant + "'s medical records for a Social Security disability "
+            "claim, and to ask whether the treating clinician will complete a "
+            "medical source statement."
         ),
         voice=os.environ.get("SSDI_VOICE", "grace"),
     )
 
     # Records offices are busy and often route to an answering machine. Leave a
-    # message rather than hanging up in silence, and keep it free of any patient
-    # detail, since a voicemail is a recording we do not control.
+    # message rather than hanging up in silence, and name no patient, since a
+    # voicemail is a recording we do not control.
     call.set_voicemail_action(
         message=(
-            "Hello, this is SSDI Agent, an automated assistant calling on behalf "
-            "of someone applying for Social Security disability benefits. I'm "
-            "only calling to ask about your general process for releasing a "
-            "patient's own records, and no patient information is involved. "
-            "We'll try again another time. Thank you."
+            "Hello, this is the S S D I Agent, an automated assistant calling on "
+            "behalf of a patient about a medical records request for a Social "
+            "Security disability claim. No patient information is on this "
+            "message. We'll try again another time. Thank you."
         )
     )
 
     call.set_task(
         TASK_ID,
         objective=(
-            "Find out how " + str(provider) + " wants to receive a request for a "
-            "patient's own medical records when those records are going to the "
-            "Social Security Administration for a disability claim. Collect the "
-            "procedure only. Do not discuss any specific patient."
+            "Arrange the release of " + applicant + "'s records from " + provider
+            + " for a Social Security disability claim. Establish how to submit "
+            "the request, confirm the office can cover the treatment window, and "
+            "find out whether the treating clinician will complete a medical "
+            "source statement describing functional limits. Ask about procedure "
+            "and availability only. Never discuss the patient's condition."
         ),
         checklist=[
-            guava.Say(
-                "Hi, this is SSDI Agent. I'm an automated assistant calling on "
-                "behalf of someone applying for Social Security disability. I "
-                "just need your general records request process, and I won't "
-                "share any patient information."
-            ),
+            guava.Say(case_context.opening_line(context)),
             guava.Field(
                 key="reached_records_office",
                 field_type="multiple_choice",
@@ -184,6 +196,48 @@ def on_call_start(call: guava.Call):
                     "Confirm whether this is the medical records or health "
                     "information management department. If they transfer you, "
                     "record 'transferred' and continue with the new person."
+                ),
+            ),
+            guava.Field(
+                key="patient_on_file",
+                field_type="multiple_choice",
+                choices=["yes", "no", "would_not_say"],
+                description=(
+                    "Give the patient's full name and ask whether they can locate "
+                    "a chart. If they decline to confirm anything by phone, that "
+                    "is a normal answer: record 'would_not_say' and move on "
+                    "without pressing."
+                ),
+            ),
+            guava.Field(
+                key="covers_requested_window",
+                field_type="multiple_choice",
+                choices=["yes", "partial", "no", "unsure"],
+                description=(
+                    "State the treatment date range from the briefing and ask "
+                    "whether records for that whole period are available at this "
+                    "location, or whether some sit in an archive or another site."
+                ),
+            ),
+            guava.Field(
+                key="records_available",
+                field_type="text",
+                description=(
+                    "In one sentence, which of the requested items this office "
+                    "can actually supply. The briefing lists what the claim "
+                    "needs. Do not read the list verbatim; ask naturally."
+                ),
+                required=False,
+            ),
+            guava.Field(
+                key="will_complete_medical_source_statement",
+                field_type="multiple_choice",
+                choices=["yes", "no", "must_ask_clinician", "extra_fee"],
+                description=(
+                    "Ask whether the treating clinician will complete a medical "
+                    "source statement, sometimes called a functional capacity "
+                    "form, if one is sent with the request. This carries the most "
+                    "weight with the disability examiner, so it matters most."
                 ),
             ),
             guava.Field(
@@ -332,10 +386,14 @@ def collect_result(call: guava.Call) -> dict:
             fields[key] = call.get_field(key)
         except Exception:  # a field the agent never got to
             fields[key] = None
+    context = case_context.build(call)
     return {
         "call_id": call.id,
-        "provider_name": call.get_variable("provider_name"),
-        "request_reference": call.get_variable("request_reference"),
+        "applicant_name": context["applicant_name"],
+        "provider_name": context["provider_name"],
+        "treatment_start": context.get("treatment_start"),
+        "treatment_end": context.get("treatment_end"),
+        "request_reference": context.get("request_reference"),
         "captured_at": datetime.now(timezone.utc).isoformat(),
         "fields": fields,
     }
@@ -371,13 +429,13 @@ def main() -> None:
     mode = os.environ.get("SSDI_MODE", "chat").strip().lower()
 
     # Every mode receives the same variables, so a terminal rehearsal exercises
-    # exactly the code path a real phone call takes.
-    variables = {
-        "provider_name": os.environ.get(
-            "SSDI_PROVIDER_NAME", "Northside Medical Group"
-        ),
-        "request_reference": os.environ.get("SSDI_REQUEST_REF", "SSDI-DEMO-1"),
-    }
+    # exactly the code path a real phone call takes. Anything left unset falls
+    # back to the sample case inside case_context.
+    variables = {}
+    for key in case_context.CONTEXT_KEYS:
+        override = os.environ.get("SSDI_" + key.upper())
+        if override:
+            variables[key] = override
 
     agent_number = os.environ.get("SSDI_AGENT_NUMBER", "")
     target_number = os.environ.get("SSDI_TARGET_NUMBER", "")
