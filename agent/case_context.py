@@ -107,6 +107,63 @@ def briefing(context: dict) -> str:
     return "\n".join(lines)
 
 
+def answers_from_case(context: dict, question: str) -> str | None:
+    """Answer a question about THIS request from the case, not the knowledge base.
+
+    The knowledge base describes SSDI records requests in general and knows
+    nothing about the person being called about. A records clerk asking "what
+    exactly do you need?" deserves a real answer, so those questions are served
+    from the case context instead.
+    """
+    q = question.lower()
+    applicant = str(context["applicant_name"])
+    start = str(context.get("treatment_start", "the start of treatment"))
+    end = str(context.get("treatment_end", "the present"))
+    forms = [str(f) for f in (context.get("forms_needed") or [])]
+
+    wants_items = any(
+        k in q
+        for k in (
+            "what record", "which record", "what chart", "which chart",
+            "what specific", "what exactly", "what do you need",
+            "what are you requesting", "what are you looking for",
+            "what kind of", "what type of", "what documents",
+        )
+    )
+    wants_window = any(
+        k in q
+        for k in (
+            "why", "timeframe", "time frame", "date range", "what dates",
+            "which dates", "what period", "how far back",
+        )
+    )
+
+    if wants_items:
+        answer = "For " + applicant + " we're requesting"
+        if forms:
+            answer += " " + _join(forms)
+        else:
+            answer += " her office visit notes and any related clinical records"
+        answer += ", covering " + start + " through " + end + "."
+        return answer
+
+    if wants_window:
+        return (
+            "That window, " + start + " through " + end + ", is the period "
+            "Social Security is evaluating for the claim, so those are the "
+            "records the disability examiner needs to see."
+        )
+
+    if "who" in q and ("you" in q or "calling" in q or "this" in q):
+        return (
+            "I'm an automated assistant calling on behalf of " + applicant
+            + ", who authorized this request with a signed S S A eight twenty "
+            "seven form."
+        )
+
+    return None
+
+
 def opening_line(context: dict) -> str:
     """The verbatim first sentence, spoken before any model involvement."""
     return (

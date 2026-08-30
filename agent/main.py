@@ -39,6 +39,10 @@ logger = logging.getLogger("ssdi_agent.records")
 CURRENT_DIR = Path(__file__).resolve().parent
 TASK_ID = "records_procedure"
 
+# Calls whose result already went out on task completion, so on_session_end does
+# not publish the same capture twice.
+_published: set[str] = set()
+
 # Fields the call exists to fill. Ordered as a records clerk would expect them.
 RESULT_KEYS = (
     "reached_records_office",
@@ -353,20 +357,42 @@ def on_call_start(call: guava.Call):
 
 @agent.on_question
 def on_question(call: guava.Call, question: str) -> str:
-    """Answer the clerk's questions from the vetted knowledge base only."""
+    """Answer the clerk from the case first, then the vetted knowledge base."""
     logger.info("Clerk asked: %s", question)
-    if document_qa is None:
-        return (
-            "I'm sorry, I don't have that detail on hand. The applicant can "
-            "follow up with you directly."
-        )
-    answer = document_qa.ask(question)
-    logger.info("Answered: %s", answer)
-    return answer
+
+    # Questions about this specific request are answered from the case. The
+    # knowledge base is general and knows nothing about the person.
+    from_case = case_context.answers_from_case(case_context.build(call), question)
+    if from_case:
+        logger.info("Answered from case: %s", from_case)
+        return from_case
+
+    if document_qa is not None:
+        answer = document_qa.ask(question)
+        # Server-side RAG says so when the document does not cover something.
+        # Relaying that to a records clerk is worse than admitting it plainly.
+        if answer and not any(
+            phrase in answer.lower()
+            for phrase in (
+                "does not specify",
+                "does not contain",
+                "not specified",
+                "no information",
+                "provided context",
+            )
+        ):
+            logger.info("Answered from knowledge base: %s", answer)
+            return answer
+
+    return (
+        "I don't have that detail in front of me, but I can note it and the "
+        "applicant will follow up with you directly."
+    )
 
 
 @agent.on_task_complete(TASK_ID)
 def on_records_task_complete(call: guava.Call):
+    _published.add(call.id)
     result = collect_result(call)
     logger.info("Records procedure captured: %s", json.dumps(result, indent=2))
     publish(result)
@@ -380,6 +406,26 @@ def on_records_task_complete(call: guava.Call):
 def on_session_end(call: guava.Call, event: BotSessionEnded):
     reason = getattr(event, "termination_reason", "unknown")
     logger.info("Call %s ended: %s", call.id, reason)
+
+    # A clerk who has to go mid-call still told us real things. Publishing only
+    # on task completion threw all of it away, so save whatever was learned.
+    if call.id in _published:
+        _published.discard(call.id)
+        return
+    result = collect_result(call)
+    filled = sum(1 for v in result["fields"].values() if v not in (None, "", []))
+    if filled == 0:
+        logger.info("Call %s ended with nothing captured.", call.id)
+        return
+    result["partial"] = True
+    result["termination_reason"] = reason
+    logger.info(
+        "Partial capture (%d of %d fields): %s",
+        filled,
+        len(RESULT_KEYS),
+        json.dumps(result, indent=2, default=str),
+    )
+    publish(result)
 
 
 def collect_result(call: guava.Call) -> dict:
