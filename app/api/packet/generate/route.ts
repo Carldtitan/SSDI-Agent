@@ -68,11 +68,17 @@ export async function POST(request: Request) {
       );
     }
     if (error instanceof PacketServiceError) {
+      // Log the code only. It is an enum, never applicant data.
+      console.error("Packet generation failed", { code: error.message });
       return privateError(
         "Document generation is unavailable right now. Your answers are still here.",
         503,
       );
     }
+    console.error("Packet generation failed", {
+      errorType: error instanceof Error ? error.name : "UnknownError",
+      message: error instanceof Error ? error.message : "unknown",
+    });
     return privateError(
       "Document generation is unavailable right now. Your answers are still here.",
       503,

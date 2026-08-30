@@ -26,7 +26,7 @@ export class PacketServiceError extends Error {
 }
 
 function createClient() {
-  const apiKey = process.env.ANVIL_API_KEY;
+  const apiKey = process.env.ANVIL_API_KEY?.trim();
   if (!apiKey) throw new PacketServiceError("configuration");
   return new Anvil({ apiKey });
 }
@@ -35,7 +35,7 @@ export async function fillAnvilForm(
   kind: FormKind,
   payload: FormPayload,
 ): Promise<Uint8Array> {
-  const eid = process.env[EID_ENV[kind]];
+  const eid = process.env[EID_ENV[kind]]?.trim();
   if (!eid) throw new PacketServiceError("configuration");
   const client = createClient();
   const result = await client.fillPDF(eid, payload, { dataType: "buffer" });
@@ -55,6 +55,12 @@ function validatePdfResponse(result: {
   data?: unknown;
 }): Uint8Array {
   if (result.statusCode !== 200) {
+    // Status and Anvil's error body only. The payload holds applicant data and
+    // must never reach a log.
+    console.error("Anvil rejected a document", {
+      statusCode: result.statusCode,
+      detail: JSON.stringify(result.data ?? {}).slice(0, 400),
+    });
     throw new PacketServiceError("generation");
   }
   const bytes =
