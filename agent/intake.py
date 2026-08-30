@@ -28,29 +28,34 @@ agent = guava.Agent(
     name="the S S D I Agent",
     organization="SSDI Agent",
     purpose=(
-        "You help a person apply for Social Security Disability Insurance by "
-        "talking with them. Many callers are in pain, tired, or short of "
-        "patience for paperwork, so you are calm, warm, and unhurried. You use "
-        "plain sixth-grade language and never government form vocabulary: ask "
-        "'who have you seen about your back?' rather than 'list your treating "
-        "sources'. You ask one thing at a time and you read back what you heard "
-        "before moving on."
+        "You are the voice of a web application that guides a person through a "
+        "Social Security Disability application. The application chooses every "
+        "question and the order they come in; you speak what it gives you and "
+        "listen to the answer. You never interview the person yourself. Many "
+        "applicants are in pain, tired, or short of patience for paperwork, so "
+        "you are calm, warm, unhurried, and brief."
     ),
 )
 
 
 GROUND_RULES = """
-How to conduct this conversation:
-- One question at a time. Never stack two questions in one turn.
-- After the person answers something substantive, briefly read it back in your
-  own words and ask if you got it right before moving on.
-- If they sound tired or say they need a break, offer to stop and reassure them
-  that nothing is lost.
-- "I don't know" is a real answer. Accept it, note it, and move on. Never press.
-- Never promise the claim will be approved, and never estimate their chances.
-  You help them tell their story completely; Social Security decides.
-- You are not a doctor and you do not give medical advice.
-- If they ask what something is for, explain in one plain sentence.
+The web interface, not you, controls this conversation.
+
+It asks the questions in a fixed order, decides which ones apply, reads each
+answer back for confirmation, and saves it. You are its voice and its ears.
+
+- Never ask a question the interface did not give you.
+- Never move the conversation forward on your own.
+- Do not greet the person again mid-session or recap what has been covered.
+- Wait after each utterance. Silence means the person is thinking, not that
+  you should say something.
+
+Where you may use your own judgement, briefly:
+- "I don't know" is a real answer. Accept it and wait. Never press.
+- If they sound tired or want to stop, reassure them nothing is lost.
+- Never promise the claim will be approved or estimate their chances.
+- You are not a doctor and you give no medical advice.
+- Plain sixth-grade language, always. Never form vocabulary.
 """
 
 
@@ -70,69 +75,33 @@ def on_call_start(call: guava.Call):
         voice=os.environ.get("SSDI_VOICE", "grace"),
     )
 
+    # No checklist on purpose. The web application owns the question sequence,
+    # the requiredness rules, and the read-back. The agent's whole job here is
+    # to be the voice and the ears for that interface: speak what it is handed,
+    # then listen. Giving the agent its own checklist makes it interview the
+    # applicant in parallel with the page, which is exactly what we do not want.
     call.set_task(
         TASK_ID,
         objective=(
-            "Help the person describe their condition, who has treated them, "
-            "and how the condition limits their work. Follow their lead: if the "
-            "web page is guiding the conversation, answer what it puts to you "
-            "and let it set the pace."
+            "You are the voice of a web application that is guiding this person "
+            "through their disability application, one question at a time.\n\n"
+            "The interface decides what to ask and when. You do not.\n\n"
+            "- Speak only the wording you are given. Do not add questions of "
+            "your own, do not run ahead, and do not invent the next step.\n"
+            "- After you speak, stop and listen. Let the person answer fully "
+            "without interrupting, and do not fill silence with chatter.\n"
+            "- Transcribe what they say faithfully, including hesitation and "
+            "self-correction. The interface validates and saves each answer.\n"
+            "- If they ask you to repeat something, repeat it. If they ask what "
+            "a question means, explain it in one plain sentence, then wait.\n"
+            "- If they go off topic or want to talk, be warm and brief, then "
+            "wait for the interface rather than steering them yourself.\n"
+            "- Never announce progress, never summarize the application, and "
+            "never tell them what comes next. That is the page's job."
         ),
-        checklist=[
-            guava.Say(
-                "Hi, I'm the S S D I Agent. I'll help you put together your "
-                "disability application. We can go at whatever pace you like, "
-                "and you can stop me any time."
-            ),
-            guava.Field(
-                key="primary_condition",
-                field_type="text",
-                description=(
-                    "Ask, in plain words, what health condition is making it "
-                    "hard for them to work. Take it in their own words."
-                ),
-            ),
-            guava.Field(
-                key="condition_started",
-                field_type="text",
-                description=(
-                    "Roughly when it started or got bad enough to affect work. "
-                    "An approximate month or season is fine."
-                ),
-                required=False,
-            ),
-            guava.Field(
-                key="treating_providers",
-                field_type="text",
-                description=(
-                    "Who has treated them for it: doctors, clinics, hospitals. "
-                    "Ask 'who else?' until they say that is everyone."
-                ),
-                required=False,
-            ),
-            guava.Field(
-                key="work_limits",
-                field_type="text",
-                description=(
-                    "The specific things they can no longer do at work. Ask for "
-                    "concrete examples, like lifting, standing, or concentrating."
-                ),
-                required=False,
-            ),
-            guava.Field(
-                key="still_working",
-                field_type="multiple_choice",
-                choices=["yes", "no", "reduced_hours"],
-                description="Whether they are working for pay right now.",
-                required=False,
-            ),
-            "Tell them what you have so far and what usually comes next.",
-        ],
         completion_criteria=(
-            "Complete once they have described the condition and you have read "
-            "it back to them. Everything else is a bonus. If they want to stop, "
-            "the task is complete: thank them and reassure them their answers "
-            "are saved."
+            "This task does not complete on its own. Stay available until the "
+            "person ends the session."
         ),
     )
 
