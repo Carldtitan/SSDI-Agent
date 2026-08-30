@@ -1,0 +1,686 @@
+[
+ {
+  "id": "doNotWriteInThisSpace",
+  "type": "shortText",
+  "name": "Do Not Write In This Space",
+  "page": 0
+ },
+ {
+  "id": "fullNameFirstMiddleInitialLast",
+  "type": "fullName",
+  "name": "Full Name (First, Middle Initial, Last)",
+  "page": 0
+ },
+ {
+  "id": "socialSecurityNumber",
+  "type": "shortText",
+  "name": "Social Security Number",
+  "page": 0
+ },
+ {
+  "id": "dateOfBirth",
+  "type": "date",
+  "name": "Date of Birth",
+  "page": 0
+ },
+ {
+  "id": "cityStateCountryOfBirth",
+  "type": "shortText",
+  "name": "City/State/Country of Birth",
+  "page": 0
+ },
+ {
+  "id": "usCitizenYesNo",
+  "type": "shortText",
+  "name": "US Citizen - Yes/No",
+  "page": 0
+ },
+ {
+  "id": "alienLawfullyPresentInUsYesNo",
+  "type": "shortText",
+  "name": "Alien Lawfully Present in US - Yes/No",
+  "page": 0
+ },
+ {
+  "id": "usCitizen",
+  "type": "radioGroup",
+  "name": "US Citizen",
+  "page": 0
+ },
+ {
+  "id": "alienLawfullyPresentInUs",
+  "type": "radioGroup",
+  "name": "Alien Lawfully Present in US",
+  "page": 0
+ },
+ {
+  "id": "whenLawfullyAdmittedToUs",
+  "type": "date",
+  "name": "When Lawfully Admitted to US",
+  "page": 0
+ },
+ {
+  "id": "nameAtBirthIfDifferent",
+  "type": "fullName",
+  "name": "Name at Birth if Different",
+  "page": 0
+ },
+ {
+  "id": "usedOtherNames",
+  "type": "radioGroup",
+  "name": "Used Other Names",
+  "page": 0
+ },
+ {
+  "id": "otherNameSUsed",
+  "type": "shortText",
+  "name": "Other Name(s) Used",
+  "page": 0
+ },
+ {
+  "id": "usedOtherSocialSecurityNumbers",
+  "type": "radioGroup",
+  "name": "Used Other Social Security Numbers",
+  "page": 0
+ },
+ {
+  "id": "otherSocialSecurityNumberSUsed",
+  "type": "shortText",
+  "name": "Other Social Security Number(s) Used",
+  "page": 0
+ },
+ {
+  "id": "dateConditionBecameSevereEnoughToPreventWork",
+  "type": "date",
+  "name": "Date Condition Became Severe Enough to Prevent Work",
+  "page": 0
+ },
+ {
+  "id": "railroadIndustryWork",
+  "type": "radioGroup",
+  "name": "Railroad Industry Work",
+  "page": 0
+ },
+ {
+  "id": "socialSecurityCreditsUnderAnotherCountry",
+  "type": "radioGroup",
+  "name": "Social Security Credits Under Another Country",
+  "page": 0
+ },
+ {
+  "id": "countriesWithSocialSecurityCredits",
+  "type": "shortText",
+  "name": "Countries with Social Security Credits",
+  "page": 0
+ },
+ {
+  "id": "haveYouEverBeenMarried",
+  "type": "radioGroup",
+  "name": "Have You Ever Been Married",
+  "page": 1
+ },
+ {
+  "id": "currentMarriageWriteNone",
+  "type": "shortText",
+  "name": "Current Marriage - Write None",
+  "page": 1
+ },
+ {
+  "id": "currentSpouseNameIncludingMaidenName",
+  "type": "fullName",
+  "name": "Current Spouse Name (Including Maiden Name)",
+  "page": 1
+ },
+ {
+  "id": "currentMarriageDateMonthDayYear",
+  "type": "date",
+  "name": "Current Marriage Date (Month, Day, Year)",
+  "page": 1
+ },
+ {
+  "id": "currentMarriageLocationCityAndState",
+  "type": "shortText",
+  "name": "Current Marriage Location (City and State)",
+  "page": 1
+ },
+ {
+  "id": "currentMarriagePerformedBy",
+  "type": "radioGroup",
+  "name": "Current Marriage Performed By",
+  "page": 1
+ },
+ {
+  "id": "currentSpouseDateOfBirthOrAge",
+  "type": "date",
+  "name": "Current Spouse Date of Birth (or Age)",
+  "page": 1
+ },
+ {
+  "id": "currentSpouseSocialSecurityNumber",
+  "type": "shortText",
+  "name": "Current Spouse Social Security Number",
+  "page": 1
+ },
+ {
+  "id": "otherMarriageNoneField",
+  "type": "shortText",
+  "name": "Other Marriage None Field",
+  "page": 1
+ },
+ {
+  "id": "otherSpouseNameIncludingMaidenName",
+  "type": "fullName",
+  "name": "Other Spouse Name (Including Maiden Name)",
+  "page": 1
+ },
+ {
+  "id": "otherMarriageDateMonthDayYear",
+  "type": "date",
+  "name": "Other Marriage Date (Month, Day, Year)",
+  "page": 1
+ },
+ {
+  "id": "otherMarriageLocationCityAndState",
+  "type": "shortText",
+  "name": "Other Marriage Location (City and State)",
+  "page": 1
+ },
+ {
+  "id": "howOtherMarriageEnded",
+  "type": "shortText",
+  "name": "How Other Marriage Ended",
+  "page": 1
+ },
+ {
+  "id": "otherMarriageEndDateMonthDayYear",
+  "type": "date",
+  "name": "Other Marriage End Date (Month, Day, Year)",
+  "page": 1
+ },
+ {
+  "id": "otherMarriageEndLocationCityAndState",
+  "type": "shortText",
+  "name": "Other Marriage End Location (City and State)",
+  "page": 1
+ },
+ {
+  "id": "otherMarriagePerformedBySectionC",
+  "type": "radioGroup",
+  "name": "Other Marriage Performed By (Section C)",
+  "page": 1
+ },
+ {
+  "id": "otherSpouseDateOfBirthOrAge",
+  "type": "date",
+  "name": "Other Spouse Date of Birth (or Age)",
+  "page": 1
+ },
+ {
+  "id": "otherSpouseDateOfDeath",
+  "type": "date",
+  "name": "Other Spouse Date of Death",
+  "page": 1
+ },
+ {
+  "id": "otherSpouseSocialSecurityNumber",
+  "type": "shortText",
+  "name": "Other Spouse Social Security Number",
+  "page": 1
+ },
+ {
+  "id": "sectionDMarriageNoneField",
+  "type": "shortText",
+  "name": "Section D Marriage None Field",
+  "page": 1
+ },
+ {
+  "id": "sectionDSpouseNameIncludingMaidenName",
+  "type": "fullName",
+  "name": "Section D Spouse Name (Including Maiden Name)",
+  "page": 1
+ },
+ {
+  "id": "sectionDMarriageDateMonthDayYear",
+  "type": "date",
+  "name": "Section D Marriage Date (Month, Day, Year)",
+  "page": 1
+ },
+ {
+  "id": "sectionDMarriageLocationCityAndState",
+  "type": "shortText",
+  "name": "Section D Marriage Location (City and State)",
+  "page": 1
+ },
+ {
+  "id": "sectionDDateOfDivorceMonthDayYear",
+  "type": "date",
+  "name": "Section D Date of Divorce (Month, Day, Year)",
+  "page": 1
+ },
+ {
+  "id": "sectionDDivorceLocationCityAndState",
+  "type": "shortText",
+  "name": "Section D Divorce Location (City and State)",
+  "page": 1
+ },
+ {
+  "id": "sectionDMarriagePerformedBy",
+  "type": "radioGroup",
+  "name": "Section D Marriage Performed By",
+  "page": 1
+ },
+ {
+  "id": "sectionDSpouseDateOfBirthOrAge",
+  "type": "date",
+  "name": "Section D Spouse Date of Birth (or Age)",
+  "page": 1
+ },
+ {
+  "id": "sectionDSpouseDateOfDeath",
+  "type": "date",
+  "name": "Section D Spouse Date of Death",
+  "page": 1
+ },
+ {
+  "id": "sectionDSpouseSocialSecurityNumber",
+  "type": "shortText",
+  "name": "Section D Spouse Social Security Number",
+  "page": 1
+ },
+ {
+  "id": "childrenFullNamesList",
+  "type": "longText",
+  "name": "Children Full Names List",
+  "page": 1
+ },
+ {
+  "id": "item13ASocialSecurityCoverage",
+  "type": "radioGroup",
+  "name": "Item 13a Social Security Coverage",
+  "page": 2
+ },
+ {
+  "id": "yearsWithoutSocialSecurityCoverage",
+  "type": "shortText",
+  "name": "Years without Social Security coverage",
+  "page": 2
+ },
+ {
+  "id": "employerNameAndAddressMostRecent",
+  "type": "usAddress",
+  "name": "Employer Name and Address (Most Recent)",
+  "page": 2
+ },
+ {
+  "id": "employer1WorkBeganDate",
+  "type": "date",
+  "name": "Work Began Month (Employer 1)",
+  "page": 2
+ },
+ {
+  "id": "employer1WorkBeganDate",
+  "type": "date",
+  "name": "Work Began Year (Employer 1)",
+  "page": 2
+ },
+ {
+  "id": "employer1WorkEndedDate",
+  "type": "date",
+  "name": "Work Ended Month (Employer 1)",
+  "page": 2
+ },
+ {
+  "id": "employer1WorkEndedDate",
+  "type": "date",
+  "name": "Work Ended Year (Employer 1)",
+  "page": 2
+ },
+ {
+  "id": "employerNameAndAddress2nd",
+  "type": "usAddress",
+  "name": "Employer Name and Address (2nd)",
+  "page": 2
+ },
+ {
+  "id": "employer2WorkBeganDate",
+  "type": "date",
+  "name": "Work Began Month (Employer 2)",
+  "page": 2
+ },
+ {
+  "id": "employer2WorkBeganDate",
+  "type": "date",
+  "name": "Work Began Year (Employer 2)",
+  "page": 2
+ },
+ {
+  "id": "employer2WorkEndedDate",
+  "type": "date",
+  "name": "Work Ended Month (Employer 2)",
+  "page": 2
+ },
+ {
+  "id": "employer2WorkEndedDate",
+  "type": "date",
+  "name": "Work Ended Year (Employer 2)",
+  "page": 2
+ },
+ {
+  "id": "employerNameAndAddress3rd",
+  "type": "usAddress",
+  "name": "Employer Name and Address (3rd)",
+  "page": 2
+ },
+ {
+  "id": "employer3WorkBeganDate",
+  "type": "date",
+  "name": "Work Began Month (Employer 3)",
+  "page": 2
+ },
+ {
+  "id": "employer3WorkBeganDate",
+  "type": "date",
+  "name": "Work Began Year (Employer 3)",
+  "page": 2
+ },
+ {
+  "id": "employer3WorkEndedDate",
+  "type": "date",
+  "name": "Work Ended Month (Employer 3)",
+  "page": 2
+ },
+ {
+  "id": "employer3WorkEndedDate",
+  "type": "date",
+  "name": "Work Ended Year (Employer 3)",
+  "page": 2
+ },
+ {
+  "id": "item15ASelfEmployed",
+  "type": "radioGroup",
+  "name": "Item 15a Self-Employed",
+  "page": 2
+ },
+ {
+  "id": "selfEmployedThisYearCheckbox",
+  "type": "checkbox",
+  "name": "Self-Employed This Year Checkbox",
+  "page": 2
+ },
+ {
+  "id": "typeOfTradeBusinessThisYear",
+  "type": "shortText",
+  "name": "Type of Trade/Business This Year",
+  "page": 2
+ },
+ {
+  "id": "selfEmployedLastYearCheckbox",
+  "type": "checkbox",
+  "name": "Self-Employed Last Year Checkbox",
+  "page": 2
+ },
+ {
+  "id": "typeOfTradeBusinessLastYear",
+  "type": "shortText",
+  "name": "Type of Trade/Business Last Year",
+  "page": 2
+ },
+ {
+  "id": "netEarningsLastYear400OrMore",
+  "type": "radioGroup",
+  "name": "Net Earnings Last Year $400 or More",
+  "page": 2
+ },
+ {
+  "id": "totalEarningsLastYearAmount",
+  "type": "dollar",
+  "name": "Total Earnings Last Year Amount",
+  "page": 2
+ },
+ {
+  "id": "totalEarningsLastYearAmount1",
+  "type": "dollar",
+  "name": "Total Earnings Last Year Amount",
+  "page": 2
+ },
+ {
+  "id": "earningsThisYearSoFarAmount",
+  "type": "dollar",
+  "name": "Earnings This Year So Far Amount",
+  "page": 2
+ },
+ {
+  "id": "earningsThisYearSoFarAmount1",
+  "type": "dollar",
+  "name": "Earnings This Year So Far Amount",
+  "page": 2
+ },
+ {
+  "id": "item17AStillUnableToWork",
+  "type": "radioGroup",
+  "name": "Item 17a Still Unable to Work",
+  "page": 2
+ },
+ {
+  "id": "dateBecameAbleToWork",
+  "type": "date",
+  "name": "Date Became Able to Work",
+  "page": 2
+ },
+ {
+  "id": "item18IllnessesRelatedToWork",
+  "type": "radioGroup",
+  "name": "Item 18 Illnesses Related to Work",
+  "page": 2
+ },
+ {
+  "id": "item19BlindOrLowVision",
+  "type": "radioGroup",
+  "name": "Item 19 Blind or Low Vision",
+  "page": 2
+ },
+ {
+  "id": "otherPublicDisabilityBenefitsFiledQ20A",
+  "type": "radioGroup",
+  "name": "Other Public Disability Benefits Filed (Q20a)",
+  "page": 3
+ },
+ {
+  "id": "otherPublicDisabilityBenefitsTypesQ20B",
+  "type": "radioGroup",
+  "name": "Other Public Disability Benefits Types (Q20b)",
+  "page": 3
+ },
+ {
+  "id": "receivedMoneyFromEmployerAfterDisabilityQ21A",
+  "type": "radioGroup",
+  "name": "Received Money from Employer After Disability (Q21a)",
+  "page": 3
+ },
+ {
+  "id": "amountReceivedFromEmployer",
+  "type": "dollar",
+  "name": "Amount Received from Employer",
+  "page": 3
+ },
+ {
+  "id": "expectAdditionalMoneyFromEmployerQ21B",
+  "type": "radioGroup",
+  "name": "Expect Additional Money from Employer (Q21b)",
+  "page": 3
+ },
+ {
+  "id": "expectedAdditionalAmountFromEmployer",
+  "type": "dollar",
+  "name": "Expected Additional Amount from Employer",
+  "page": 3
+ },
+ {
+  "id": "childUnderAge3WithNoEarningsQ22",
+  "type": "radioGroup",
+  "name": "Child Under Age 3 with No Earnings (Q22)",
+  "page": 3
+ },
+ {
+  "id": "dependentParentReceivingSupportQ23",
+  "type": "radioGroup",
+  "name": "Dependent Parent Receiving Support (Q23)",
+  "page": 3
+ },
+ {
+  "id": "parentReceivingSocialSecurityBeforeAge22Q24",
+  "type": "radioGroup",
+  "name": "Parent Receiving Social Security Before Age 22 (Q24)",
+  "page": 3
+ },
+ {
+  "id": "remarks",
+  "type": "longText",
+  "name": "Remarks",
+  "page": 4
+ },
+ {
+  "id": "applicantSignatureDate",
+  "type": "signatureDate",
+  "name": "Applicant Signature Date",
+  "page": 4
+ },
+ {
+  "id": "applicantSignatureFirstNameMiddleInitialLastName",
+  "type": "signature",
+  "name": "Applicant Signature (First name, middle initial, last name)",
+  "page": 4
+ },
+ {
+  "id": "telephoneNumberIncludeAreaCode",
+  "type": "phone",
+  "name": "Telephone Number (include area code)",
+  "page": 4
+ },
+ {
+  "id": "accountType",
+  "type": "radioGroup",
+  "name": "Account Type",
+  "page": 4
+ },
+ {
+  "id": "directDepositOption",
+  "type": "radioGroup",
+  "name": "Direct Deposit Option",
+  "page": 4
+ },
+ {
+  "id": "routingTransitNumber",
+  "type": "shortText",
+  "name": "Routing Transit Number",
+  "page": 4
+ },
+ {
+  "id": "accountNumber",
+  "type": "shortText",
+  "name": "Account Number",
+  "page": 4
+ },
+ {
+  "id": "applicantMailingAddress",
+  "type": "usAddress",
+  "name": "Applicant Mailing Address",
+  "page": 4
+ },
+ {
+  "id": "countyInWhichYouNowLive",
+  "type": "shortText",
+  "name": "County in which you now live",
+  "page": 4
+ },
+ {
+  "id": "witness1Signature",
+  "type": "signature",
+  "name": "Witness 1 Signature",
+  "page": 4
+ },
+ {
+  "id": "witness2Signature",
+  "type": "signature",
+  "name": "Witness 2 Signature",
+  "page": 4
+ },
+ {
+  "id": "witness1AddressNumberAndStreetCityStateAndZipCode",
+  "type": "usAddress",
+  "name": "Witness 1 Address (Number and street, City, State and ZIP Code)",
+  "page": 4
+ },
+ {
+  "id": "witness2AddressNumberAndStreetCityStateAndZipCode",
+  "type": "usAddress",
+  "name": "Witness 2 Address (Number and street, City, State and ZIP Code)",
+  "page": 4
+ },
+ {
+  "id": "pageNumber",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 5
+ },
+ {
+  "id": "pageNumber1",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 5
+ },
+ {
+  "id": "personToContactAboutYourClaim",
+  "type": "fullName",
+  "name": "Person to Contact About Your Claim",
+  "page": 6
+ },
+ {
+  "id": "telephoneNumberIncludeAreaCode1",
+  "type": "phone",
+  "name": "Telephone Number (Include Area Code)",
+  "page": 6
+ },
+ {
+  "id": "ssaOffice",
+  "type": "shortText",
+  "name": "SSA Office",
+  "page": 6
+ },
+ {
+  "id": "dateClaimReceived",
+  "type": "date",
+  "name": "Date Claim Received",
+  "page": 6
+ },
+ {
+  "id": "daysUntilResponse",
+  "type": "integer",
+  "name": "Days Until Response",
+  "page": 6
+ },
+ {
+  "id": "claimantName",
+  "type": "fullName",
+  "name": "Claimant Name",
+  "page": 6
+ },
+ {
+  "id": "socialSecurityClaimNumber",
+  "type": "shortText",
+  "name": "Social Security Claim Number",
+  "page": 6
+ },
+ {
+  "id": "checkbox",
+  "type": "checkbox",
+  "name": "Checkbox",
+  "page": 6
+ },
+ {
+  "id": "pageNumber2",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 6
+ }
+]

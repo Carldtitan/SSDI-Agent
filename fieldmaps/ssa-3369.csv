@@ -1,0 +1,378 @@
+field,type,label
+form1[0].Page1[0].P1-ReadOnly2-FLD[0],text,"IF YOU NEED HELP. If you need help with this report, complete as much of it as you can. Then call the phone number provided on the letter sent with the report or the phone number of the person who asked you to complete the report for help to finish it. If you cannot speak or understand English, we will provide an interpreter free of charge. WHAT YOU NEED TO COMPLETE THIS REPORT. • Information about all the jobs that you had in the last 5 years before you became unable to work. • ANSWER EVERY QUESTION FOR EACH JOB YOU DESCRIBE unless the report indicates otherwise. Provide as much detail as possible. • If you cannot remember all the information about your jobs, provide what you do remember. If you do not know an answer, or the answer is ""none"" or ""does not apply,"" please write ""don't know"" or ""none"" or ""does not apply."" • Be sure to explain an answer if the question asks for an explanation, or if you want to provide additional information. • If you need more space to answer any questions, use Section 3 - Remarks. REMEMBER TO PROVIDE THE INFORMATION ABOUT THE PERSON COMPLETING THIS REPORT IN SECTION 4."
+form1[0].Page3[0].P3-Sec1AName-FLD[0],text,"SECTION 1 - INFORMATION ABOUT YOU. When a question refers to ""you"" or ""your,"" it refers to the person who is applying for disability benefits. If you are completing this report for someone else, provide information about them. Ay. NAME (First, Middle Initial, Last, Suffix)"
+form1[0].Page3[0].P3-Sec1BSSN-FLD[0],text,B. SOCIAL SECURITY NUMBER
+form1[0].Page3[0].P3-Sec1CPrim-FLD[0],text,"C. DAYTIME PHONE NUMBER(S) where we can call to speak with you or leave a message, if needed. Include area code or I D D and country code if outside the USA or Canada. Primary:"
+form1[0].Page3[0].P3-Sec1CSec-FLD[0],text,Secondary: (if available)
+form1[0].Page3[0].P3-JobTitle1-FLD[0],text,"SECTION 2 - Work History. List all the jobs you had in the 5 years before you became unable to work because of your medical conditions: • List your most recent job first • List all job titles even if they were for the same employer • Do not include jobs you held less than 30 calendar days • Include self-employment (e.g., ride share driver, hair stylist ) • Include work in a foreign country. The following is a table with four columns and ten rows. The first column is for Job Title (e.g., Cashier), the second column is for type of business (e.g., Grocery Store), the third column is for the Date Worked From (M M/Y Y Y Y) and the Fourth column is for the Date worked to (M M/Y Y Y Y). Row 1 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness1-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom1-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo1-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page3[0].P3-JobTitle2-FLD[0],text,"Row 2 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness2-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom2-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo2-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page3[0].P3-JobTitle3-FLD[0],text,"Row 3 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness3-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom3-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo3-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page3[0].P3-JobTitle4-FLD[0],text,"Row 4 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness4-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom4-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo4-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page3[0].P3-JobTitle5-FLD[0],text,"Row 5 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness5-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom5-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo5-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page3[0].P3-JobTitle6-FLD[0],text,"Row 6 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness6-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom6-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo6-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page3[0].P3-JobTitle7-FLD[0],text,"Row 7 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness7-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom7-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo7-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page3[0].P3-JobTitle8-FLD[0],text,"Row 8 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness8-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom8-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo8-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page3[0].P3-JobTitle9-FLD[0],text,"Row 9 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness9-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom9-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo9-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page3[0].P3-JobTitle10-FLD[0],text,"Row 10 Job Title (e.g., Cashier)"
+form1[0].Page3[0].P3-Buiness10-FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].Page3[0].P3-DatesFrom10-FLD[0],text,Dates Worked From (M M/Y Y Y Y)
+form1[0].Page3[0].P3-DatesTo10-FLD[0],text,Dates Worked To (M M/Y Y Y Y)
+form1[0].Page4[0].P4-RateofPay-FLD[0],text,Rate of pay $
+form1[0].Page4[0].P4-Hour-CB[0],checkbox,Per (check one) Hour
+form1[0].Page4[0].P4-Day-CB[0],checkbox,Day
+form1[0].Page4[0].P4-Week-CB[0],checkbox,Week
+form1[0].Page4[0].P4-Month-CB[0],checkbox,Month
+form1[0].Page4[0].P4-Year-CB[0],checkbox,Year
+form1[0].Page4[0].P4-HoursperDay-FLD[0],text,Hours per Day
+form1[0].Page4[0].P4-DaysperWeek-FLD[0],text,Days per Week
+form1[0].Page4[0].P4-JobOneDetail-FLD[0],text,"For the job you listed in Job Title Number 1, describe in detail the tasks you did in a typical workday. Examples of tasks include stocking shelves, greeting customers, scheduling appointments, or maintaining records."
+form1[0].Page4[0].P4-JobOneReport-FLD[0],text,"If any of the tasks listed above involved writing or completing reports, describe the type of report you wrote or completed and how much time you spent on it per workday or workweek."
+form1[0].Page4[0].P4-JobOneSupervise-FLD[0],text,"If any of the tasks listed above involved supervising others, describe who or what you supervised and what supervisory duties you had. Examples of supervisory duties include evaluating employee job performance, making schedules, or maintaining time records."
+form1[0].Page4[0].P4-JobOneList-FLD[0],text,"List the machines, tools, and equipment you used regularly when doing this job, and explain what you used them for. Examples of equipment include computer, telephone, forklift, air compressor, or meat slicer."
+form1[0].Page4[0].P4-InteractYes-CB[0],checkbox,"Did this job require you to interact with coworkers, the general public, or anyone else? Yes"
+form1[0].Page4[0].P4-InteractNo-CB[0],checkbox,NO
+form1[0].Page4[0].P4-JobOneDescribe-FLD[0],text,"If YES, describe who you interacted with, the purpose of the interaction, how you interacted, and how much time you spent doing it per workday or workweek. Examples include answering customer questions on the telephone for 5 hours per day or showing clients properties for sale in person for 4 hours per day."
+form1[0].Page5[0].P5-HowMuch2-FLD[0],text,Row 2. sitting. Example: 6 hours.
+form1[0].Page5[0].P5-HowMuch3-FLD[0],text,"Row 3. Stooping (i.e., bending down & forward at waist). Example: 15 minutes."
+form1[0].Page5[0].P5-HowMuch4-FLD[0],text,"Row 4. Kneeling (i.e., bending legs to rest on knees). Example: 15 minutes."
+form1[0].Page5[0].P5-HowMuch5-FLD[0],text,"Row 5. Crouching (i.e., bending legs & back down & forward). Example: None"
+form1[0].Page5[0].P5-HowMuch6-FLD[0],text,"Row 6. Crawling (i.e., moving on hands and knees). Example: None"
+form1[0].Page5[0].P5-OneHand1-CB[0],checkbox,"Row 7. Using fingers to touch, pick, or pinch (e.g., using a mouse, keyboard, turning pages, or buttoning a shirt): One Hand"
+form1[0].Page5[0].P5-BothHands1-CB[0],checkbox,Both Hands
+form1[0].Page5[0].P5-HowMuch7-FLD[0],text,How much of your workday? (Hours/Minutes). Example: 2 hours (both hands)
+form1[0].Page5[0].P5-OneHand2-CB[0],checkbox,"Row 8. Using hands to seize, hold, grasp, or turn (e.g., holding a large envelope, a small box, a hammer, or water bottle): One Hand"
+form1[0].Page5[0].P5-BothHands2-CB[0],checkbox,Both Hands
+form1[0].Page5[0].P5-HowMuch8-FLD[0],text,How much of your workday? (Hours/Minutes). Example: 1 hours (both hands)
+form1[0].Page5[0].P5-OneArm1-CB[0],checkbox,Row 9. Reaching at or below the shoulder: One arm
+form1[0].Page5[0].P5-BothArms1-CB[0],checkbox,Both Arms
+form1[0].Page5[0].P5-HowMuch9-FLD[0],text,How much of your workday? (Hours/Minutes). Example: 1 hours (both hands)
+form1[0].Page5[0].P5-OneArm2-CB[0],checkbox,Row 10. Reaching overhead (above the shoulder): One Arm
+form1[0].Page5[0].P5-BothArms2-CB[0],checkbox,Both Arms
+form1[0].Page5[0].P5-HowMuch10-FLD[0],text,How much of your workday? (Hours/Minutes). Example: None
+form1[0].Page5[0].P5-HowMuch11-FLD[0],text,Row 11. Climbing stairs or ramps. Example: None
+form1[0].Page5[0].P5-HowMuch12-FLD[0],text,"Row 12. Climbing ladders, ropes, or scaffolds. Example: None"
+form1[0].Page5[0].P5-ExplainLift-FLD[0],text,"Tell us about lifting and carrying in this job. Explain what you lifted, how far you carried it, and how often you did it in a typical workday."
+form1[0].Page5[0].P5-LessThan1-CB[0],checkbox,Select the heaviest weight lifted: Less than 1 pound
+form1[0].Page5[0].P5-LessThan10-CB[0],checkbox,Less than 10 pounds
+form1[0].Page5[0].P5-10pounds-CB[0],checkbox,10 pounds
+form1[0].Page5[0].P5-20pounds-CB[0],checkbox,20 pounds
+form1[0].Page5[0].P5-50pounds-CB[0],checkbox,50 pounds.
+form1[0].Page5[0].P5-100orMore-CB[0],checkbox,100 pounds or more
+form1[0].Page5[0].P5-Other1-CB[0],checkbox,Other
+form1[0].Page5[0].P5-ExplainOther1-FLD[0],text,Explain other selection
+form1[0].Page5[0].P5-Freq1-CB[0],checkbox,"Select the weight frequently lifted (i.e., one third to two thirds of the workday): Less than 1 pound"
+form1[0].Page5[0].P5-Freq2-CB[0],checkbox,Less than 10 pounds
+form1[0].Page5[0].P5-Freq3-CB[0],checkbox,10 pounds
+form1[0].Page5[0].P5-Freq4-CB[0],checkbox,25 pounds
+form1[0].Page5[0].P5-Freq5-CB[0],checkbox,50 pounds or more
+form1[0].Page5[0].P5-Freq6-CB[0],checkbox,Other
+form1[0].Page5[0].P5-ExplainOther2-FLD[0],text,Explain other selection
+form1[0].Page5[0].P5-Exposure1-CB[0],checkbox,Did this job expose you to any of the following? Check all that apply. Outdoors
+form1[0].Page5[0].P5-Exposure2-CB[0],checkbox,Extreme heat (non-weather related)
+form1[0].Page5[0].P5-Exposure3-CB[0],checkbox,Extreme cold (non-weather related)
+form1[0].Page5[0].P5-Exposure4-CB[0],checkbox,Wetness
+form1[0].Page5[0].P5-Exposure5-CB[0],checkbox,Humidity
+form1[0].Page5[0].P5-Exposure6-CB[0],checkbox,Hazardous substances
+form1[0].Page5[0].P5-Exposure7-CB[0],checkbox,Moving mechanical parts
+form1[0].Page5[0].P5-Exposure8-CB[0],checkbox,"High, exposed places"
+form1[0].Page5[0].P5-Exposure9-CB[0],checkbox,Heavy vibrations
+form1[0].Page5[0].P5-Exposure10-CB[0],checkbox,Loud noises
+form1[0].Page5[0].P5-Exposure11-CB[0],checkbox,Other
+form1[0].Page5[0].P5-ExplainOther3-FLD[0],text,Explain other selection
+form1[0].Page5[0].P5-JobExposure2-FLD[0],text,"If one or more boxes are checked, tell us about the exposure(s) and how often you were exposed."
+form1[0].Page5[0].P5-MedConditions-FLD[0],text,Explain how your medical conditions would affect your ability to do this job.
+form1[0].Page6[0].P6-RateofPay-FLD[0],text,Rate of Pay. $
+form1[0].Page6[0].P6-Hour-CB[0],checkbox,Per (check one). Hour
+form1[0].Page6[0].P6-Day-CB[0],checkbox,Day
+form1[0].Page6[0].P6-Week-CB[0],checkbox,Week
+form1[0].Page6[0].P6-Month-CB[0],checkbox,Month
+form1[0].Page6[0].P6-Year-CB[0],checkbox,Year
+form1[0].Page6[0].P6-HoursperDay-FLD[0],text,Hours per Day
+form1[0].Page6[0].P6-DaysperWeek-FLD[0],text,Days per Week
+form1[0].Page6[0].P6-JobTwoDetail-FLD[0],text,"For the job you listed in Job Title Number 2, describe in detail the tasks you did in a typical workday. Examples of tasks include stocking shelves, greeting customers, scheduling appointments, or maintaining records."
+form1[0].Page6[0].P6-JobTwoReport-FLD[0],text,"If any of the tasks listed above involved writing or completing reports, describe the type of report you wrote or completed and how much time you spent on it per workday or workweek."
+form1[0].Page6[0].P6-JobTwoSupervise-FLD[0],text,"If any of the tasks listed above involved supervising others, describe who or what you supervised and what supervisory duties you had. Examples of supervisory duties include evaluating employee job performance, making schedules, or maintaining time records."
+form1[0].Page6[0].P6-JobTwoList-FLD[0],text,"List the machines, tools, and equipment you used regularly when doing this job, and explain what you used them for. Examples of equipment include computer, telephone, forklift, air compressor, or meat slicer."
+form1[0].Page6[0].P6-InteractYes-CB[0],checkbox,"Did this job require you to interact with coworkers, the general public, or anyone else? Yes"
+form1[0].Page6[0].P6-InteractNo-CB[0],checkbox,NO
+form1[0].Page6[0].P6-JobTwoInteract-FLD[0],text,"If YES, describe who you interacted with, the purpose of the interaction, how you interacted, and how much time you spent doing it per workday or workweek. Examples include answering customer questions on the telephone for 5 hours per day or showing clients properties for sale in person for 4 hours per day."
+form1[0].Page7[0].P7-HowMuch2-FLD[0],text,Row 2. Activity. Sitting. How much of your workday (hours/minutes).
+form1[0].Page7[0].P7-HowMuch3-FLD[0],text,"Row 3. Activity. Stooping (i.e., bending down & forward at waist). How much of your workday (hours/minutes)."
+form1[0].Page7[0].P7-HowMuch4-FLD[0],text,"Row 4. Activity. Kneeling (i.e., bending legs to rest on knees). How much of your workday (hours/minutes)."
+form1[0].Page7[0].P7-HowMuch5-FLD[0],text,"Row 5. Activity. Crouching (i.e., bending legs & back down & forward). How much of your workday (hours/minutes)."
+form1[0].Page7[0].P7-HowMuch6-FLD[0],text,"Row 6. Activity. Crawling (i.e., moving on hands and knees). How much of your workday (hours/minutes)."
+form1[0].Page7[0].P7-OneHand1-CB[0],checkbox,"Row 7. Activity. Using fingers to touch, pick, or pinch (e.g., using a mouse, keyboard, turning pages, or buttoning a shirt): One Hand"
+form1[0].Page7[0].P7-BothHands1-CB[0],checkbox,Both Hands
+form1[0].Page7[0].P7-HowMuch7-FLD[0],text,How much of your workday (Hours/Minutes)
+form1[0].Page7[0].P7-OneHand2-CB[0],checkbox,"Row 8. Activity. Using hands to seize, hold, grasp, or turn (e.g., holding a large envelope, a small box, a hammer, or water bottle): One Hand"
+form1[0].Page7[0].P7-BothHands2-CB[0],checkbox,Both Hands
+form1[0].Page7[0].P7-HowMuch8-FLD[0],text,How much of your workday (Hours/Minutes)
+form1[0].Page7[0].P7-OneArm1-CB[0],checkbox,Row 9. Activity. Reaching at or below the shoulder: One arm
+form1[0].Page7[0].P7-BothArms1-CB[0],checkbox,Both Arms
+form1[0].Page7[0].P7-HowMuch9-FLD[0],text,How much of your workday (Hours/Minutes)
+form1[0].Page7[0].P7-OneArm2-CB[0],checkbox,Row 10. Activity. Reaching overhead (above the shoulder): One Arm
+form1[0].Page7[0].P7-BothArms2-CB[0],checkbox,Both Arms
+form1[0].Page7[0].P7-HowMuch10-FLD[0],text,How much of your workday (Hours/Minutes)
+form1[0].Page7[0].P7-HowMuch11-FLD[0],text,Row 11. Activity. Climbing stairs or ramps. How much of your workday (hours/minutes).
+form1[0].Page7[0].P7-HowMuch12-FLD[0],text,"Row 12. Activity. Climbing ladders, ropes, or scaffolds. How much of your workday (hours/minutes)."
+form1[0].Page7[0].P7-ExplainLift-FLD[0],text,"Tell us about lifting and carrying in this job. Explain what you lifted, how far you carried it, and how often you did it in a typical workday."
+form1[0].Page7[0].P7-LessThan1-CB[0],checkbox,Select the heaviest weight lifted: Less than 1 pound
+form1[0].Page7[0].P7-LessThan10-CB[0],checkbox,Less than 10 pounds
+form1[0].Page7[0].P7-10Pounds-CB[0],checkbox,10 pounds
+form1[0].Page7[0].P7-20Pounds-CB[0],checkbox,20 pounds
+form1[0].Page7[0].P7-50Pounds-CB[0],checkbox,50 pounds
+form1[0].Page7[0].P7-100orMore-CB[0],checkbox,100 pounds or more
+form1[0].Page7[0].P7-Other1-CB[0],checkbox,Other
+form1[0].Page7[0].P7-ExplainOther1-FLD[0],text,Explain other selection
+form1[0].Page7[0].P7-Freq1-CB[0],checkbox,"Select the weight frequently lifted (i.e., one third to two thirds of the workday): Less than one pound"
+form1[0].Page7[0].P7-Freq2-CB[0],checkbox,Less than 10 pounds
+form1[0].Page7[0].P7-Freq3-CB[0],checkbox,10 pounds
+form1[0].Page7[0].P7-Freq4-CB[0],checkbox,25 pounds
+form1[0].Page7[0].P7-Freq5-CB[0],checkbox,50 pounds or more
+form1[0].Page7[0].P7-Freq6-CB[0],checkbox,Other
+form1[0].Page7[0].P7-ExplainOther2-FLD[0],text,Explain other selection
+form1[0].Page7[0].P7-Exposure1-CB[0],checkbox,Did this job expose you to any of the following? Check all that apply. Outdoors
+form1[0].Page7[0].P7-Exposure2-CB[0],checkbox,Extreme heat (non-weather related)
+form1[0].Page7[0].P7-Exposure3-CB[0],checkbox,Extreme cold (non-weather related)
+form1[0].Page7[0].P7-Exposure4-CB[0],checkbox,Wetness
+form1[0].Page7[0].P7-Exposure5-CB[0],checkbox,Humidity
+form1[0].Page7[0].P7-Exposure6-CB[0],checkbox,Hazardous substances
+form1[0].Page7[0].P7-Exposure7-CB[0],checkbox,Moving mechanical parts
+form1[0].Page7[0].P7-Exposure8-CB[0],checkbox,"High, exposed places"
+form1[0].Page7[0].P7-Exposure9-CB[0],checkbox,Heavy vibrations
+form1[0].Page7[0].P7-Exposure10-CB[0],checkbox,Loud noises
+form1[0].Page7[0].P7-Exposure11-CB[0],checkbox,Other
+form1[0].Page7[0].P7-ExplainOther3-FLD[0],text,Explain other selection
+form1[0].Page7[0].P7-ExplainExposure-FLD[0],text,"If one or more boxes are checked, tell us about the exposure(s) and how often you were exposed."
+form1[0].Page7[0].P7-MedConditions-FLD[0],text,Explain how your medical conditions would affect your ability to do this job.
+form1[0].Page8[0].P8-RateofPay-FLD[0],text,Rate of Pay $
+form1[0].Page8[0].P8-Hour-CB[0],checkbox,Per (Check One) Hour
+form1[0].Page8[0].P8-Day-CB[0],checkbox,Day
+form1[0].Page8[0].P8-Week-CB[0],checkbox,Week
+form1[0].Page8[0].P8-Month-CB[0],checkbox,Month
+form1[0].Page8[0].P8-Year-CB[0],checkbox,Year
+form1[0].Page8[0].P8-HoursperDay-FLD[0],text,Hours per Day
+form1[0].Page8[0].P8-DaysperWeek-FLD[0],text,Days per Week
+form1[0].Page8[0].P8-DescribeTasks-FLD[0],text,"For the job you listed in Job Title Number 3, describe in detail the tasks you did in a typical workday. Examples of tasks include stocking shelves, greeting customers, scheduling appointments, or maintaining records."
+form1[0].Page8[0].P8-DescribeReports-FLD[0],text,"If any of the tasks listed above involved writing or completing reports, describe the type of report you wrote or completed and how much time you spent on it per workday or workweek."
+form1[0].Page8[0].P8-DescrbieSupervise-FLD[0],text,"If any of the tasks listed above involved supervising others, describe who or what you supervised and what supervisory duties you had. Examples of supervisory duties include evaluating employee job performance, making schedules, or maintaining time records."
+form1[0].Page8[0].P8-DescribeList-FLD[0],text,"List the machines, tools, and equipment you used regularly when doing this job, and explain what you used them for. Examples of equipment include computer, telephone, forklift, air compressor, or meat slicer."
+form1[0].Page8[0].P8-InteractYes-CB[0],checkbox,"Did this job require you to interact with coworkers, the general public, or anyone else? Yes"
+form1[0].Page8[0].P8-InteractNo-CB[0],checkbox,NO
+form1[0].Page8[0].P8-DescribeWho-FLD[0],text,"If YES, describe who you interacted with, the purpose of the interaction, how you interacted, and how much time you spent doing it per workday or workweek. Examples include answering customer questions on the telephone for 5 hours per day or showing clients properties for sale in person for 4 hours per day."
+form1[0].Page9[0].P9-HoursMins2-FLD[0],text,Row 2. Activity. Sitting. How much of your workday (Hours/Minutes)
+form1[0].Page9[0].P9-HoursMins3-FLD[0],text,"Row 3. Activity. Stooping (i.e., bending down & forward at waist). How much of your workday (Hours/Minutes)"
+form1[0].Page9[0].P9-HoursMins4-FLD[0],text,"Row 4. Activity. Kneeling (i.e., bending legs to rest on knees). How much of your workday (Hours/Minutes)"
+form1[0].Page9[0].P9-HoursMins5-FLD[0],text,"Row 5. Activity. Crouching (i.e., bending legs & back down & forward). How much of your workday (Hours/Minutes)"
+form1[0].Page9[0].P9-HoursMins6-FLD[0],text,"Row 6. Activity. Crawling (i.e., moving on hands and knees). How much of your workday (Hours/Minutes)"
+form1[0].Page9[0].P9-OneHand1-CB[0],checkbox,"Row 7. Activity. Using fingers to touch, pick, or pinch (e.g., using a mouse, keyboard, turning pages, or buttoning a shirt): One Hand"
+form1[0].Page9[0].P9-BothHands1-CB[0],checkbox,Both Hands
+form1[0].Page9[0].P9-HoursMins7-FLD[0],text,How much of your workday (Hours/Minutes)
+form1[0].Page9[0].P9-OneHand2-CB[0],checkbox,"Row 8. Activity. Using hands to seize, hold, grasp, or turn (e.g., holding a large envelope, a small box, a hammer, or water bottle): One Hand"
+form1[0].Page9[0].P9-BothHands2-CB[0],checkbox,Both Hands
+form1[0].Page9[0].P9-HoursMins8-FLD[0],text,How much of your workday (Hours/Minutes)
+form1[0].Page9[0].P9-OneArm1-CB[0],checkbox,Row 9. Activity. Reaching at or below the shoulder: One arm
+form1[0].Page9[0].P9-BothArms1-CB[0],checkbox,Both Arms
+form1[0].Page9[0].P9-HoursMins9-FLD[0],text,How much of your workday (Hours/Minutes)
+form1[0].Page9[0].P9-OneArm2-CB[0],checkbox,Row 10. Activity. Reaching overhead (above the shoulder): One arm
+form1[0].Page9[0].P9-BothArms2-CB[0],checkbox,Both Arms
+form1[0].Page9[0].P9-HoursMins10-FLD[0],text,How much of your workday (Hours/Minutes)
+form1[0].Page9[0].P9-HoursMins11-FLD[0],text,Row 11. Activity. Climbing stairs or ramps. How much of your workday (Hours/Minutes)
+form1[0].Page9[0].P9-HoursMins12-FLD[0],text,"Row 12. Activity. Climbing ladders, ropes, or scaffolds. How much of your workday (Hours/Minutes)"
+form1[0].Page9[0].P9-ExplainLIft-FLD[0],text,"Tell us about lifting and carrying in this job. Explain what you lifted, how far you carried it, and how often you did it in a typical workday."
+form1[0].Page9[0].P9-HeaviestLift1-CB[0],checkbox,Select the heaviest weight lifted: Less than one pound.
+form1[0].Page9[0].P9-HeaviestLift2-CB[0],checkbox,Less than 10 pounds
+form1[0].Page9[0].P9-HeaviestLift3-CB[0],checkbox,10 pounds
+form1[0].Page9[0].P9-HeaviestLift4-CB[0],checkbox,20 pounds
+form1[0].Page9[0].P9-HeaviestLift5-CB[0],checkbox,50 pounds
+form1[0].Page9[0].P9-HeaviestLift6-CB[0],checkbox,100 pounds or more
+form1[0].Page9[0].P9-HeaviestLift7-CB[0],checkbox,Other
+form1[0].Page9[0].P9-ExplainOther1-FLD[0],text,Explain other selection
+form1[0].Page9[0].P9-Freq1-CB[0],checkbox,"Select the weight frequently lifted (i.e., one third to two thirds of the workday): Less than one pound"
+form1[0].Page9[0].P9-Freq2-CB[0],checkbox,Less than 10 pounds
+form1[0].Page9[0].P9-Freq3-CB[0],checkbox,10 pounds
+form1[0].Page9[0].P9-Freq4-CB[0],checkbox,25 pounds
+form1[0].Page9[0].P9-Freq5-CB[0],checkbox,50 pounds or more
+form1[0].Page9[0].P9-Freq6-CB[0],checkbox,Other
+form1[0].Page9[0].P9-ExplainOther2-FLD[0],text,Explain other selection
+form1[0].Page9[0].P9-Exposure1-CB[0],checkbox,Did this job expose you to any of the following? Check all that apply. Outdoors
+form1[0].Page9[0].P9-Exposure2-CB[0],checkbox,Extreme heat (non-weather related)
+form1[0].Page9[0].P9-Exposure3-CB[0],checkbox,Extreme cold (non-weather related)
+form1[0].Page9[0].P9-Exposure4-CB[0],checkbox,Wetness
+form1[0].Page9[0].P9-Exposure5-CB[0],checkbox,Humidity
+form1[0].Page9[0].P9-Exposure6-CB[0],checkbox,Hazardous substances
+form1[0].Page9[0].P9-Exposure7-CB[0],checkbox,Moving mechanical parts
+form1[0].Page9[0].P9-Exposure8-CB[0],checkbox,"High, exposed places"
+form1[0].Page9[0].P9-Exposure9-CB[0],checkbox,Heavy vibrations
+form1[0].Page9[0].P9-Exposure10-CB[0],checkbox,Loud noises
+form1[0].Page9[0].P9-Exposure11-CB[0],checkbox,Other
+form1[0].Page9[0].P9-ExplainOther3-FLD[0],text,Explain other selection
+form1[0].Page9[0].P9-ExplainExposure-FLD[0],text,"If one or more boxes are checked, tell us about the exposure(s) and how often you were exposed."
+form1[0].Page9[0].P9-MedConditions-FLD[0],text,Explain how your medical conditions would affect your ability to do this job.
+form1[0].Page10[0].P10-RateofPay-FLD[0],text,Rate of Pay $
+form1[0].Page10[0].P10-Hour-CB[0],checkbox,Per (Check One) Hour
+form1[0].Page10[0].P10-Day-CB[0],checkbox,Day
+form1[0].Page10[0].P10-Week-CB[0],checkbox,Week
+form1[0].Page10[0].P10-Month-CB[0],checkbox,Month
+form1[0].Page10[0].P10-Year-CB[0],checkbox,Year
+form1[0].Page10[0].P10-HoursperDay-FLD[0],text,Hours per Day
+form1[0].Page10[0].P10-DaysperWeek-FLD[0],text,Days per Week
+form1[0].Page10[0].P10-DescribeTasks-FLD[0],text,"For the job you listed in Job Title Number 4, describe in detail the tasks you did in a typical workday. Examples of tasks include stocking shelves, greeting customers, scheduling appointments, or maintaining records."
+form1[0].Page10[0].P10-DescribeReports-FLD[0],text,"If any of the tasks listed above involved writing or completing reports, describe the type of report you wrote or completed and how much time you spent on it per workday or workweek."
+form1[0].Page10[0].P10-DescribeSupervise-FLD[0],text,"If any of the tasks listed above involved supervising others, describe who or what you supervised and what supervisory duties you had. Examples of supervisory duties include evaluating employee job performance, making schedules, or maintaining time records."
+form1[0].Page10[0].P10-DescribeEquipment-FLD[0],text,"List the machines, tools, and equipment you used regularly when doing this job, and explain what you used them for. Examples of equipment include computer, telephone, forklift, air compressor, or meat slicer."
+form1[0].Page10[0].P10-InteractYes-CB[0],checkbox,"Did this job require you to interact with coworkers, the general public, or anyone else? Yes"
+form1[0].Page10[0].P10-InteractNo-CB[0],checkbox,NO
+form1[0].Page10[0].P10-DescribeInteract-FLD[0],text,"If YES, describe who you interacted with, the purpose of the interaction, how you interacted, and how much time you spent doing it per workday or workweek. Examples include answering customer questions on the telephone for 5 hours per day or showing clients properties for sale in person for 4 hours per day."
+form1[0].Page11[0].P11-HoursMins2-FLD[0],text,Row 2. Activity. Sitting. How much of your workday (hours/minutes).
+form1[0].Page11[0].P11-HoursMins3-FLD[0],text,"Row 3. Activity. Stooping (i.e., bending down & forward at waist). How much of your workday (hours/minutes)."
+form1[0].Page11[0].P11-HoursMins4-FLD[0],text,"Row 4. Activity. Kneeling (i.e., bending legs to rest on knees). How much of your workday (hours/minutes)."
+form1[0].Page11[0].P11-HoursMins5-FLD[0],text,"Row 5. Activity. Crouching (i.e., bending legs & back down & forward). How much of your workday (hours/minutes)."
+form1[0].Page11[0].P11-HoursMins6-FLD[0],text,"Row 6. Activity. Crawling (i.e., moving on hands and knees). How much of your workday (hours/minutes)."
+form1[0].Page11[0].P11-OneHand1-CB[0],checkbox,"Row 7. Activity. Using fingers to touch, pick, or pinch (e.g., using a mouse, keyboard, turning pages, or buttoning a shirt): One Hand"
+form1[0].Page11[0].P11-BothHands1-CB[0],checkbox,Both Hands
+form1[0].Page11[0].P11-HoursMins7-FLD[0],text,How much of your workday (hours/minutes).
+form1[0].Page11[0].P11-OneHand2-CB[0],checkbox,"Row 8. Activity. Using hands to seize, hold, grasp, or turn (e.g., holding a large envelope, a small box, a hammer, or water bottle): One Hand"
+form1[0].Page11[0].P11-BothHands2-CB[0],checkbox,Both Hands
+form1[0].Page11[0].P11-HoursMins8-FLD[0],text,How much of your workday (hours/minutes).
+form1[0].Page11[0].P11-OneArm1-CB[0],checkbox,Row 9. Activity. Reaching at or below the shoulder: One arm
+form1[0].Page11[0].P11-BothArms1-CB[0],checkbox,Both Arms
+form1[0].Page11[0].P11-HoursMins9-FLD[0],text,How much of your workday (hours/minutes).
+form1[0].Page11[0].P11-OneArm2-CB[0],checkbox,Row 10. Activity. Reaching overhead (above the shoulder): One arm
+form1[0].Page11[0].P11-BothArms2-CB[0],checkbox,Both Arms
+form1[0].Page11[0].P11-HoursMins10-FLD[0],text,How much of your workday (hours/minutes).
+form1[0].Page11[0].P11-HoursMins11-FLD[0],text,Row 11. Activity. Climbing stairs or ramps. How much of your workday (hours/minutes).
+form1[0].Page11[0].P11-HoursMins12-FLD[0],text,"Row 12. Activity. Climbing ladders, ropes, or scaffolds. How much of your workday (hours/minutes)."
+form1[0].Page11[0].P11-DescribeLift-FLD[0],text,"Tell us about lifting and carrying in this job. Explain what you lifted, how far you carried it, and how often you did it in a typical workday."
+form1[0].Page11[0].P11-HeaviestLift1-CB[0],checkbox,Select the heaviest weight lifted: less than one pound
+form1[0].Page11[0].P11-HeaviestLift2-CB[0],checkbox,Less than 10 pounds
+form1[0].Page11[0].P11-HeaviestLift3-CB[0],checkbox,10 pounds
+form1[0].Page11[0].P11-HeaviestLift4-CB[0],checkbox,20 pounds
+form1[0].Page11[0].P11-HeaviestLift5-CB[0],checkbox,50 pounds
+form1[0].Page11[0].P11-HeaviestLift6-CB[0],checkbox,100 pounds or more
+form1[0].Page11[0].P11-HeaviestLift7-CB[0],checkbox,Other
+form1[0].Page11[0].P11-ExplainOther1-CB[0],text,Explain other selection
+form1[0].Page11[0].P11-Freq1-CB[0],checkbox,"Select the weight frequently lifted (i.e., one third to two thirds of the workday): Less than 1 pound"
+form1[0].Page11[0].P11-Freq2-CB[0],checkbox,Less than 10 pounds
+form1[0].Page11[0].P11-Freq3-CB[0],checkbox,10 pounds
+form1[0].Page11[0].P11-Freq4-CB[0],checkbox,25 pounds
+form1[0].Page11[0].P11-Freq5-CB[0],checkbox,50 pounds or more
+form1[0].Page11[0].P11-Freq6-CB[0],checkbox,Other
+form1[0].Page11[0].P11-ExplainOther2-CB[0],text,Explain other selection
+form1[0].Page11[0].P11-Exposure1-CB[0],checkbox,Did this job expose you to any of the following? Check all that apply. Outdoors
+form1[0].Page11[0].P11-Exposure2-CB[0],checkbox,Extreme heat (non-weather related)
+form1[0].Page11[0].P11-Exposure3-CB[0],checkbox,Extreme cold (non-weather related)
+form1[0].Page11[0].P11-Exposure4-CB[0],checkbox,Wetness
+form1[0].Page11[0].P11-Exposure5-CB[0],checkbox,Humidity
+form1[0].Page11[0].P11-Exposure6-CB[0],checkbox,Hazardous substances
+form1[0].Page11[0].P11-Exposure7-CB[0],checkbox,Moving mechanical parts
+form1[0].Page11[0].P11-Exposure8-CB[0],checkbox,"High, exposed places"
+form1[0].Page11[0].P11-Exposure9-CB[0],checkbox,Heavy vibrations
+form1[0].Page11[0].P11-Exposure10-CB[0],checkbox,Loud noises
+form1[0].Page11[0].P11-Exposure11-CB[0],checkbox,Other
+form1[0].Page11[0].P11-ExplainOther3-CB[0],text,Explain other selection
+form1[0].Page11[0].P11-ExplainExposure-FLD[0],text,"If one or more boxes are checked, tell us about the exposure(s) and how often you were exposed."
+form1[0].Page11[0].P11-MedConditions-FLD[0],text,Explain how your medical conditions would affect your ability to do this job.
+form1[0].Page12[0].P12-RateofPay-CB[0],text,Rate of Pay $
+form1[0].Page12[0].P12-Hour-CB[0],checkbox,Per (check one) Hour
+form1[0].Page12[0].P12-Day-CB[0],checkbox,Day
+form1[0].Page12[0].P12-Week-CB[0],checkbox,Week
+form1[0].Page12[0].P12-Month-CB[0],checkbox,Month
+form1[0].Page12[0].P12-Year-CB[0],checkbox,Year
+form1[0].Page12[0].P12-HoursperDay-CB[0],text,Hours per Day
+form1[0].Page12[0].P12-DaysperWeek-CB[0],text,Days per Week
+form1[0].Page12[0].P12-DescribeTasks-FLD[0],text,"For the job you listed in Job Title Number 5, describe in detail the tasks you did in a typical workday. Examples of tasks include stocking shelves, greeting customers, scheduling appointments, or maintaining records."
+form1[0].Page12[0].P12-DescribeReports-FLD[0],text,"If any of the tasks listed above involved writing or completing reports, describe the type of report you wrote or completed and how much time you spent on it per workday or workweek."
+form1[0].Page12[0].P12-DescribeSupervise-FLD[0],text,"If any of the tasks listed above involved supervising others, describe who or what you supervised and what supervisory duties you had. Examples of supervisory duties include evaluating employee job performance, making schedules, or maintaining time records."
+form1[0].Page12[0].P12-DescribeEquipment-FLD[0],text,"List the machines, tools, and equipment you used regularly when doing this job, and explain what you used them for. Examples of equipment include computer, telephone, forklift, air compressor, or meat slicer."
+form1[0].Page12[0].P12-InteractYes-CB[0],checkbox,"Did this job require you to interact with coworkers, the general public, or anyone else? Yes"
+form1[0].Page12[0].P12-InteractNo-CB[0],checkbox,NO
+form1[0].Page12[0].P12-DescribeInteract-FLD[0],text,"If YES, describe who you interacted with, the purpose of the interaction, how you interacted, and how much time you spent doing it per workday or workweek. Examples include answering customer questions on the telephone for 5 hours per day or showing clients properties for sale in person for 4 hours per day."
+form1[0].Page13[0].P13-HoursMins2-FLD[0],text,Row 2. Activity. Sitting. How much of your work day (hours/minutes).
+form1[0].Page13[0].P13-HoursMins3-FLD[0],text,"Row 3. Activity. Stooping (i.e., bending down & forward at waist). How much of your work day (hours/minutes)."
+form1[0].Page13[0].P13-HoursMins4-FLD[0],text,"Row 4. Activity. Kneeling (i.e., bending legs to rest on knees). How much of your work day (hours/minutes)."
+form1[0].Page13[0].P13-HoursMins5-FLD[0],text,"Row 5. Activity. Crouching (i.e., bending legs & back down & forward). How much of your work day (hours/minutes)."
+form1[0].Page13[0].P13-HoursMins6-FLD[0],text,"Row 6. Activity. Crawling (i.e., moving on hands and knees). How much of your work day (hours/minutes)."
+form1[0].Page13[0].P13-OneHand1-CB[0],checkbox,"Row 7. Activity. Using fingers to touch, pick, or pinch (e.g., using a mouse, keyboard, turning pages, or buttoning a shirt): One hand"
+form1[0].Page13[0].P13-BothHands1-CB[0],checkbox,Both Hands
+form1[0].Page13[0].P13-HoursMins7-FLD[0],text,How much of your workday? (Hours/Minutes)
+form1[0].Page13[0].P13-OneHand2-CB[0],checkbox,"Row 8. Activity. Using hands to seize, hold, grasp, or turn (e.g., holding a large envelope, a small box, a hammer, or water bottle): One hand"
+form1[0].Page13[0].P13-BothHands2-CB[0],checkbox,Both Hands
+form1[0].Page13[0].P13-HoursMins8-FLD[0],text,How much of your workday? (Hours/Minutes)
+form1[0].Page13[0].P13-OneArm1-CB[0],checkbox,Row 9. Activity. Reaching at or below the shoulder: One arm
+form1[0].Page13[0].P13-BothArms1-CB[0],checkbox,Both Arms
+form1[0].Page13[0].P13-HoursMins9-FLD[0],text,How much of your workday? (Hours/Minutes)
+form1[0].Page13[0].P13-OneArm2-CB[0],checkbox,Row 10. Activity. Reaching overhead (above the shoulder): One arm
+form1[0].Page13[0].P13-BothArms2-CB[0],checkbox,Both Arms
+form1[0].Page13[0].P13-HoursMins10-FLD[0],text,How much of your workday? (Hours/Minutes)
+form1[0].Page13[0].P13-HoursMins11-FLD[0],text,Row 11. Activity. Climbing stairs or ramps. How much of your work day (hours/minutes).
+form1[0].Page13[0].P13-HoursMins12-FLD[0],text,"Row 12. Activity. Climbing ladders, ropes, or scaffolds. How much of your work day (hours/minutes)."
+form1[0].Page13[0].P13-DescribeLift-FLD[0],text,"Tell us about lifting and carrying in this job. Explain what you lifted, how far you carried it, and how often you did it in a typical workday."
+form1[0].Page13[0].P13-HeaviestLift1-CB[0],checkbox,Select the heaviest weight lifted: Less than one pound
+form1[0].Page13[0].P13-HeaviestLift2-CB[0],checkbox,Less than 10 pound
+form1[0].Page13[0].P13-HeaviestLift3-CB[0],checkbox,10 pounds
+form1[0].Page13[0].P13-HeaviestLift4-CB[0],checkbox,20 pounds
+form1[0].Page13[0].P13-HeaviestLift5-CB[0],checkbox,50 pounds
+form1[0].Page13[0].P13-HeaviestLift6-CB[0],checkbox,100 pounds or more
+form1[0].Page13[0].P13-HeaviestLift7-CB[0],checkbox,Other
+form1[0].Page13[0].P13-ExplainOther1-FLD[0],text,Explain other selection
+form1[0].Page13[0].P13-Freq1-CB[0],checkbox,"Select the weight frequently lifted (i.e., one third to two thirds of the workday): Less than 1 pound"
+form1[0].Page13[0].P13-Freq2-CB[0],checkbox,Less than 10 pounds
+form1[0].Page13[0].P13-Freq3-CB[0],checkbox,10 pounds
+form1[0].Page13[0].P13-Freq4-CB[0],checkbox,25 pounds
+form1[0].Page13[0].P13-Freq5-CB[0],checkbox,50 pounds or more
+form1[0].Page13[0].P13-Freq6-CB[0],checkbox,Other
+form1[0].Page13[0].P13-ExplainOther2-FLD[0],text,Explain other selection
+form1[0].Page13[0].P13-Exposure1-CB[0],checkbox,Did this job expose you to any of the following? Check all that apply. Outdoors
+form1[0].Page13[0].P13-Exposure2-CB[0],checkbox,Extreme heat (non-weather related)
+form1[0].Page13[0].P13-Exposure3-CB[0],checkbox,Extreme cold (non-weather related)
+form1[0].Page13[0].P13-Exposure4-CB[0],checkbox,Wetness
+form1[0].Page13[0].P13-Exposure5-CB[0],checkbox,Humidity
+form1[0].Page13[0].P13-Exposure6-CB[0],checkbox,Hazardous substances
+form1[0].Page13[0].P13-Exposure7-CB[0],checkbox,Moving mechanical parts
+form1[0].Page13[0].P13-Exposure8-CB[0],checkbox,"High, exposed places"
+form1[0].Page13[0].P13-Exposure9-CB[0],checkbox,Heavy vibrations
+form1[0].Page13[0].P13-Exposure10-CB[0],checkbox,Loud noises
+form1[0].Page13[0].P13-Exposure11-CB[0],checkbox,Other
+form1[0].Page13[0].P13-ExplainOther3-FLD[0],text,Explain other selection
+form1[0].Page13[0].P13-ExplainExposure-FLD[0],text,"If one or more boxes are checked, tell us about the exposure(s) and how often you were exposed."
+form1[0].Page13[0].P13-MedConditions-FLD[0],text,Explain how your medical conditions would affect your ability to do this job.
+form1[0].Page14[0].P14-ReportComp-FLD[0],text,SECTION 4 - WHO IS COMPLETING THIS REPORT. Date Report Completed (M M/D D/Y Y Y Y)
+form1[0].Page14[0].P14-WhoComplete1-CB[0],checkbox,Who is completing this report? The person listed in 1.Ay.
+form1[0].Page14[0].P14-WhoComplete2-CB[0],checkbox,Someone else (Complete the information below)
+form1[0].Page14[0].P14-Name-FLD[0],text,"NAME (First, Middle Initial, Last)"
+form1[0].Page14[0].P14-Relation-FLD[0],text,Relationship to the Person in 1.Ay.
+form1[0].Page14[0].P14-MailAdd-FLD[0],text,"MAILING ADDRESS (Street or P O Box) Include the apartment number, if applicable."
+form1[0].Page14[0].P14-City-FLD[0],text,CITY
+form1[0].Page14[0].P14-State-FLD[0],text,STATE/Province
+form1[0].Page14[0].P14-ZIP-FLD[0],text,ZIP/Postal Code
+form1[0].Page14[0].P14-Country-FLD[0],text,COUNTRY (if not U S Ay)
+form1[0].Page14[0].P14-Phone-FLD[0],text,"DAYTIME PHONE NUMBER where we may reach you or leave a message, if needed. Include the area code or I D D and country code if outside the U S Ay or Canada."
+form1[0].Page14[0].P14-EndofForm-FLD[0],text,You have reached the end of the form. If you tab out of this field you will return to the beginning of the form.

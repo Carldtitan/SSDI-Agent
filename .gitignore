@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# env
+.env
+.env*.local
+
+# deploy
+.vercel/
+
+# os
+.DS_Store
+Thumbs.db
+
+.vercel
+.env*

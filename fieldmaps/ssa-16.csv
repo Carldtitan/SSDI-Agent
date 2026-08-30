@@ -1,0 +1,141 @@
+field,type,label
+topmostSubform[0].Page1[0].N1FLD_FLD[0],text,"1. Print your name First name, middle initial, last name"
+topmostSubform[0].Page1[0].N2FLD_FLD[0],text,2. Enter your Social Security Number
+topmostSubform[0].Page1[0].N3Speak_FLD[0],text,"Answer question 3 if English is not your preferred language. Otherwise, go to item 4. 3. Enter the language you prefer to: speak"
+topmostSubform[0].Page1[0].N3Write_FLD[0],text,write
+topmostSubform[0].Page1[0].N4A_FLD[0],text,4. (ay) Enter your date of birth
+topmostSubform[0].Page1[0].N4B_FLD[0],text,(b) Enter name of city and state or foreign country where you were born.
+topmostSubform[0].Page1[0].N5ACBYes_CB[0],checkbox,"5. (ay) Are you a U.S. citizen? Yes (If ""Yes,"" go to item 6)"
+topmostSubform[0].Page1[0].N5ACBNo_CB[0],checkbox,"No (If ""No,"" answer (b))"
+topmostSubform[0].Page1[0].N5BCBYes_CB[0],checkbox,"(b) Are you an alien lawfully present in the U S? Yes (If ""Yes,"" answer (c))"
+topmostSubform[0].Page1[0].N5BCBNo_CB[0],checkbox,"No (If ""No,"" go to item 6)"
+topmostSubform[0].Page1[0].N5C_FLD[0],text,(c) When were you lawfully admitted to the U S?
+topmostSubform[0].Page1[0].N6A_FLD[0],text,6. (ay) Enter your name at birth if different from item (1)
+topmostSubform[0].Page1[0].N6BCByes_CB[0],checkbox,"(b) Have you used any other names? Yes (If ""Yes,"" answer (c)"
+topmostSubform[0].Page1[0].N6BCB_CB[0],checkbox,"No (If ""No,"" go to item 7)"
+topmostSubform[0].Page1[0].N6C_FLD[0],text,(c) Other name(s) used.
+topmostSubform[0].Page1[0].N7Ayes_CB[0],checkbox,7 (ay) Have you used any other Social Security number(s)? Yes (If yes answer B)
+topmostSubform[0].Page1[0].N7Ano_CB[0],checkbox,No. If no go to item 8
+topmostSubform[0].Page1[0].N7B_FLD[0],text,(b) Enter Social Security number(s) used.
+topmostSubform[0].Page1[0].N8_FLD[0],text,8. When do you believe your condition(s) became severe enough to keep you from working (even if you have never worked)?
+topmostSubform[0].Page1[0].N9yes_CB[0],checkbox,9. Did you or your spouse (or prior spouse) work in the railroad industry for 5 years or more? Yes
+topmostSubform[0].Page1[0].N9no_CB[0],checkbox,No
+topmostSubform[0].Page1[0].N10Ayes_CB[0],checkbox,"10. (ay) Do you have Social Security credits (for example, based on work or residence) under another country's Social Security System? Yes (If ""Yes,"" answer (b))"
+topmostSubform[0].Page1[0].N10Ano_CB[0],checkbox,"No (If ""No,"" go to item 11)"
+topmostSubform[0].Page1[0].N10B_FLD[0],text,(b) List the country(ies):
+topmostSubform[0].Page2[0].N11ANo_CB[0],checkbox,"No (If ""No,"" go to item 12)"
+topmostSubform[0].Page2[0].N11B1_FLD[0],text,"(b) Give the following information about your current marriage. If not currently married, write ""None."" Blank line (If ""None,"" go on to item 11(c)). Enter None if needed"
+topmostSubform[0].Page2[0].N11B2_FLD[0],text,Spouse's name (including maiden name)
+topmostSubform[0].Page2[0].N11B3_FLD[0],text,"When (Month, day, year)"
+topmostSubform[0].Page2[0].N11B4_FLD[0],text,Where (Name of City and State)
+topmostSubform[0].Page2[0].N11BCler_CB[0],checkbox,Marriage performed by: Clergyman or public official check box
+topmostSubform[0].Page2[0].N11BOther_CB[0],checkbox,Other check box (Explain in Remarks)
+topmostSubform[0].Page2[0].N11B5_FLD[0],text,Spouse's date of birth (or age)
+topmostSubform[0].Page2[0].N11B6_FLD[0],text,"Spouse's Social Security Number (If none or unknown, so indicate)"
+topmostSubform[0].Page2[0].N11C2_FLD[0],text,Spouse's name (including maiden name)
+topmostSubform[0].Page2[0].N11C3_FLD[0],text,"When (Month, day, year)"
+topmostSubform[0].Page2[0].N11CFLD4[0],text,Where (Name of City and State)
+topmostSubform[0].Page2[0].N11CFLD5[0],text,How marriage ended
+topmostSubform[0].Page2[0].N11CFLD6[0],text,"When (Month, day, year)"
+topmostSubform[0].Page2[0].N11CFLD7[0],text,Where (Name of City and State)
+topmostSubform[0].Page2[0].N11CCBClergy_CB[0],checkbox,Marriage performed by: Clergyman or public official
+topmostSubform[0].Page2[0].N11CCBOther_CB[0],checkbox,Other if other (Explain in Remarks)
+topmostSubform[0].Page2[0].N11CFLD8[0],text,Spouse's date of birth (or age)
+topmostSubform[0].Page2[0].N11CFLD9[0],text,Date of spouse's death
+topmostSubform[0].Page2[0].N11CFLD10[0],text,"Spouse's Social Security Number (If none or unknown, so indicate)"
+topmostSubform[0].Page2[0].N11DFLD1_FLD[0],text,"(d) Enter information about any marriage if you: Bullet Have a child(ren) who is under age 16 or disabled or handicapped (age 16 or over and disability began before age 22); and Bullet Were married for less than 10 years to the child's mother or father, who is now deceased; and Bullet The marriage ended in divorce If none, write ""None."""
+topmostSubform[0].Page2[0].N11DFLD2_FLD[0],text,Spouse's name (including maiden name)
+topmostSubform[0].Page2[0].N11DFLD3_FLD[0],text,"When (Month, day, year)"
+topmostSubform[0].Page2[0].N11DFLD4_FLD[0],text,Where (Name of City and State)
+topmostSubform[0].Page2[0].N11DFLD5_FLD[0],text,"Date of divorce (Month, day, year)"
+topmostSubform[0].Page2[0].N11DFLD6_FLD[0],text,Where (Name of City and State)
+topmostSubform[0].Page2[0].N11DCBClergy_CB[0],checkbox,Marriage performed by: Clergyman or public official
+topmostSubform[0].Page2[0].N11DCBOther_CB[0],checkbox,Other (Explain in Remarks)
+topmostSubform[0].Page2[0].N11DFLD7_FLD[0],text,Spouse's date of birth (or age)
+topmostSubform[0].Page2[0].N11DFLD8_FLD[0],text,Date of spouse's death
+topmostSubform[0].Page2[0].N11DFLD9_FLD[0],text,"Spouse's Social Security Number (If none or unknown, so indicate)"
+topmostSubform[0].Page2[0].N12FLD_FLD[0],text,"Use the ""REMARKS"" space on page 5 for marriage continuation or explanation. 12. If your claim for disability benefits is approved, your children (including adopted children, and stepchildren) or dependent grandchildren (including stepgrandchildren) may be eligible for benefits based on your earnings record. List below: FULL NAME OF ALL such children who are now or were in the past 12 months UNMARRIED and: Bullet UNDER AGE 18 Bullet AGE 18 TO 19 AND ATTENDING ELEMENTARY OR SECONDARY SCHOOL FULL-TIME • DISABLED OR HANDICAPPED (age 18 or over and disability began before age 22)"
+topmostSubform[0].Page2[0].N12CFLD1_FLD[0],text,"(c) Enter information about any other marriage if you: Bullet Had a marriage that lasted at least 10 years; or Bullet Had a marriage that ended due to the death of your spouse, regardless of duration; or • Were divorced, remarried the same individual within the year immediately following the year of the divorce, and the combined period of marriage totaled 10 years or more. If none, write ""None."" Blank line Go on to item 11(d) if you have a child(ren) who is under age 16 or disabled or handicapped (age 16 or over and disability began before age 22) and you are divorced from the child's other parent who is now deceased and the marriage lasted less than 10 years."
+topmostSubform[0].Page3[0].N13No_CB[0],checkbox,"No (If ""No,"" answer (b))"
+topmostSubform[0].Page3[0].N13BFLD_text[0],text,(b) List the years from 1978 through last year in which you did not have wages or self-employment income covered under Social Security.
+topmostSubform[0].Page3[0].N14TableR1C1_FLD[0],text,"14. Enter below the names and addresses of all the persons, companies, or Government agencies for whom you have worked this year and last year. IF NONE, WRITE ""NONE"" BELOW AND GO TO ITEM 15. (If you need more space, use ""Remarks"".). This is a table with 5 columns and 3 rows. The column headers are Name and Address of Employer (If you had more than one employer, please list them in order beginning with your last (most recent employer), Work Began Month, Work Began Year, Work Ended (If still working show Not Ended)Month, and Work Ended Year. Row 1 NAME AND ADDRESS OF EMPLOYER (If you had more than one employer, please list them in order beginning with your last (most recent) employer)"
+topmostSubform[0].Page3[0].N14TableR1C2_FLD[0],text,Work Began Month
+topmostSubform[0].Page3[0].N14TableR1C3_FLD[0],text,Year
+topmostSubform[0].Page3[0].N14TableR1C4_FLD[0],text,"Work Ended (If still working show"" Not Ended"") Month"
+topmostSubform[0].Page3[0].N14TableR1C5_FLD[0],text,Year
+topmostSubform[0].Page3[0].N14TableR2C1_FLD[0],text,Row 2 name and Address of Employer
+topmostSubform[0].Page3[0].N14TableR2C2_FLD[0],text,Work Began Month
+topmostSubform[0].Page3[0].N14TableR2C3_FLD[0],text,Year
+topmostSubform[0].Page3[0].N14TableR2C4_FLD[0],text,"Work Ended (If still working show"" Not Ended"") Month"
+topmostSubform[0].Page3[0].N14TableR2C5_FLD[0],text,Year
+topmostSubform[0].Page3[0].N14TableR3C1_FLD[0],text,Row 3 Name and address of Employer
+topmostSubform[0].Page3[0].N14TableR3C2_FLD[0],text,Work Began Month
+topmostSubform[0].Page3[0].N14TableR3C3_FLD[0],text,Year
+topmostSubform[0].Page3[0].N14TableR3C4_FLD[0],text,"Work Ended (If still working show"" Not Ended"") Month"
+topmostSubform[0].Page3[0].N14TableR3C5_FLD[0],text,Year
+topmostSubform[0].Page3[0].N15yes_CB[0],checkbox,"15. (Complete item 15 even if you were an employee. (ay) Were you self-employed this year or last year? Yes (If ""Yes,"" answer (b))"
+topmostSubform[0].Page3[0].N15no_CB[0],checkbox,"No (If ""No,"" go to item 17)"
+topmostSubform[0].Page3[0].N15BCB1_CB[0],checkbox,(b) Check the year (or years) you were self-employed. this year
+topmostSubform[0].Page3[0].N15BFLD1_FLD[0],text,"In what type of trade/business were you self-employed? this year (For example, storekeeper, farmer, physician)"
+topmostSubform[0].Page3[0].N15BCB2_CB[0],checkbox,Were you self employed. Last year
+topmostSubform[0].Page3[0].N15BFLD2_FLD[0],text,In What type of trade/business were you self employed? last year
+topmostSubform[0].Page3[0].N15BYes_CB[0],checkbox,Were your net earnings from the trade or business 400 dollars or more last year? Yes
+topmostSubform[0].Page3[0].N15BNo_CB[0],checkbox,No
+topmostSubform[0].Page3[0].N16AFLD1_FLD[0],text,"16. (ay) How much were your total earnings last year? Count both wage and self-employment income. (If none, write ""None."")"
+topmostSubform[0].Page3[0].N16AFLD2_FLD[0],text,Amount $
+topmostSubform[0].Page3[0].N16BFLD1_FLD[0],text,"(b) How much have you earned so far this year? (If none, write ""None."")"
+topmostSubform[0].Page3[0].N16BFLD2_FLD[0],text,Amount $
+topmostSubform[0].Page3[0].N17yes_CB[0],checkbox,"17. (ay) Are you still unable to work because of your illnesses, injuries, or conditions? yes (If ""Yes,"" go to item 18)"
+topmostSubform[0].Page3[0].N17no_CB[0],checkbox,"No (If ""No,"" answer (b))"
+topmostSubform[0].Page3[0].N17BFLD_FLD[0],text,"(b) Enter the date you became able to work. Month, Day, Year"
+topmostSubform[0].Page3[0].N18Yes_CB[0],checkbox,"18. Are your illnesses, injuries, or conditions related to your work in any way? Yes"
+topmostSubform[0].Page3[0].N18No_CB[0],checkbox,No
+topmostSubform[0].Page3[0].N19Yes_CB[0],checkbox,19. Are you blind or do you have low vision even with glasses or contacts? Yes
+topmostSubform[0].Page3[0].N19No_CB[0],checkbox,No
+topmostSubform[0].Page4[0].N20No_CB[0],checkbox,"No (If ""No,"" go to item 21)"
+topmostSubform[0].Page4[0].N20VA_CB[0],checkbox,(b) The other public disability benefit(s) you have filed (or intend to file) for is (Check as many as apply): Veterans Administration Benefits
+topmostSubform[0].Page4[0].N20SSI_CB[0],checkbox,Supplemental Security Income
+topmostSubform[0].Page4[0].N20BWelfare_CB[0],checkbox,Welfare
+topmostSubform[0].Page4[0].N20BOther_CB[0],checkbox,"Other if other (If ""Other,"" complete a Workers' Compensation/Public Disability Benefit Questionnaire)"
+topmostSubform[0].Page4[0].N21yes_CB[0],checkbox,"21. (ay) Did you receive any money from an employer(s) on or after the date in item 8 when you became unable to work because of your illnesses, injuries, or conditions? If ""Yes"", give the amounts and explain in ""Remarks"". Yes"
+topmostSubform[0].Page4[0].N21no_CB[0],checkbox,No
+topmostSubform[0].Page4[0].N21A_FLD[0],text,Amount $
+topmostSubform[0].Page4[0].N21Byes_CB[0],checkbox,"(b) Do you expect to receive any additional money from an employer, such as sick pay, vacation pay, other special pay? If ""Yes,"" please give amounts and explain in ""Remarks"". yes"
+topmostSubform[0].Page4[0].N21Bno_CB[0],checkbox,No
+topmostSubform[0].Page4[0].N21B_FLD[0],text,Amount $
+topmostSubform[0].Page4[0].N22yes_CB[0],checkbox,"22. Do you, or did you, have a child under age 3 (your own or your spouse's) living with you in one or more calendar years when you had no earnings? Yes"
+topmostSubform[0].Page4[0].N22no_CB[0],checkbox,No
+topmostSubform[0].Page4[0].N23yes_CB[0],checkbox,"23. Do you have a dependent parent who was receiving at least one-half support from you when you became unable to work because of your disability? If ""Yes,"" enter the parent's name and address and Social Security number, if known, in ""Remarks"". yes"
+topmostSubform[0].Page4[0].N23no_CB[0],checkbox,No
+topmostSubform[0].Page4[0].N24yes_CB[0],checkbox,"24. If you were unable to work before age 22 because of an illness, injury or condition, do you have a parent (including adoptive or stepparent) or grandparent who is receiving social security retirement or disability benefits or who is deceased? If yes, enter the name(s) and Social Security number, if known, in ""Remarks"" (if unknown, check ""Unknown""). yes"
+topmostSubform[0].Page4[0].N24no_CB[0],checkbox,No
+topmostSubform[0].Page4[0].N24unk_CB[0],checkbox,Unknown
+topmostSubform[0].Page5[0].Signature_FLD[0],text,"I declare under penalty of perjury that I have examined all the information on this form, and on any accompanying statements or forms, and it is true and correct to the best of my knowledge. I understand that anyone who knowingly gives a false statement about a material fact in this information, or causes someone else to do so, commits a crime and may be subject to a fine or imprisonment. SIGNATURE OF APPLICANT Signature (First name, middle initial, last name) (Write in ink) A wet signature is required. Complete the form print and sign"
+topmostSubform[0].Page5[0].Date_FLD[0],text,"Date (Month, Day, Year)"
+topmostSubform[0].Page5[0].Telephone_FLD[0],text,Telephone Number(s) at which you may be contacted during the day. (Include the area code)
+topmostSubform[0].Page5[0].Routing_FLD[0],text,DIRECT DEPOSIT PAYMENT INFORMATION (FINANCIAL INSTITUTION) Routing Transit Number
+topmostSubform[0].Page5[0].AccountNumberFLD[0],text,Account Number
+topmostSubform[0].Page5[0].BankAccountCheck_CB[0],checkbox,Checking
+topmostSubform[0].Page5[0].BankAccountSavings_CB[0],checkbox,Savings
+topmostSubform[0].Page5[0].DirectDepositEnroll_CB[0],checkbox,Enroll in Direct Express
+topmostSubform[0].Page5[0].DirectDepositRefuse_CB[0],checkbox,Direct Deposit Refused
+topmostSubform[0].Page5[0].ApplicantsAddressFLD[0],text,"Applicant's Mailing Address (Number and street, Apartment Number, P.O. Box, or Rural Route) (Enter Residence Address in ""Remarks,"" if different.)"
+topmostSubform[0].Page5[0].City_FLD[0],text,City and State
+topmostSubform[0].Page5[0].ZIP_FLD[0],text,ZIP Code
+topmostSubform[0].Page5[0].County_FLD[0],text,County (if any) in which you now live
+topmostSubform[0].Page5[0].Witness1SignFLD[0],text,"Witnesses are required ONLY if this application has been signed by mark (X) above. If signed by mark (X), two witnesses to the signing who know the applicant must sign below, giving their full addresses. Also, print the applicant's name in Signature block. 1. Signature of Witness. Ay wet signature is required. Complete the form print and sign"
+topmostSubform[0].Page5[0].Witness1Address_FLD[0],text,"Address (Number and street, City, State, and ZIP Code)"
+topmostSubform[0].Page5[0].Witness2Sign_FLD[0],text,2. Signature of Witness. Ay wet signature is required. Complete the form print and sign
+topmostSubform[0].Page5[0].Witness2Address_FLD[0],text,"Address (Number and street, City, State and ZIP Code)"
+topmostSubform[0].Page6[0].SSALink1[0],checkbox,Link to w w w.s s ay.g o v/privacy web page.
+topmostSubform[0].Page6[0].SSALink2[0],checkbox,Link to w w w.social security.g o v web page.
+topmostSubform[0].Page7[0].ContactPhoneFLD[0],text,Telephone Number (Include Area Code)
+topmostSubform[0].Page7[0].SSAOffice_FLD[0],text,SSA Office
+topmostSubform[0].Page7[0].DateRecd_FLD[0],text,Date Claim Received
+topmostSubform[0].Page7[0].WithinDaysFLD[0],text,Your application for Social Security disability benefits has been received and will be processed as quickly as possible. You should hear from us within blank line days after you have given us all the information we requested. Some claims may take longer if additional information is needed. Enter number of days.
+topmostSubform[0].Page7[0].Claimant_FLD[0],text,"In the meantime, if you change your address, or if there is some other change that may affect your claim, you - or someone for you - should report the change. The changes to be reported are listed below. Always give us your claim number when writing or telephoning about your claim. If you have any questions about your claim, we will be glad to help you. Claimant"
+topmostSubform[0].Page7[0].SSClaimNumberFLD[0],text,Social Security Claim Number
+topmostSubform[0].Page7[0].SSALink3[0],checkbox,"HOW TO REPORT. You can make your reports online, by telephone, mail, or in person, whichever you prefer. If you are awarded benefits, and one or more of the above change(s) occur, you should report by: • Visiting the section ""my Social Security"" at our web site at to w w w.social security.g o v. Link to social security web page."
+topmostSubform[0].Page7[0].SSALink4[0],checkbox,"• Calling us TOLL FREE at REDACTED; • If you are deaf or hearing impaired, calling us TOLL FREE at T T Y REDACTED; or • Calling, visiting or writing your local Social Security office at the phone number and address shown on your claim receipt. For general information about Social Security, visit our web site at w w w.social security.g o v. Link to social security web page."
+topmostSubform[0].Page7[0].P7ReadOnly_FLD[0],text,"CHANGES TO BE REPORTED AND HOW TO REPORT FAILURE TO REPORT MAY RESULT IN OVERPAYMENTS THAT MUST BE REPAID. • You change your mailing address for checks or residence. To avoid delay in receipt of checks you should ALSO file a regular change of address notice with your post office. • Your citizenship or immigration status changes. • You go outside the U.S.A. for 30 consecutive days or longer. • Any beneficiary dies or becomes unable to handle benefits. • Custody Change - Report if a person for whom you are filing or who is in your care dies, leaves your care or custody, or changes address. • You are confined to a jail, prison, penal institution or correctional facility for more than 30 continuous days for conviction of a crime, or you are confined for more than REDACTED order in connection with a crime. • You become entitled to a pension, an annuity, or a lump sum payment based on your employment not covered by Social Security, or if such pension or annuity stops. • Your stepchild is entitled to benefits on your record and you and the stepchild's parent divorce. Stepchild benefits are not payable beginning with the month after the month the divorce becomes final. • You have an unsatisfied warrant for more than 30 continuous days for your arrest for a crime or attempted crime that is a felony of flight to avoid prosecution or confinement, escape from custody and flight-escape. In most jurisdictions that do not classify crimes as felonies, this applies to a crime that is punishable by death or imprisonment for a term exceeding one year (regardless of the actual sentence imposed). • You have an unsatisfied warrant for more than 30 continuous days for a violation of probation or parole under Federal or State law. • Change of Marital Status - Marriage, divorce, annulment of marriage. • If you become the parent of a child (including an adopted child) after you have filed your claim, let us know about the child so we can decide if the child is eligible for benefits. Failure to report the existence of these children may result in the loss of possible benefits to the child(ren). • You return to work (as an employee or self-employed) regardless of amount of earnings. • Your condition improves. • You are under full retirement and you apply for or begin to receive workers' compensation (including black lung benefits) or another public disability benefit, or the amount of your present workers' compensation or public disability benefit changes or stops, or you receive a lump-sum settlement."
+topmostSubform[0].Page7[0].ReadOnlyEOF_FLD[0],text,"You have reached the end of the form. If you tab again, you will be at the beginning of the form."

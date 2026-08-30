@@ -1,0 +1,2018 @@
+[
+ {
+  "id": "ombNo",
+  "type": "shortText",
+  "name": "OMB No.",
+  "page": 0
+ },
+ {
+  "id": "pageNumber",
+  "type": "shortText",
+  "name": "Page Number",
+  "page": 0
+ },
+ {
+  "id": "pageNumber1",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 1
+ },
+ {
+  "id": "pageNumber2",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 1
+ },
+ {
+  "id": "pageNumber3",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 1
+ },
+ {
+  "id": "applicantNameFirstMiddleInitialLastSuffix",
+  "type": "fullName",
+  "name": "Applicant Name (First, Middle Initial, Last, Suffix)",
+  "page": 2
+ },
+ {
+  "id": "socialSecurityNumber",
+  "type": "shortText",
+  "name": "Social Security Number",
+  "page": 2
+ },
+ {
+  "id": "otherNamesUsed",
+  "type": "radioGroup",
+  "name": "Other Names Used",
+  "page": 2
+ },
+ {
+  "id": "otherNamesUsedList",
+  "type": "shortText",
+  "name": "Other Names Used (List)",
+  "page": 2
+ },
+ {
+  "id": "applicantMailingAddress",
+  "type": "usAddress",
+  "name": "Applicant Mailing Address",
+  "page": 2
+ },
+ {
+  "id": "emailAddress",
+  "type": "email",
+  "name": "Email Address",
+  "page": 2
+ },
+ {
+  "id": "primaryDaytimePhoneNumber",
+  "type": "phone",
+  "name": "Primary Daytime Phone Number",
+  "page": 2
+ },
+ {
+  "id": "secondaryDaytimePhoneNumber",
+  "type": "phone",
+  "name": "Secondary Daytime Phone Number",
+  "page": 2
+ },
+ {
+  "id": "canSpeakAndUnderstandEnglish",
+  "type": "radioGroup",
+  "name": "Can Speak and Understand English",
+  "page": 2
+ },
+ {
+  "id": "preferredLanguageIfNotEnglish",
+  "type": "shortText",
+  "name": "Preferred Language (If not English)",
+  "page": 2
+ },
+ {
+  "id": "canReadEnglish",
+  "type": "radioGroup",
+  "name": "Can Read English",
+  "page": 2
+ },
+ {
+  "id": "canWriteMoreThanNameInEnglish",
+  "type": "radioGroup",
+  "name": "Can Write More Than Name in English",
+  "page": 2
+ },
+ {
+  "id": "contactAvailable",
+  "type": "radioGroup",
+  "name": "Contact Available",
+  "page": 2
+ },
+ {
+  "id": "contactNameFirstMiddleInitialLast",
+  "type": "fullName",
+  "name": "Contact Name (First, Middle Initial, Last)",
+  "page": 2
+ },
+ {
+  "id": "contactRelationshipToApplicant",
+  "type": "shortText",
+  "name": "Contact Relationship to Applicant",
+  "page": 2
+ },
+ {
+  "id": "contactMailingAddress",
+  "type": "usAddress",
+  "name": "Contact Mailing Address",
+  "page": 2
+ },
+ {
+  "id": "contactDaytimePhoneNumber",
+  "type": "phone",
+  "name": "Contact Daytime Phone Number",
+  "page": 2
+ },
+ {
+  "id": "contactSpeaksUnderstandsEnglish2E",
+  "type": "radioGroup",
+  "name": "Contact Speaks/Understands English (2.E)",
+  "page": 3
+ },
+ {
+  "id": "ifNoPreferredLanguage",
+  "type": "shortText",
+  "name": "If NO, Preferred Language",
+  "page": 3
+ },
+ {
+  "id": "contactNameFirstMiddleInitialLast1",
+  "type": "fullName",
+  "name": "Contact Name (First, Middle Initial, Last)",
+  "page": 3
+ },
+ {
+  "id": "relationshipToPersonIn1A",
+  "type": "shortText",
+  "name": "Relationship to Person in 1.A",
+  "page": 3
+ },
+ {
+  "id": "contactMailingAddress1",
+  "type": "usAddress",
+  "name": "Contact Mailing Address",
+  "page": 3
+ },
+ {
+  "id": "daytimePhoneNumber1",
+  "type": "phone",
+  "name": "Daytime Phone Number",
+  "page": 3
+ },
+ {
+  "id": "contactSpeaksUnderstandsEnglish2J",
+  "type": "radioGroup",
+  "name": "Contact Speaks/Understands English (2.J)",
+  "page": 3
+ },
+ {
+  "id": "ifNoPreferredLanguageContact",
+  "type": "shortText",
+  "name": "If NO, Preferred Language (Contact)",
+  "page": 3
+ },
+ {
+  "id": "medicalMentalCondition1",
+  "type": "shortText",
+  "name": "Medical/Mental Condition 1",
+  "page": 3
+ },
+ {
+  "id": "medicalMentalCondition2",
+  "type": "shortText",
+  "name": "Medical/Mental Condition 2",
+  "page": 3
+ },
+ {
+  "id": "medicalMentalCondition3",
+  "type": "shortText",
+  "name": "Medical/Mental Condition 3",
+  "page": 3
+ },
+ {
+  "id": "medicalMentalCondition4",
+  "type": "shortText",
+  "name": "Medical/Mental Condition 4",
+  "page": 3
+ },
+ {
+  "id": "medicalMentalCondition5",
+  "type": "shortText",
+  "name": "Medical/Mental Condition 5",
+  "page": 3
+ },
+ {
+  "id": "heightFeet",
+  "type": "integer",
+  "name": "Height - Feet",
+  "page": 3
+ },
+ {
+  "id": "heightInches",
+  "type": "integer",
+  "name": "Height - Inches",
+  "page": 3
+ },
+ {
+  "id": "heightCentimeters",
+  "type": "integer",
+  "name": "Height - Centimeters",
+  "page": 3
+ },
+ {
+  "id": "weightPounds",
+  "type": "integer",
+  "name": "Weight - Pounds",
+  "page": 3
+ },
+ {
+  "id": "weightKilograms",
+  "type": "integer",
+  "name": "Weight - Kilograms",
+  "page": 3
+ },
+ {
+  "id": "currentlyWorkingStatus",
+  "type": "radioGroup",
+  "name": "Currently Working Status",
+  "page": 3
+ },
+ {
+  "id": "conditionsBecameSevereDateNeverWorked",
+  "type": "date",
+  "name": "Conditions Became Severe Date (Never Worked)",
+  "page": 3
+ },
+ {
+  "id": "dateStoppedWorking",
+  "type": "date",
+  "name": "Date Stopped Working",
+  "page": 3
+ },
+ {
+  "id": "stoppedWorkingReason",
+  "type": "radioGroup",
+  "name": "Stopped Working Reason",
+  "page": 3
+ },
+ {
+  "id": "reasonStoppedWorkingOther",
+  "type": "shortText",
+  "name": "Reason Stopped Working (Other)",
+  "page": 3
+ },
+ {
+  "id": "conditionsBecameSevereDateStoppedForOtherReasons",
+  "type": "date",
+  "name": "Conditions Became Severe Date (Stopped for Other Reasons)",
+  "page": 3
+ },
+ {
+  "id": "4DWorkActivityChanges",
+  "type": "radioGroup",
+  "name": "4.D. Work Activity Changes",
+  "page": 4
+ },
+ {
+  "id": "4DWhenDidChangesStartMmDdYyyy",
+  "type": "date",
+  "name": "4.D. When did changes start? (MM/DD/YYYY)",
+  "page": 4
+ },
+ {
+  "id": "4EEarningsGreaterThan1550",
+  "type": "radioGroup",
+  "name": "4.E. Earnings Greater Than $1,550",
+  "page": 4
+ },
+ {
+  "id": "4FWorkActivityChangesCurrentlyWorking",
+  "type": "radioGroup",
+  "name": "4.F. Work Activity Changes (Currently Working)",
+  "page": 4
+ },
+ {
+  "id": "4FYesWhenDidChangesStartMmDdYyyy",
+  "type": "date",
+  "name": "4.F. YES - When did changes start? (MM/DD/YYYY)",
+  "page": 4
+ },
+ {
+  "id": "4FNoWhenDidConditionFirstStartBotheringYouMmDdYyyy",
+  "type": "date",
+  "name": "4.F. NO - When did condition first start bothering you? (MM/DD/YYYY)",
+  "page": 4
+ },
+ {
+  "id": "4GEarningsGreaterThan1550SinceConditionBothered",
+  "type": "radioGroup",
+  "name": "4.G. Earnings Greater Than $1,550 Since Condition Bothered",
+  "page": 4
+ },
+ {
+  "id": "5AGrade0",
+  "type": "checkbox",
+  "name": "5.A. Grade 0",
+  "page": 4
+ },
+ {
+  "id": "5AGradeK",
+  "type": "checkbox",
+  "name": "5.A. Grade K",
+  "page": 4
+ },
+ {
+  "id": "5AGrade1",
+  "type": "checkbox",
+  "name": "5.A. Grade 1",
+  "page": 4
+ },
+ {
+  "id": "5AGrade2",
+  "type": "checkbox",
+  "name": "5.A. Grade 2",
+  "page": 4
+ },
+ {
+  "id": "5AGrade3",
+  "type": "checkbox",
+  "name": "5.A. Grade 3",
+  "page": 4
+ },
+ {
+  "id": "5AGrade4",
+  "type": "checkbox",
+  "name": "5.A. Grade 4",
+  "page": 4
+ },
+ {
+  "id": "5AGrade5",
+  "type": "checkbox",
+  "name": "5.A. Grade 5",
+  "page": 4
+ },
+ {
+  "id": "5AGrade6",
+  "type": "checkbox",
+  "name": "5.A. Grade 6",
+  "page": 4
+ },
+ {
+  "id": "5AGrade7",
+  "type": "checkbox",
+  "name": "5.A. Grade 7",
+  "page": 4
+ },
+ {
+  "id": "5AGrade8",
+  "type": "checkbox",
+  "name": "5.A. Grade 8",
+  "page": 4
+ },
+ {
+  "id": "5AGrade9",
+  "type": "checkbox",
+  "name": "5.A. Grade 9",
+  "page": 4
+ },
+ {
+  "id": "5AGrade10",
+  "type": "checkbox",
+  "name": "5.A. Grade 10",
+  "page": 4
+ },
+ {
+  "id": "5AGrade11",
+  "type": "checkbox",
+  "name": "5.A. Grade 11",
+  "page": 4
+ },
+ {
+  "id": "5AGrade12",
+  "type": "checkbox",
+  "name": "5.A. Grade 12",
+  "page": 4
+ },
+ {
+  "id": "5AGed",
+  "type": "checkbox",
+  "name": "5.A. GED",
+  "page": 4
+ },
+ {
+  "id": "5ACollege1",
+  "type": "checkbox",
+  "name": "5.A. College 1",
+  "page": 4
+ },
+ {
+  "id": "5ACollege2",
+  "type": "checkbox",
+  "name": "5.A. College 2",
+  "page": 4
+ },
+ {
+  "id": "5ACollege3",
+  "type": "checkbox",
+  "name": "5.A. College 3",
+  "page": 4
+ },
+ {
+  "id": "5ACollege4OrMore",
+  "type": "checkbox",
+  "name": "5.A. College 4 or more",
+  "page": 4
+ },
+ {
+  "id": "5ADateCompletedMmYyyy",
+  "type": "date",
+  "name": "5.A. Date Completed (MM/YYYY)",
+  "page": 4
+ },
+ {
+  "id": "5ASchoolAddress",
+  "type": "usAddress",
+  "name": "5.A. School Address",
+  "page": 4
+ },
+ {
+  "id": "5BSpecialEducation",
+  "type": "radioGroup",
+  "name": "5.B. Special Education",
+  "page": 4
+ },
+ {
+  "id": "5BSpecialEducationDatesFromMmYyyy",
+  "type": "date",
+  "name": "5.B. Special Education Dates From (MM/YYYY)",
+  "page": 4
+ },
+ {
+  "id": "5BSpecialEducationDatesToMmYyyy",
+  "type": "date",
+  "name": "5.B. Special Education Dates To (MM/YYYY)",
+  "page": 4
+ },
+ {
+  "id": "5BLastGradePreK",
+  "type": "checkbox",
+  "name": "5.B. Last Grade Pre K",
+  "page": 4
+ },
+ {
+  "id": "5BLastGradeK",
+  "type": "checkbox",
+  "name": "5.B. Last Grade K",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade1",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 1",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade2",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 2",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade3",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 3",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade4",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 4",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade5",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 5",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade6",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 6",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade7",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 7",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade8",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 8",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade9",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 9",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade10",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 10",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade11",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 11",
+  "page": 4
+ },
+ {
+  "id": "5BLastGrade12",
+  "type": "checkbox",
+  "name": "5.B. Last Grade 12",
+  "page": 4
+ },
+ {
+  "id": "5BReasonSForSpecialEducation",
+  "type": "shortText",
+  "name": "5.B. Reason(s) for Special Education",
+  "page": 4
+ },
+ {
+  "id": "5BSpecialEdSchoolLocation",
+  "type": "radioGroup",
+  "name": "5.B. Special Ed School Location",
+  "page": 4
+ },
+ {
+  "id": "5BSpecialEdSchoolAddress",
+  "type": "usAddress",
+  "name": "5.B. Special Ed School Address",
+  "page": 4
+ },
+ {
+  "id": "trainingReceived5C",
+  "type": "radioGroup",
+  "name": "Training Received (5.C.)",
+  "page": 5
+ },
+ {
+  "id": "nameOfTrainingFacility",
+  "type": "shortText",
+  "name": "Name of Training Facility",
+  "page": 5
+ },
+ {
+  "id": "trainingFacilityPhoneNumber",
+  "type": "phone",
+  "name": "Training Facility Phone Number",
+  "page": 5
+ },
+ {
+  "id": "trainingFacilityAddress",
+  "type": "usAddress",
+  "name": "Training Facility Address",
+  "page": 5
+ },
+ {
+  "id": "typeOfProgram",
+  "type": "shortText",
+  "name": "Type of Program",
+  "page": 5
+ },
+ {
+  "id": "dateCompletedOrScheduledToBeCompleted",
+  "type": "date",
+  "name": "Date Completed (or scheduled to be completed)",
+  "page": 5
+ },
+ {
+  "id": "writtenLanguageUsedEveryDay5D",
+  "type": "shortText",
+  "name": "Written Language Used Every Day (5.D.)",
+  "page": 5
+ },
+ {
+  "id": "canReadSimpleMessage5E",
+  "type": "radioGroup",
+  "name": "Can Read Simple Message (5.E.)",
+  "page": 5
+ },
+ {
+  "id": "canWriteSimpleMessage5F",
+  "type": "radioGroup",
+  "name": "Can Write Simple Message (5.F.)",
+  "page": 5
+ },
+ {
+  "id": "hadJobIn5YearsBeforeDisability6A",
+  "type": "radioGroup",
+  "name": "Had Job in 5 Years Before Disability (6.A.)",
+  "page": 5
+ },
+ {
+  "id": "job1Title",
+  "type": "shortText",
+  "name": "Job 1 Title",
+  "page": 5
+ },
+ {
+  "id": "job1TypeOfBusiness",
+  "type": "shortText",
+  "name": "Job 1 Type of Business",
+  "page": 5
+ },
+ {
+  "id": "job1FromDate",
+  "type": "date",
+  "name": "Job 1 From Date",
+  "page": 5
+ },
+ {
+  "id": "job1ToDate",
+  "type": "date",
+  "name": "Job 1 To Date",
+  "page": 5
+ },
+ {
+  "id": "job1HoursPerDay",
+  "type": "number",
+  "name": "Job 1 Hours per Day",
+  "page": 5
+ },
+ {
+  "id": "job1DaysPerWeek",
+  "type": "number",
+  "name": "Job 1 Days per Week",
+  "page": 5
+ },
+ {
+  "id": "job1RateOfPayAmount",
+  "type": "dollar",
+  "name": "Job 1 Rate of Pay Amount",
+  "page": 5
+ },
+ {
+  "id": "job1RateOfPayFrequency",
+  "type": "shortText",
+  "name": "Job 1 Rate of Pay Frequency",
+  "page": 5
+ },
+ {
+  "id": "job2Title",
+  "type": "shortText",
+  "name": "Job 2 Title",
+  "page": 5
+ },
+ {
+  "id": "job2TypeOfBusiness",
+  "type": "shortText",
+  "name": "Job 2 Type of Business",
+  "page": 5
+ },
+ {
+  "id": "job2FromDate",
+  "type": "date",
+  "name": "Job 2 From Date",
+  "page": 5
+ },
+ {
+  "id": "job2ToDate",
+  "type": "date",
+  "name": "Job 2 To Date",
+  "page": 5
+ },
+ {
+  "id": "job2HoursPerDay",
+  "type": "number",
+  "name": "Job 2 Hours per Day",
+  "page": 5
+ },
+ {
+  "id": "job2DaysPerWeek",
+  "type": "number",
+  "name": "Job 2 Days per Week",
+  "page": 5
+ },
+ {
+  "id": "job2RateOfPayAmount",
+  "type": "dollar",
+  "name": "Job 2 Rate of Pay Amount",
+  "page": 5
+ },
+ {
+  "id": "job2RateOfPayFrequency",
+  "type": "shortText",
+  "name": "Job 2 Rate of Pay Frequency",
+  "page": 5
+ },
+ {
+  "id": "job3Title",
+  "type": "shortText",
+  "name": "Job 3 Title",
+  "page": 5
+ },
+ {
+  "id": "job3TypeOfBusiness",
+  "type": "shortText",
+  "name": "Job 3 Type of Business",
+  "page": 5
+ },
+ {
+  "id": "job3FromDate",
+  "type": "date",
+  "name": "Job 3 From Date",
+  "page": 5
+ },
+ {
+  "id": "job3ToDate",
+  "type": "date",
+  "name": "Job 3 To Date",
+  "page": 5
+ },
+ {
+  "id": "job3HoursPerDay",
+  "type": "number",
+  "name": "Job 3 Hours per Day",
+  "page": 5
+ },
+ {
+  "id": "job3DaysPerWeek",
+  "type": "number",
+  "name": "Job 3 Days per Week",
+  "page": 5
+ },
+ {
+  "id": "job3RateOfPayAmount",
+  "type": "dollar",
+  "name": "Job 3 Rate of Pay Amount",
+  "page": 5
+ },
+ {
+  "id": "job3RateOfPayFrequency",
+  "type": "shortText",
+  "name": "Job 3 Rate of Pay Frequency",
+  "page": 5
+ },
+ {
+  "id": "job4Title",
+  "type": "shortText",
+  "name": "Job 4 Title",
+  "page": 5
+ },
+ {
+  "id": "job4TypeOfBusiness",
+  "type": "shortText",
+  "name": "Job 4 Type of Business",
+  "page": 5
+ },
+ {
+  "id": "job4FromDate",
+  "type": "date",
+  "name": "Job 4 From Date",
+  "page": 5
+ },
+ {
+  "id": "job4ToDate",
+  "type": "date",
+  "name": "Job 4 To Date",
+  "page": 5
+ },
+ {
+  "id": "job4HoursPerDay",
+  "type": "number",
+  "name": "Job 4 Hours per Day",
+  "page": 5
+ },
+ {
+  "id": "job4DaysPerWeek",
+  "type": "number",
+  "name": "Job 4 Days per Week",
+  "page": 5
+ },
+ {
+  "id": "job4RateOfPayAmount",
+  "type": "dollar",
+  "name": "Job 4 Rate of Pay Amount",
+  "page": 5
+ },
+ {
+  "id": "job4RateOfPayFrequency",
+  "type": "shortText",
+  "name": "Job 4 Rate of Pay Frequency",
+  "page": 5
+ },
+ {
+  "id": "job5Title",
+  "type": "shortText",
+  "name": "Job 5 Title",
+  "page": 5
+ },
+ {
+  "id": "job5TypeOfBusiness",
+  "type": "shortText",
+  "name": "Job 5 Type of Business",
+  "page": 5
+ },
+ {
+  "id": "job5FromDate",
+  "type": "date",
+  "name": "Job 5 From Date",
+  "page": 5
+ },
+ {
+  "id": "job5ToDate",
+  "type": "date",
+  "name": "Job 5 To Date",
+  "page": 5
+ },
+ {
+  "id": "job5HoursPerDay",
+  "type": "number",
+  "name": "Job 5 Hours per Day",
+  "page": 5
+ },
+ {
+  "id": "job5DaysPerWeek",
+  "type": "number",
+  "name": "Job 5 Days per Week",
+  "page": 5
+ },
+ {
+  "id": "job5RateOfPayAmount",
+  "type": "dollar",
+  "name": "Job 5 Rate of Pay Amount",
+  "page": 5
+ },
+ {
+  "id": "job5RateOfPayFrequency",
+  "type": "shortText",
+  "name": "Job 5 Rate of Pay Frequency",
+  "page": 5
+ },
+ {
+  "id": "moreThanOneJobVsOnlyOneJob",
+  "type": "radioGroup",
+  "name": "More than one job vs. only one job",
+  "page": 6
+ },
+ {
+  "id": "6B1DescriptionOfTasksInATypicalWorkday",
+  "type": "longText",
+  "name": "6.B.1. Description of tasks in a typical workday",
+  "page": 6
+ },
+ {
+  "id": "6B2DescriptionOfReportsWrittenOrCompleted",
+  "type": "longText",
+  "name": "6.B.2. Description of reports written or completed",
+  "page": 6
+ },
+ {
+  "id": "6B3DescriptionOfSupervisoryDuties",
+  "type": "longText",
+  "name": "6.B.3. Description of supervisory duties",
+  "page": 6
+ },
+ {
+  "id": "6B4MachinesToolsAndEquipmentUsedRegularly",
+  "type": "longText",
+  "name": "6.B.4. Machines, tools, and equipment used regularly",
+  "page": 6
+ },
+ {
+  "id": "6B5DidThisJobRequireInteractionWithOthers",
+  "type": "radioGroup",
+  "name": "6.B.5. Did this job require interaction with others",
+  "page": 6
+ },
+ {
+  "id": "6B5DescriptionOfInteractionsWithCoworkersPublic",
+  "type": "longText",
+  "name": "6.B.5. Description of interactions with coworkers/public",
+  "page": 6
+ },
+ {
+  "id": "standingAndWalkingCombinedHoursMinutes",
+  "type": "shortText",
+  "name": "Standing and Walking (combined) Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "sittingHoursMinutes",
+  "type": "shortText",
+  "name": "Sitting Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "stoopingHoursMinutes",
+  "type": "shortText",
+  "name": "Stooping Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "kneelingHoursMinutes",
+  "type": "shortText",
+  "name": "Kneeling Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "crouchingHoursMinutes",
+  "type": "shortText",
+  "name": "Crouching Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "crawlingHoursMinutes",
+  "type": "shortText",
+  "name": "Crawling Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "usingFingersHandSelection",
+  "type": "radioGroup",
+  "name": "Using Fingers Hand Selection",
+  "page": 7
+ },
+ {
+  "id": "usingFingersHoursMinutes",
+  "type": "shortText",
+  "name": "Using Fingers Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "usingHandsToSeizeHoldHandSelection",
+  "type": "radioGroup",
+  "name": "Using Hands to Seize/Hold Hand Selection",
+  "page": 7
+ },
+ {
+  "id": "usingHandsToSeizeHoldHoursMinutes",
+  "type": "shortText",
+  "name": "Using Hands to Seize/Hold Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "reachingAtOrBelowShoulderArmSelection",
+  "type": "radioGroup",
+  "name": "Reaching at or below shoulder Arm Selection",
+  "page": 7
+ },
+ {
+  "id": "reachingAtOrBelowShoulderHoursMinutes",
+  "type": "shortText",
+  "name": "Reaching at or below shoulder Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "reachingOverheadArmSelection",
+  "type": "radioGroup",
+  "name": "Reaching overhead Arm Selection",
+  "page": 7
+ },
+ {
+  "id": "reachingOverheadHoursMinutes",
+  "type": "shortText",
+  "name": "Reaching overhead Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "climbingStairsOrRampsHoursMinutes",
+  "type": "shortText",
+  "name": "Climbing Stairs or Ramps Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "climbingLaddersRopesOrScaffoldsHoursMinutes",
+  "type": "shortText",
+  "name": "Climbing Ladders, Ropes, or Scaffolds Hours/Minutes",
+  "page": 7
+ },
+ {
+  "id": "liftingAndCarryingDescription",
+  "type": "longText",
+  "name": "Lifting and Carrying Description",
+  "page": 7
+ },
+ {
+  "id": "heaviestWeightLiftedSelection",
+  "type": "radioGroup",
+  "name": "Heaviest Weight Lifted Selection",
+  "page": 7
+ },
+ {
+  "id": "heaviestWeightLiftedOtherDescription",
+  "type": "shortText",
+  "name": "Heaviest Weight Lifted - Other Description",
+  "page": 7
+ },
+ {
+  "id": "weightFrequentlyLiftedSelection",
+  "type": "radioGroup",
+  "name": "Weight Frequently Lifted Selection",
+  "page": 7
+ },
+ {
+  "id": "weightFrequentlyLiftedOtherDescription",
+  "type": "shortText",
+  "name": "Weight Frequently Lifted - Other Description",
+  "page": 7
+ },
+ {
+  "id": "jobExposureOutdoors",
+  "type": "checkbox",
+  "name": "Job Exposure - Outdoors",
+  "page": 7
+ },
+ {
+  "id": "jobExposureExtremeHeatNonWeatherRelated",
+  "type": "checkbox",
+  "name": "Job Exposure - Extreme heat (non-weather related)",
+  "page": 7
+ },
+ {
+  "id": "jobExposureExtremeColdNonWeatherRelated",
+  "type": "checkbox",
+  "name": "Job Exposure - Extreme cold (non-weather related)",
+  "page": 7
+ },
+ {
+  "id": "jobExposureWetness",
+  "type": "checkbox",
+  "name": "Job Exposure - Wetness",
+  "page": 7
+ },
+ {
+  "id": "jobExposureHumidity",
+  "type": "checkbox",
+  "name": "Job Exposure - Humidity",
+  "page": 7
+ },
+ {
+  "id": "jobExposureHazardousSubstances",
+  "type": "checkbox",
+  "name": "Job Exposure - Hazardous substances",
+  "page": 7
+ },
+ {
+  "id": "jobExposureMovingMechanicalParts",
+  "type": "checkbox",
+  "name": "Job Exposure - Moving mechanical parts",
+  "page": 7
+ },
+ {
+  "id": "jobExposureHighExposedPlaces",
+  "type": "checkbox",
+  "name": "Job Exposure - High, exposed places",
+  "page": 7
+ },
+ {
+  "id": "jobExposureHeavyVibrations",
+  "type": "checkbox",
+  "name": "Job Exposure - Heavy vibrations",
+  "page": 7
+ },
+ {
+  "id": "jobExposureLoudNoise",
+  "type": "checkbox",
+  "name": "Job Exposure - Loud noise",
+  "page": 7
+ },
+ {
+  "id": "jobExposureOther",
+  "type": "checkbox",
+  "name": "Job Exposure - Other",
+  "page": 7
+ },
+ {
+  "id": "jobExposureDescription",
+  "type": "longText",
+  "name": "Job Exposure Description",
+  "page": 7
+ },
+ {
+  "id": "howMedicalConditionsAffectAbilityToDoThisJob",
+  "type": "longText",
+  "name": "How medical conditions affect ability to do this job",
+  "page": 8
+ },
+ {
+  "id": "currentlyTakingMedicines",
+  "type": "radioGroup",
+  "name": "Currently taking medicines",
+  "page": 8
+ },
+ {
+  "id": "medicineName1",
+  "type": "shortText",
+  "name": "Medicine Name 1",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine1",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 1",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine1",
+  "type": "shortText",
+  "name": "Reason for Medicine 1",
+  "page": 8
+ },
+ {
+  "id": "medicineName2",
+  "type": "shortText",
+  "name": "Medicine Name 2",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine2",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 2",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine2",
+  "type": "shortText",
+  "name": "Reason for Medicine 2",
+  "page": 8
+ },
+ {
+  "id": "medicineName3",
+  "type": "shortText",
+  "name": "Medicine Name 3",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine3",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 3",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine3",
+  "type": "shortText",
+  "name": "Reason for Medicine 3",
+  "page": 8
+ },
+ {
+  "id": "medicineName4",
+  "type": "shortText",
+  "name": "Medicine Name 4",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine4",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 4",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine4",
+  "type": "shortText",
+  "name": "Reason for Medicine 4",
+  "page": 8
+ },
+ {
+  "id": "medicineName5",
+  "type": "shortText",
+  "name": "Medicine Name 5",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine5",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 5",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine5",
+  "type": "shortText",
+  "name": "Reason for Medicine 5",
+  "page": 8
+ },
+ {
+  "id": "medicineName6",
+  "type": "shortText",
+  "name": "Medicine Name 6",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine6",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 6",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine6",
+  "type": "shortText",
+  "name": "Reason for Medicine 6",
+  "page": 8
+ },
+ {
+  "id": "medicineName7",
+  "type": "shortText",
+  "name": "Medicine Name 7",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine7",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 7",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine7",
+  "type": "shortText",
+  "name": "Reason for Medicine 7",
+  "page": 8
+ },
+ {
+  "id": "medicineName8",
+  "type": "shortText",
+  "name": "Medicine Name 8",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine8",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 8",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine8",
+  "type": "shortText",
+  "name": "Reason for Medicine 8",
+  "page": 8
+ },
+ {
+  "id": "medicineName9",
+  "type": "shortText",
+  "name": "Medicine Name 9",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine9",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 9",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine9",
+  "type": "shortText",
+  "name": "Reason for Medicine 9",
+  "page": 8
+ },
+ {
+  "id": "medicineName10",
+  "type": "shortText",
+  "name": "Medicine Name 10",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine10",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 10",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine10",
+  "type": "shortText",
+  "name": "Reason for Medicine 10",
+  "page": 8
+ },
+ {
+  "id": "medicineName11",
+  "type": "shortText",
+  "name": "Medicine Name 11",
+  "page": 8
+ },
+ {
+  "id": "doctorNameForMedicine11",
+  "type": "shortText",
+  "name": "Doctor Name for Medicine 11",
+  "page": 8
+ },
+ {
+  "id": "reasonForMedicine11",
+  "type": "shortText",
+  "name": "Reason for Medicine 11",
+  "page": 8
+ },
+ {
+  "id": "8AHaveYouSeenOrReceivedTreatment",
+  "type": "radioGroup",
+  "name": "8.A. Have You Seen or Received Treatment",
+  "page": 9
+ },
+ {
+  "id": "8A1NameOfFacilityOrOffice",
+  "type": "shortText",
+  "name": "8.A.1 Name of Facility or Office",
+  "page": 9
+ },
+ {
+  "id": "8A1NameOfHealthcareProviderThatTreatedYou",
+  "type": "fullName",
+  "name": "8.A.1 Name of Healthcare Provider That Treated You",
+  "page": 9
+ },
+ {
+  "id": "8A1WhatMedicalConditionsWereTreatedOrEvaluated",
+  "type": "shortText",
+  "name": "8.A.1 What Medical Conditions Were Treated or Evaluated",
+  "page": 9
+ },
+ {
+  "id": "8A1PhoneNumber",
+  "type": "phone",
+  "name": "8.A.1 Phone Number",
+  "page": 9
+ },
+ {
+  "id": "8A1DateFirstSeen",
+  "type": "date",
+  "name": "8.A.1 Date First Seen",
+  "page": 9
+ },
+ {
+  "id": "8A1DateLastSeen",
+  "type": "date",
+  "name": "8.A.1 Date Last Seen",
+  "page": 9
+ },
+ {
+  "id": "8A1DateOfNextAppointmentIfKnown",
+  "type": "date",
+  "name": "8.A.1 Date of Next Appointment (If Known)",
+  "page": 9
+ },
+ {
+  "id": "8A1Address",
+  "type": "usAddress",
+  "name": "8.A.1 Address",
+  "page": 9
+ },
+ {
+  "id": "8A2NameOfFacilityOrOffice",
+  "type": "shortText",
+  "name": "8.A.2 Name of Facility or Office",
+  "page": 9
+ },
+ {
+  "id": "8A2NameOfHealthcareProviderThatTreatedYou",
+  "type": "fullName",
+  "name": "8.A.2 Name of Healthcare Provider That Treated You",
+  "page": 9
+ },
+ {
+  "id": "8A2WhatMedicalConditionsWereTreatedOrEvaluated",
+  "type": "shortText",
+  "name": "8.A.2 What Medical Conditions Were Treated or Evaluated",
+  "page": 9
+ },
+ {
+  "id": "8A2PhoneNumber",
+  "type": "phone",
+  "name": "8.A.2 Phone Number",
+  "page": 9
+ },
+ {
+  "id": "8A2DateFirstSeen",
+  "type": "date",
+  "name": "8.A.2 Date First Seen",
+  "page": 9
+ },
+ {
+  "id": "8A2DateLastSeen",
+  "type": "date",
+  "name": "8.A.2 Date Last Seen",
+  "page": 9
+ },
+ {
+  "id": "8A2DateOfNextAppointmentIfKnown",
+  "type": "date",
+  "name": "8.A.2 Date of Next Appointment (If Known)",
+  "page": 9
+ },
+ {
+  "id": "8A2Address",
+  "type": "usAddress",
+  "name": "8.A.2 Address",
+  "page": 9
+ },
+ {
+  "id": "8A3NameOfFacilityOrOffice",
+  "type": "shortText",
+  "name": "8.A.3 Name of Facility or Office",
+  "page": 9
+ },
+ {
+  "id": "8A3NameOfHealthcareProviderThatTreatedYou",
+  "type": "fullName",
+  "name": "8.A.3 Name of Healthcare Provider That Treated You",
+  "page": 9
+ },
+ {
+  "id": "8A3WhatMedicalConditionsWereTreatedOrEvaluated",
+  "type": "shortText",
+  "name": "8.A.3 What Medical Conditions Were Treated or Evaluated",
+  "page": 9
+ },
+ {
+  "id": "8A3PhoneNumber",
+  "type": "phone",
+  "name": "8.A.3 Phone Number",
+  "page": 9
+ },
+ {
+  "id": "8A3DateFirstSeen",
+  "type": "date",
+  "name": "8.A.3 Date First Seen",
+  "page": 9
+ },
+ {
+  "id": "8A3DateLastSeen",
+  "type": "date",
+  "name": "8.A.3 Date Last Seen",
+  "page": 9
+ },
+ {
+  "id": "8A3DateOfNextAppointmentIfKnown",
+  "type": "date",
+  "name": "8.A.3 Date of Next Appointment (If Known)",
+  "page": 9
+ },
+ {
+  "id": "8A3Address",
+  "type": "usAddress",
+  "name": "8.A.3 Address",
+  "page": 9
+ },
+ {
+  "id": "8A4NameOfFacilityOrOffice",
+  "type": "shortText",
+  "name": "8.A.4 Name of Facility or Office",
+  "page": 10
+ },
+ {
+  "id": "8A4NameOfHealthcareProviderThatTreatedYou",
+  "type": "fullName",
+  "name": "8.A.4 Name of Healthcare Provider That Treated You",
+  "page": 10
+ },
+ {
+  "id": "8A4WhatMedicalConditionsWereTreatedOrEvaluated",
+  "type": "shortText",
+  "name": "8.A.4 What Medical Conditions Were Treated or Evaluated",
+  "page": 10
+ },
+ {
+  "id": "8A4PhoneNumber",
+  "type": "phone",
+  "name": "8.A.4 Phone Number",
+  "page": 10
+ },
+ {
+  "id": "8A4DateFirstSeen",
+  "type": "date",
+  "name": "8.A.4 Date First Seen",
+  "page": 10
+ },
+ {
+  "id": "8A4DateLastSeen",
+  "type": "date",
+  "name": "8.A.4 Date Last Seen",
+  "page": 10
+ },
+ {
+  "id": "8A4DateOfNextAppointmentIfKnown",
+  "type": "date",
+  "name": "8.A.4 Date of Next Appointment (If Known)",
+  "page": 10
+ },
+ {
+  "id": "8A4FullAddress",
+  "type": "usAddress",
+  "name": "8.A.4 Full Address",
+  "page": 10
+ },
+ {
+  "id": "8A5NameOfFacilityOrOffice",
+  "type": "shortText",
+  "name": "8.A.5 Name of Facility or Office",
+  "page": 10
+ },
+ {
+  "id": "8A5NameOfHealthcareProviderThatTreatedYou",
+  "type": "fullName",
+  "name": "8.A.5 Name of Healthcare Provider That Treated You",
+  "page": 10
+ },
+ {
+  "id": "8A5WhatMedicalConditionsWereTreatedOrEvaluated",
+  "type": "shortText",
+  "name": "8.A.5 What Medical Conditions Were Treated or Evaluated",
+  "page": 10
+ },
+ {
+  "id": "8A5PhoneNumber",
+  "type": "phone",
+  "name": "8.A.5 Phone Number",
+  "page": 10
+ },
+ {
+  "id": "8A5DateFirstSeen",
+  "type": "date",
+  "name": "8.A.5 Date First Seen",
+  "page": 10
+ },
+ {
+  "id": "8A5DateLastSeen",
+  "type": "date",
+  "name": "8.A.5 Date Last Seen",
+  "page": 10
+ },
+ {
+  "id": "8A5DateOfNextAppointmentIfKnown",
+  "type": "date",
+  "name": "8.A.5 Date of Next Appointment (If Known)",
+  "page": 10
+ },
+ {
+  "id": "8A5FullAddress",
+  "type": "usAddress",
+  "name": "8.A.5 Full Address",
+  "page": 10
+ },
+ {
+  "id": "8A6NameOfFacilityOrOffice",
+  "type": "shortText",
+  "name": "8.A.6 Name of Facility or Office",
+  "page": 10
+ },
+ {
+  "id": "8A6NameOfHealthcareProviderThatTreatedYou",
+  "type": "fullName",
+  "name": "8.A.6 Name of Healthcare Provider That Treated You",
+  "page": 10
+ },
+ {
+  "id": "8A6WhatMedicalConditionsWereTreatedOrEvaluated",
+  "type": "shortText",
+  "name": "8.A.6 What Medical Conditions Were Treated or Evaluated",
+  "page": 10
+ },
+ {
+  "id": "8A6PhoneNumber",
+  "type": "phone",
+  "name": "8.A.6 Phone Number",
+  "page": 10
+ },
+ {
+  "id": "8A6DateFirstSeen",
+  "type": "date",
+  "name": "8.A.6 Date First Seen",
+  "page": 10
+ },
+ {
+  "id": "8A6DateLastSeen",
+  "type": "date",
+  "name": "8.A.6 Date Last Seen",
+  "page": 10
+ },
+ {
+  "id": "8A6DateOfNextAppointmentIfKnown",
+  "type": "date",
+  "name": "8.A.6 Date of Next Appointment (If Known)",
+  "page": 10
+ },
+ {
+  "id": "8A6FullAddress",
+  "type": "usAddress",
+  "name": "8.A.6 Full Address",
+  "page": 10
+ },
+ {
+  "id": "8BMedicalTestsOrdered",
+  "type": "radioGroup",
+  "name": "8.B. Medical Tests Ordered",
+  "page": 11
+ },
+ {
+  "id": "bloodTestNotHivHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Blood test (not HIV) - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "bloodTestNotHivDateOfTest",
+  "type": "date",
+  "name": "Blood test (not HIV) - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "breathingTestHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Breathing test - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "breathingTestDateOfTest",
+  "type": "date",
+  "name": "Breathing test - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "cardiacCatheterizationHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Cardiac catheterization - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "cardiacCatheterizationDateOfTest",
+  "type": "date",
+  "name": "Cardiac catheterization - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "eegBrainWaveTestHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "EEG (brain wave test) - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "eegBrainWaveTestDateOfTest",
+  "type": "date",
+  "name": "EEG (brain wave test) - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "ekgHeartTestHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "EKG (heart test) - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "ekgHeartTestDateOfTest",
+  "type": "date",
+  "name": "EKG (heart test) - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "hearingTestHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Hearing test - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "hearingTestDateOfTest",
+  "type": "date",
+  "name": "Hearing test - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "hivTestHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "HIV test - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "hivTestDateOfTest",
+  "type": "date",
+  "name": "HIV test - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "speechLanguageTestHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Speech/language test - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "speechLanguageTestDateOfTest",
+  "type": "date",
+  "name": "Speech/language test - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "treadmillExerciseTestHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Treadmill (exercise test) - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "treadmillExerciseTestDateOfTest",
+  "type": "date",
+  "name": "Treadmill (exercise test) - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "visionTestHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Vision test - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "visionTestDateOfTest",
+  "type": "date",
+  "name": "Vision test - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "psychologicalIqTestHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Psychological/IQ test - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "psychologicalIqTestDateOfTest",
+  "type": "date",
+  "name": "Psychological/IQ test - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "biopsyBodyPart",
+  "type": "shortText",
+  "name": "Biopsy - Body Part",
+  "page": 11
+ },
+ {
+  "id": "biopsyHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Biopsy - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "biopsyDateOfTest",
+  "type": "date",
+  "name": "Biopsy - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "mriCtScanBodyPart",
+  "type": "shortText",
+  "name": "MRI/CT scan - Body Part",
+  "page": 11
+ },
+ {
+  "id": "mriCtScanHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "MRI/CT scan - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "mriCtScanDateOfTest",
+  "type": "date",
+  "name": "MRI/CT scan - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "xRayBodyPart",
+  "type": "shortText",
+  "name": "X-ray - Body Part",
+  "page": 11
+ },
+ {
+  "id": "xRayHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "X-ray - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "xRayDateOfTest",
+  "type": "date",
+  "name": "X-ray - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "otherPleaseSpecify",
+  "type": "shortText",
+  "name": "Other - Please Specify",
+  "page": 11
+ },
+ {
+  "id": "otherHealthcareProviderOrFacility",
+  "type": "shortText",
+  "name": "Other - Healthcare Provider or Facility",
+  "page": 11
+ },
+ {
+  "id": "otherDateOfTest",
+  "type": "date",
+  "name": "Other - Date of Test",
+  "page": 11
+ },
+ {
+  "id": "yesNoOrganizationHasMedicalInformation",
+  "type": "radioGroup",
+  "name": "YES/NO - Organization Has Medical Information",
+  "page": 12
+ },
+ {
+  "id": "nameOfOrganization",
+  "type": "shortText",
+  "name": "Name of Organization",
+  "page": 12
+ },
+ {
+  "id": "organizationPhoneNumber",
+  "type": "phone",
+  "name": "Organization Phone Number",
+  "page": 12
+ },
+ {
+  "id": "organizationAddress",
+  "type": "usAddress",
+  "name": "Organization Address",
+  "page": 12
+ },
+ {
+  "id": "nameOfContactPerson",
+  "type": "fullName",
+  "name": "Name of Contact Person",
+  "page": 12
+ },
+ {
+  "id": "claimNumberIfAny",
+  "type": "shortText",
+  "name": "Claim Number (if any)",
+  "page": 12
+ },
+ {
+  "id": "dateOfFirstContact",
+  "type": "date",
+  "name": "Date of First Contact",
+  "page": 12
+ },
+ {
+  "id": "dateOfLastContact",
+  "type": "date",
+  "name": "Date of Last Contact",
+  "page": 12
+ },
+ {
+  "id": "dateOfNextContactIfAny",
+  "type": "date",
+  "name": "Date of Next Contact (if any)",
+  "page": 12
+ },
+ {
+  "id": "reasonsForContacts",
+  "type": "longText",
+  "name": "Reasons for Contacts",
+  "page": 12
+ },
+ {
+  "id": "yesNoParticipateInSupportServices",
+  "type": "radioGroup",
+  "name": "YES/NO - Participate in Support Services",
+  "page": 12
+ },
+ {
+  "id": "10BFacilityOrOrganizationName",
+  "type": "shortText",
+  "name": "10.B. Facility or Organization Name",
+  "page": 12
+ },
+ {
+  "id": "facilityOrganizationPhoneNumber",
+  "type": "phone",
+  "name": "Facility/Organization Phone Number",
+  "page": 12
+ },
+ {
+  "id": "counselorInstructorOrJobCoachName",
+  "type": "fullName",
+  "name": "Counselor, Instructor, or Job Coach Name",
+  "page": 12
+ },
+ {
+  "id": "facilityOrganizationAddress",
+  "type": "usAddress",
+  "name": "Facility/Organization Address",
+  "page": 12
+ },
+ {
+  "id": "stillParticipatingInPlanProgramYesOrNo",
+  "type": "radioGroup",
+  "name": "Still Participating in Plan/Program (YES or NO)",
+  "page": 13
+ },
+ {
+  "id": "yesDateBeganMmYyyy",
+  "type": "date",
+  "name": "YES - Date Began (MM/YYYY)",
+  "page": 13
+ },
+ {
+  "id": "expectedCompletionDateMmYyyy",
+  "type": "date",
+  "name": "Expected Completion Date (MM/YYYY)",
+  "page": 13
+ },
+ {
+  "id": "noDateBeganMmYyyy",
+  "type": "date",
+  "name": "NO - Date Began (MM/YYYY)",
+  "page": 13
+ },
+ {
+  "id": "dateStoppedMmYyyy",
+  "type": "date",
+  "name": "Date Stopped (MM/YYYY)",
+  "page": 13
+ },
+ {
+  "id": "reasonStopped",
+  "type": "shortText",
+  "name": "Reason Stopped",
+  "page": 13
+ },
+ {
+  "id": "serviceTypesProvided",
+  "type": "radioGroup",
+  "name": "Service Types Provided",
+  "page": 13
+ },
+ {
+  "id": "otherPleaseExplainCheckbox",
+  "type": "checkbox",
+  "name": "Other - Please Explain (checkbox)",
+  "page": 13
+ },
+ {
+  "id": "otherPleaseExplainDescription",
+  "type": "shortText",
+  "name": "Other - Please Explain (description)",
+  "page": 13
+ },
+ {
+  "id": "section11Remarks",
+  "type": "longText",
+  "name": "Section 11 - Remarks",
+  "page": 13
+ },
+ {
+  "id": "section11RemarksContinued",
+  "type": "longText",
+  "name": "Section 11 Remarks (continued)",
+  "page": 14
+ },
+ {
+  "id": "dateReportCompleted",
+  "type": "date",
+  "name": "Date Report Completed",
+  "page": 14
+ },
+ {
+  "id": "whoIsCompletingThisReport",
+  "type": "radioGroup",
+  "name": "Who is completing this report",
+  "page": 14
+ },
+ {
+  "id": "completerNameFirstMiddleInitialLast",
+  "type": "fullName",
+  "name": "Completer Name (First, Middle Initial, Last)",
+  "page": 14
+ },
+ {
+  "id": "relationshipToThePersonIn1A",
+  "type": "shortText",
+  "name": "Relationship to the Person in 1.A.",
+  "page": 14
+ },
+ {
+  "id": "completerMailingAddress",
+  "type": "usAddress",
+  "name": "Completer Mailing Address",
+  "page": 14
+ },
+ {
+  "id": "daytimePhoneNumber",
+  "type": "phone",
+  "name": "Daytime Phone Number",
+  "page": 14
+ },
+ {
+  "id": "additionalCheckbox",
+  "type": "checkbox",
+  "name": "Additional Checkbox",
+  "page": 14
+ }
+]

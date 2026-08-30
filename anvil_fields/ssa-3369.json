@@ -1,0 +1,1922 @@
+[
+ {
+  "id": "pageNumber",
+  "type": "shortText",
+  "name": "Page Number",
+  "page": 0
+ },
+ {
+  "id": "ombNumber",
+  "type": "shortText",
+  "name": "OMB Number",
+  "page": 0
+ },
+ {
+  "id": "pageNumber1",
+  "type": "shortText",
+  "name": "Page Number",
+  "page": 1
+ },
+ {
+  "id": "pageNumber2",
+  "type": "shortText",
+  "name": "Page Number",
+  "page": 1
+ },
+ {
+  "id": "ombNumber1",
+  "type": "shortText",
+  "name": "OMB Number",
+  "page": 2
+ },
+ {
+  "id": "applicantNameFirstMiddleInitialLastSuffix",
+  "type": "fullName",
+  "name": "Applicant Name (First, Middle Initial, Last, Suffix)",
+  "page": 2
+ },
+ {
+  "id": "socialSecurityNumber",
+  "type": "shortText",
+  "name": "Social Security Number",
+  "page": 2
+ },
+ {
+  "id": "primaryDaytimePhoneNumber",
+  "type": "phone",
+  "name": "Primary Daytime Phone Number",
+  "page": 2
+ },
+ {
+  "id": "secondaryDaytimePhoneNumber",
+  "type": "phone",
+  "name": "Secondary Daytime Phone Number",
+  "page": 2
+ },
+ {
+  "id": "jobTitle1",
+  "type": "shortText",
+  "name": "Job Title 1",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness1",
+  "type": "shortText",
+  "name": "Type of Business 1",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob1",
+  "type": "date",
+  "name": "Date From (Job 1)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob1",
+  "type": "date",
+  "name": "Date To (Job 1)",
+  "page": 2
+ },
+ {
+  "id": "jobTitle2",
+  "type": "shortText",
+  "name": "Job Title 2",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness2",
+  "type": "shortText",
+  "name": "Type of Business 2",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob2",
+  "type": "date",
+  "name": "Date From (Job 2)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob2",
+  "type": "date",
+  "name": "Date To (Job 2)",
+  "page": 2
+ },
+ {
+  "id": "jobTitle3",
+  "type": "shortText",
+  "name": "Job Title 3",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness3",
+  "type": "shortText",
+  "name": "Type of Business 3",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob3",
+  "type": "date",
+  "name": "Date From (Job 3)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob3",
+  "type": "date",
+  "name": "Date To (Job 3)",
+  "page": 2
+ },
+ {
+  "id": "jobTitle4",
+  "type": "shortText",
+  "name": "Job Title 4",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness4",
+  "type": "shortText",
+  "name": "Type of Business 4",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob4",
+  "type": "date",
+  "name": "Date From (Job 4)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob4",
+  "type": "date",
+  "name": "Date To (Job 4)",
+  "page": 2
+ },
+ {
+  "id": "jobTitle5",
+  "type": "shortText",
+  "name": "Job Title 5",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness5",
+  "type": "shortText",
+  "name": "Type of Business 5",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob5",
+  "type": "date",
+  "name": "Date From (Job 5)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob5",
+  "type": "date",
+  "name": "Date To (Job 5)",
+  "page": 2
+ },
+ {
+  "id": "jobTitle6",
+  "type": "shortText",
+  "name": "Job Title 6",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness6",
+  "type": "shortText",
+  "name": "Type of Business 6",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob6",
+  "type": "date",
+  "name": "Date From (Job 6)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob6",
+  "type": "date",
+  "name": "Date To (Job 6)",
+  "page": 2
+ },
+ {
+  "id": "jobTitle7",
+  "type": "shortText",
+  "name": "Job Title 7",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness7",
+  "type": "shortText",
+  "name": "Type of Business 7",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob7",
+  "type": "date",
+  "name": "Date From (Job 7)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob7",
+  "type": "date",
+  "name": "Date To (Job 7)",
+  "page": 2
+ },
+ {
+  "id": "jobTitle8",
+  "type": "shortText",
+  "name": "Job Title 8",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness8",
+  "type": "shortText",
+  "name": "Type of Business 8",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob8",
+  "type": "date",
+  "name": "Date From (Job 8)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob8",
+  "type": "date",
+  "name": "Date To (Job 8)",
+  "page": 2
+ },
+ {
+  "id": "jobTitle9",
+  "type": "shortText",
+  "name": "Job Title 9",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness9",
+  "type": "shortText",
+  "name": "Type of Business 9",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob9",
+  "type": "date",
+  "name": "Date From (Job 9)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob9",
+  "type": "date",
+  "name": "Date To (Job 9)",
+  "page": 2
+ },
+ {
+  "id": "jobTitle10",
+  "type": "shortText",
+  "name": "Job Title 10",
+  "page": 2
+ },
+ {
+  "id": "typeOfBusiness10",
+  "type": "shortText",
+  "name": "Type of Business 10",
+  "page": 2
+ },
+ {
+  "id": "dateFromJob10",
+  "type": "date",
+  "name": "Date From (Job 10)",
+  "page": 2
+ },
+ {
+  "id": "dateToJob10",
+  "type": "date",
+  "name": "Date To (Job 10)",
+  "page": 2
+ },
+ {
+  "id": "jobTitleNo1",
+  "type": "shortText",
+  "name": "Job Title No. 1",
+  "page": 3
+ },
+ {
+  "id": "rateOfPay1",
+  "type": "dollar",
+  "name": "Rate of Pay",
+  "page": 3
+ },
+ {
+  "id": "rateOfPayPeriod1",
+  "type": "radioGroup",
+  "name": "Rate of Pay Period",
+  "page": 3
+ },
+ {
+  "id": "hoursPerDay1",
+  "type": "number",
+  "name": "Hours per Day",
+  "page": 3
+ },
+ {
+  "id": "daysPerWeek1",
+  "type": "number",
+  "name": "Days per Week",
+  "page": 3
+ },
+ {
+  "id": "jobNo1TasksDescription",
+  "type": "longText",
+  "name": "Job No. 1 Tasks Description",
+  "page": 3
+ },
+ {
+  "id": "reportsWrittenOrCompletedDescription1",
+  "type": "longText",
+  "name": "Reports Written or Completed Description",
+  "page": 3
+ },
+ {
+  "id": "supervisoryDutiesDescription1",
+  "type": "longText",
+  "name": "Supervisory Duties Description",
+  "page": 3
+ },
+ {
+  "id": "machinesToolsAndEquipmentUsedDescription1",
+  "type": "longText",
+  "name": "Machines, Tools, and Equipment Used Description",
+  "page": 3
+ },
+ {
+  "id": "didThisJobRequireInteraction",
+  "type": "radioGroup",
+  "name": "Did This Job Require Interaction",
+  "page": 3
+ },
+ {
+  "id": "interactionDescription1",
+  "type": "longText",
+  "name": "Interaction Description",
+  "page": 3
+ },
+ {
+  "id": "standingAndWalkingCombinedHoursMinutes2",
+  "type": "shortText",
+  "name": "Standing and Walking (combined) Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "sittingHoursMinutes2",
+  "type": "shortText",
+  "name": "Sitting Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "stoopingHoursMinutes2",
+  "type": "shortText",
+  "name": "Stooping Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "kneelingHoursMinutes2",
+  "type": "shortText",
+  "name": "Kneeling Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "crouchingHoursMinutes2",
+  "type": "shortText",
+  "name": "Crouching Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "crawlingHoursMinutes2",
+  "type": "shortText",
+  "name": "Crawling Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "usingFingersHandUsed",
+  "type": "radioGroup",
+  "name": "Using Fingers Hand Used",
+  "page": 4
+ },
+ {
+  "id": "usingFingersHoursMinutes2",
+  "type": "shortText",
+  "name": "Using Fingers Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "usingHandsToSeizeHoldHandUsed",
+  "type": "radioGroup",
+  "name": "Using Hands to Seize/Hold Hand Used",
+  "page": 4
+ },
+ {
+  "id": "usingHandsToSeizeHoldHoursMinutes1",
+  "type": "shortText",
+  "name": "Using Hands to Seize/Hold Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "reachingAtOrBelowShoulderArmUsed",
+  "type": "radioGroup",
+  "name": "Reaching at or Below Shoulder Arm Used",
+  "page": 4
+ },
+ {
+  "id": "reachingAtOrBelowShoulderHoursMinutes2",
+  "type": "shortText",
+  "name": "Reaching at or below shoulder Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "reachingOverheadArmUsed",
+  "type": "radioGroup",
+  "name": "Reaching Overhead Arm Used",
+  "page": 4
+ },
+ {
+  "id": "reachingOverheadHoursMinutes2",
+  "type": "shortText",
+  "name": "Reaching Overhead Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "climbingStairsOrRampsHoursMinutes2",
+  "type": "shortText",
+  "name": "Climbing Stairs or Ramps Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "climbingLaddersRopesOrScaffoldsHoursMinutes2",
+  "type": "shortText",
+  "name": "Climbing Ladders, Ropes, or Scaffolds Hours/Minutes",
+  "page": 4
+ },
+ {
+  "id": "liftingAndCarryingDescription2",
+  "type": "longText",
+  "name": "Lifting and Carrying Description",
+  "page": 4
+ },
+ {
+  "id": "heaviestWeightLifted",
+  "type": "radioGroup",
+  "name": "Heaviest Weight Lifted",
+  "page": 4
+ },
+ {
+  "id": "heaviestWeightLiftedOtherSpecify",
+  "type": "shortText",
+  "name": "Heaviest Weight Lifted - Other Specify",
+  "page": 4
+ },
+ {
+  "id": "frequentlyLiftedWeight",
+  "type": "radioGroup",
+  "name": "Frequently Lifted Weight",
+  "page": 4
+ },
+ {
+  "id": "frequentlyLiftedWeightOtherSpecify",
+  "type": "shortText",
+  "name": "Frequently Lifted Weight - Other Specify",
+  "page": 4
+ },
+ {
+  "id": "jobExposureOutdoorsCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Outdoors Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureExtremeHeatCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Extreme Heat Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureExtremeColdCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Extreme Cold Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureWetnessCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Wetness Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureHumidityCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Humidity Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureHazardousSubstancesCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Hazardous Substances Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureMovingMechanicalPartsCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Moving Mechanical Parts Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureHighExposedPlacesCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - High Exposed Places Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureHeavyVibrationsCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Heavy Vibrations Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureLoudNoisesCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Loud Noises Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureOtherCheckbox",
+  "type": "checkbox",
+  "name": "Job Exposure - Other Checkbox",
+  "page": 4
+ },
+ {
+  "id": "jobExposureOtherSpecify",
+  "type": "shortText",
+  "name": "Job Exposure - Other Specify",
+  "page": 4
+ },
+ {
+  "id": "exposureDescription",
+  "type": "longText",
+  "name": "Exposure Description",
+  "page": 4
+ },
+ {
+  "id": "medicalConditionsEffectOnJobAbility2",
+  "type": "longText",
+  "name": "Medical Conditions Effect on Job Ability",
+  "page": 4
+ },
+ {
+  "id": "jobTitleNo2",
+  "type": "shortText",
+  "name": "Job Title No. 2",
+  "page": 5
+ },
+ {
+  "id": "rateOfPay2",
+  "type": "dollar",
+  "name": "Rate of Pay",
+  "page": 5
+ },
+ {
+  "id": "rateOfPayPerPeriod",
+  "type": "radioGroup",
+  "name": "Rate of Pay Per Period",
+  "page": 5
+ },
+ {
+  "id": "hoursPerDay2",
+  "type": "number",
+  "name": "Hours per Day",
+  "page": 5
+ },
+ {
+  "id": "daysPerWeek2",
+  "type": "number",
+  "name": "Days per Week",
+  "page": 5
+ },
+ {
+  "id": "typicalWorkdayTasksDescription",
+  "type": "longText",
+  "name": "Typical Workday Tasks Description",
+  "page": 5
+ },
+ {
+  "id": "reportsWrittenOrCompletedDescription2",
+  "type": "longText",
+  "name": "Reports Written or Completed Description",
+  "page": 5
+ },
+ {
+  "id": "supervisoryDutiesDescription2",
+  "type": "longText",
+  "name": "Supervisory Duties Description",
+  "page": 5
+ },
+ {
+  "id": "machinesToolsAndEquipmentUsedDescription2",
+  "type": "longText",
+  "name": "Machines, Tools, and Equipment Used Description",
+  "page": 5
+ },
+ {
+  "id": "didJobRequireInteractionWithOthers1",
+  "type": "radioGroup",
+  "name": "Did Job Require Interaction with Others",
+  "page": 5
+ },
+ {
+  "id": "interactionDescription2",
+  "type": "longText",
+  "name": "Interaction Description",
+  "page": 5
+ },
+ {
+  "id": "standingAndWalkingCombinedHoursMinutes3",
+  "type": "shortText",
+  "name": "Standing and walking (combined) Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "sittingHoursMinutes3",
+  "type": "shortText",
+  "name": "Sitting Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "stoopingHoursMinutes3",
+  "type": "shortText",
+  "name": "Stooping Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "kneelingHoursMinutes3",
+  "type": "shortText",
+  "name": "Kneeling Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "crouchingHoursMinutes3",
+  "type": "shortText",
+  "name": "Crouching Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "crawlingHoursMinutes3",
+  "type": "shortText",
+  "name": "Crawling Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "usingFingersHandSelection2",
+  "type": "radioGroup",
+  "name": "Using fingers hand selection",
+  "page": 6
+ },
+ {
+  "id": "usingFingersHoursMinutes3",
+  "type": "shortText",
+  "name": "Using fingers Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "usingHandsSelection",
+  "type": "radioGroup",
+  "name": "Using hands selection",
+  "page": 6
+ },
+ {
+  "id": "usingHandsHoursMinutes1",
+  "type": "shortText",
+  "name": "Using hands Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "reachingAtOrBelowShoulderArmSelection2",
+  "type": "radioGroup",
+  "name": "Reaching at or below shoulder arm selection",
+  "page": 6
+ },
+ {
+  "id": "reachingAtOrBelowShoulderHoursMinutes3",
+  "type": "shortText",
+  "name": "Reaching at or below shoulder Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "reachingOverheadArmSelection2",
+  "type": "radioGroup",
+  "name": "Reaching overhead arm selection",
+  "page": 6
+ },
+ {
+  "id": "reachingOverheadHoursMinutes3",
+  "type": "shortText",
+  "name": "Reaching overhead Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "climbingStairsOrRampsHoursMinutes3",
+  "type": "shortText",
+  "name": "Climbing stairs or ramps Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "climbingLaddersRopesOrScaffoldsHoursMinutes3",
+  "type": "shortText",
+  "name": "Climbing ladders, ropes, or scaffolds Hours/Minutes",
+  "page": 6
+ },
+ {
+  "id": "liftingAndCarryingExplanation",
+  "type": "longText",
+  "name": "Lifting and carrying explanation",
+  "page": 6
+ },
+ {
+  "id": "heaviestWeightLiftedSelection",
+  "type": "radioGroup",
+  "name": "Heaviest weight lifted selection",
+  "page": 6
+ },
+ {
+  "id": "heaviestWeightLiftedOtherDescription2",
+  "type": "shortText",
+  "name": "Heaviest weight lifted - Other description",
+  "page": 6
+ },
+ {
+  "id": "frequentlyLiftedWeightSelection",
+  "type": "radioGroup",
+  "name": "Frequently lifted weight selection",
+  "page": 6
+ },
+ {
+  "id": "frequentlyLiftedWeightOtherDescription2",
+  "type": "shortText",
+  "name": "Frequently lifted weight - Other description",
+  "page": 6
+ },
+ {
+  "id": "jobExposureOutdoors2",
+  "type": "checkbox",
+  "name": "Job exposure - Outdoors",
+  "page": 6
+ },
+ {
+  "id": "jobExposureExtremeHeatNonWeatherRelated1",
+  "type": "checkbox",
+  "name": "Job exposure - Extreme heat (non-weather related)",
+  "page": 6
+ },
+ {
+  "id": "jobExposureExtremeColdNonWeatherRelated1",
+  "type": "checkbox",
+  "name": "Job exposure - Extreme cold (non-weather related)",
+  "page": 6
+ },
+ {
+  "id": "jobExposureWetness2",
+  "type": "checkbox",
+  "name": "Job exposure - Wetness",
+  "page": 6
+ },
+ {
+  "id": "jobExposureHumidity2",
+  "type": "checkbox",
+  "name": "Job exposure - Humidity",
+  "page": 6
+ },
+ {
+  "id": "jobExposureHazardousSubstances2",
+  "type": "checkbox",
+  "name": "Job exposure - Hazardous substances",
+  "page": 6
+ },
+ {
+  "id": "jobExposureMovingMechanicalParts2",
+  "type": "checkbox",
+  "name": "Job exposure - Moving mechanical parts",
+  "page": 6
+ },
+ {
+  "id": "jobExposureHighExposedPlaces2",
+  "type": "checkbox",
+  "name": "Job exposure - High, exposed places",
+  "page": 6
+ },
+ {
+  "id": "jobExposureHeavyVibrations2",
+  "type": "checkbox",
+  "name": "Job exposure - Heavy vibrations",
+  "page": 6
+ },
+ {
+  "id": "jobExposureLoudNoises2",
+  "type": "checkbox",
+  "name": "Job exposure - Loud noises",
+  "page": 6
+ },
+ {
+  "id": "jobExposureOther2",
+  "type": "checkbox",
+  "name": "Job exposure - Other",
+  "page": 6
+ },
+ {
+  "id": "jobExposureOtherDescription2",
+  "type": "shortText",
+  "name": "Job exposure - Other description",
+  "page": 6
+ },
+ {
+  "id": "exposureExplanation",
+  "type": "longText",
+  "name": "Exposure explanation",
+  "page": 6
+ },
+ {
+  "id": "medicalConditionsEffectOnJobAbility3",
+  "type": "longText",
+  "name": "Medical conditions effect on job ability",
+  "page": 6
+ },
+ {
+  "id": "jobTitleNo3",
+  "type": "shortText",
+  "name": "Job Title No. 3",
+  "page": 7
+ },
+ {
+  "id": "rateOfPayJob3",
+  "type": "dollar",
+  "name": "Rate of Pay (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "payPeriodJob3",
+  "type": "radioGroup",
+  "name": "Pay Period (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "hoursPerDayJob3",
+  "type": "number",
+  "name": "Hours per Day (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "daysPerWeekJob3",
+  "type": "number",
+  "name": "Days per Week (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "typicalWorkdayTasksDescriptionJob3",
+  "type": "longText",
+  "name": "Typical Workday Tasks Description (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "reportsWrittenOrCompletedDescriptionJob3",
+  "type": "longText",
+  "name": "Reports Written or Completed Description (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "supervisoryDutiesDescriptionJob3",
+  "type": "longText",
+  "name": "Supervisory Duties Description (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "machinesToolsAndEquipmentUsedJob3",
+  "type": "longText",
+  "name": "Machines, Tools, and Equipment Used (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "interactWithOthersJob3",
+  "type": "radioGroup",
+  "name": "Interact with Others (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "interactionDescriptionJob3",
+  "type": "longText",
+  "name": "Interaction Description (Job 3)",
+  "page": 7
+ },
+ {
+  "id": "standingAndWalkingCombinedHoursMinutes4",
+  "type": "shortText",
+  "name": "Standing and Walking (combined) Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "sittingHoursMinutes4",
+  "type": "shortText",
+  "name": "Sitting Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "stoopingHoursMinutes4",
+  "type": "shortText",
+  "name": "Stooping Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "kneelingHoursMinutes4",
+  "type": "shortText",
+  "name": "Kneeling Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "crouchingHoursMinutes4",
+  "type": "shortText",
+  "name": "Crouching Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "crawlingHoursMinutes4",
+  "type": "shortText",
+  "name": "Crawling Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "usingFingersHandUsed1",
+  "type": "radioGroup",
+  "name": "Using Fingers - Hand Used",
+  "page": 8
+ },
+ {
+  "id": "usingFingersHoursMinutes4",
+  "type": "shortText",
+  "name": "Using Fingers Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "usingHandsHandUsed",
+  "type": "radioGroup",
+  "name": "Using Hands - Hand Used",
+  "page": 8
+ },
+ {
+  "id": "usingHandsHoursMinutes2",
+  "type": "shortText",
+  "name": "Using Hands Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "reachingAtOrBelowShoulderArmsUsed",
+  "type": "radioGroup",
+  "name": "Reaching at or below shoulder - Arms Used",
+  "page": 8
+ },
+ {
+  "id": "reachingAtOrBelowShoulderHoursMinutes4",
+  "type": "shortText",
+  "name": "Reaching at or below shoulder Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "reachingOverheadArmsUsed",
+  "type": "radioGroup",
+  "name": "Reaching overhead - Arms Used",
+  "page": 8
+ },
+ {
+  "id": "reachingOverheadHoursMinutes4",
+  "type": "shortText",
+  "name": "Reaching overhead Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "climbingStairsOrRampsHoursMinutes4",
+  "type": "shortText",
+  "name": "Climbing stairs or ramps Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "climbingLaddersRopesOrScaffoldsHoursMinutes4",
+  "type": "shortText",
+  "name": "Climbing ladders, ropes, or scaffolds Hours/Minutes",
+  "page": 8
+ },
+ {
+  "id": "liftingAndCarryingDescription3",
+  "type": "longText",
+  "name": "Lifting and Carrying Description",
+  "page": 8
+ },
+ {
+  "id": "heaviestWeightLiftedLessThan1Lb2",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - Less than 1 lb",
+  "page": 8
+ },
+ {
+  "id": "heaviestWeightLiftedLessThan10Lbs2",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - Less than 10 lbs",
+  "page": 8
+ },
+ {
+  "id": "heaviestWeightLifted10Lbs2",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - 10 lbs",
+  "page": 8
+ },
+ {
+  "id": "heaviestWeightLifted20Lbs2",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - 20 lbs",
+  "page": 8
+ },
+ {
+  "id": "heaviestWeightLifted50Lbs2",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - 50 lbs",
+  "page": 8
+ },
+ {
+  "id": "heaviestWeightLifted100LbsOrMore2",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - 100 lbs or more",
+  "page": 8
+ },
+ {
+  "id": "heaviestWeightLiftedOther2",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - Other",
+  "page": 8
+ },
+ {
+  "id": "heaviestWeightLiftedOtherDescription3",
+  "type": "shortText",
+  "name": "Heaviest Weight Lifted - Other Description",
+  "page": 8
+ },
+ {
+  "id": "frequentlyLiftedWeightLessThan1Lb2",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - Less than 1 lb",
+  "page": 8
+ },
+ {
+  "id": "frequentlyLiftedWeightLessThan10Lbs2",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - Less than 10 lbs",
+  "page": 8
+ },
+ {
+  "id": "frequentlyLiftedWeight10Lbs2",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - 10 lbs",
+  "page": 8
+ },
+ {
+  "id": "frequentlyLiftedWeight25Lbs2",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - 25 lbs",
+  "page": 8
+ },
+ {
+  "id": "frequentlyLiftedWeight50LbsOrMore2",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - 50 lbs or more",
+  "page": 8
+ },
+ {
+  "id": "frequentlyLiftedWeightOther2",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - Other",
+  "page": 8
+ },
+ {
+  "id": "frequentlyLiftedWeightOtherDescription3",
+  "type": "shortText",
+  "name": "Frequently Lifted Weight - Other Description",
+  "page": 8
+ },
+ {
+  "id": "jobExposureOutdoors3",
+  "type": "checkbox",
+  "name": "Job Exposure - Outdoors",
+  "page": 8
+ },
+ {
+  "id": "jobExposureExtremeHeatNonWeatherRelated2",
+  "type": "checkbox",
+  "name": "Job Exposure - Extreme Heat (non-weather related)",
+  "page": 8
+ },
+ {
+  "id": "jobExposureExtremeColdNonWeatherRelated2",
+  "type": "checkbox",
+  "name": "Job Exposure - Extreme Cold (non-weather related)",
+  "page": 8
+ },
+ {
+  "id": "jobExposureWetness3",
+  "type": "checkbox",
+  "name": "Job Exposure - Wetness",
+  "page": 8
+ },
+ {
+  "id": "jobExposureHumidity3",
+  "type": "checkbox",
+  "name": "Job Exposure - Humidity",
+  "page": 8
+ },
+ {
+  "id": "jobExposureHazardousSubstances3",
+  "type": "checkbox",
+  "name": "Job Exposure - Hazardous Substances",
+  "page": 8
+ },
+ {
+  "id": "jobExposureMovingMechanicalParts3",
+  "type": "checkbox",
+  "name": "Job Exposure - Moving Mechanical Parts",
+  "page": 8
+ },
+ {
+  "id": "jobExposureHighExposedPlaces3",
+  "type": "checkbox",
+  "name": "Job Exposure - High, Exposed Places",
+  "page": 8
+ },
+ {
+  "id": "jobExposureHeavyVibrations3",
+  "type": "checkbox",
+  "name": "Job Exposure - Heavy Vibrations",
+  "page": 8
+ },
+ {
+  "id": "jobExposureLoudNoises3",
+  "type": "checkbox",
+  "name": "Job Exposure - Loud Noises",
+  "page": 8
+ },
+ {
+  "id": "jobExposureOther3",
+  "type": "checkbox",
+  "name": "Job Exposure - Other",
+  "page": 8
+ },
+ {
+  "id": "jobExposureOtherDescription3",
+  "type": "shortText",
+  "name": "Job Exposure - Other Description",
+  "page": 8
+ },
+ {
+  "id": "exposureDescription1",
+  "type": "longText",
+  "name": "Exposure Description",
+  "page": 8
+ },
+ {
+  "id": "medicalConditionsEffectOnJobAbility4",
+  "type": "longText",
+  "name": "Medical Conditions Effect on Job Ability",
+  "page": 8
+ },
+ {
+  "id": "jobTitleNo4",
+  "type": "shortText",
+  "name": "Job Title No. 4",
+  "page": 9
+ },
+ {
+  "id": "rateOfPay3",
+  "type": "dollar",
+  "name": "Rate of Pay",
+  "page": 9
+ },
+ {
+  "id": "rateOfPayPeriod2",
+  "type": "radioGroup",
+  "name": "Rate of Pay Period",
+  "page": 9
+ },
+ {
+  "id": "hoursPerDay3",
+  "type": "number",
+  "name": "Hours per Day",
+  "page": 9
+ },
+ {
+  "id": "daysPerWeek3",
+  "type": "number",
+  "name": "Days per Week",
+  "page": 9
+ },
+ {
+  "id": "jobNo4TypicalWorkdayTasksDescription",
+  "type": "longText",
+  "name": "Job No. 4 - Typical Workday Tasks Description",
+  "page": 9
+ },
+ {
+  "id": "jobNo4ReportsWrittenOrCompletedDescription",
+  "type": "longText",
+  "name": "Job No. 4 - Reports Written or Completed Description",
+  "page": 9
+ },
+ {
+  "id": "jobNo4SupervisoryDutiesDescription",
+  "type": "longText",
+  "name": "Job No. 4 - Supervisory Duties Description",
+  "page": 9
+ },
+ {
+  "id": "jobNo4MachinesToolsAndEquipmentUsedDescription",
+  "type": "longText",
+  "name": "Job No. 4 - Machines, Tools, and Equipment Used Description",
+  "page": 9
+ },
+ {
+  "id": "didJobRequireInteractionWithCoworkersPublic",
+  "type": "radioGroup",
+  "name": "Did Job Require Interaction with Coworkers/Public",
+  "page": 9
+ },
+ {
+  "id": "jobNo4InteractionWithCoworkersPublicDescription",
+  "type": "longText",
+  "name": "Job No. 4 - Interaction with Coworkers/Public Description",
+  "page": 9
+ },
+ {
+  "id": "standingAndWalkingCombinedHoursMinutes",
+  "type": "shortText",
+  "name": "Standing and walking (combined) Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "sittingHoursMinutes",
+  "type": "shortText",
+  "name": "Sitting Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "stoopingHoursMinutes",
+  "type": "shortText",
+  "name": "Stooping Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "kneelingHoursMinutes",
+  "type": "shortText",
+  "name": "Kneeling Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "crouchingHoursMinutes",
+  "type": "shortText",
+  "name": "Crouching Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "crawlingHoursMinutes",
+  "type": "shortText",
+  "name": "Crawling Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "usingFingersHandSelection",
+  "type": "radioGroup",
+  "name": "Using fingers hand selection",
+  "page": 10
+ },
+ {
+  "id": "usingFingersHoursMinutes",
+  "type": "shortText",
+  "name": "Using fingers Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "usingHandsHandSelection",
+  "type": "radioGroup",
+  "name": "Using hands hand selection",
+  "page": 10
+ },
+ {
+  "id": "usingHandsHoursMinutes",
+  "type": "shortText",
+  "name": "Using hands Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "reachingAtOrBelowShoulderArmSelection",
+  "type": "radioGroup",
+  "name": "Reaching at or below shoulder arm selection",
+  "page": 10
+ },
+ {
+  "id": "reachingAtOrBelowShoulderHoursMinutes",
+  "type": "shortText",
+  "name": "Reaching at or below shoulder Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "reachingOverheadArmSelection",
+  "type": "radioGroup",
+  "name": "Reaching overhead arm selection",
+  "page": 10
+ },
+ {
+  "id": "reachingOverheadHoursMinutes",
+  "type": "shortText",
+  "name": "Reaching overhead Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "climbingStairsOrRampsHoursMinutes",
+  "type": "shortText",
+  "name": "Climbing stairs or ramps Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "climbingLaddersRopesOrScaffoldsHoursMinutes",
+  "type": "shortText",
+  "name": "Climbing ladders, ropes, or scaffolds Hours/Minutes",
+  "page": 10
+ },
+ {
+  "id": "liftingAndCarryingDescription",
+  "type": "longText",
+  "name": "Lifting and carrying description",
+  "page": 10
+ },
+ {
+  "id": "heaviestWeightLiftedLessThan1Lb",
+  "type": "checkbox",
+  "name": "Heaviest weight lifted - Less than 1 lb",
+  "page": 10
+ },
+ {
+  "id": "heaviestWeightLiftedLessThan10Lbs",
+  "type": "checkbox",
+  "name": "Heaviest weight lifted - Less than 10 lbs",
+  "page": 10
+ },
+ {
+  "id": "heaviestWeightLifted10Lbs",
+  "type": "checkbox",
+  "name": "Heaviest weight lifted - 10 lbs",
+  "page": 10
+ },
+ {
+  "id": "heaviestWeightLifted20Lbs",
+  "type": "checkbox",
+  "name": "Heaviest weight lifted - 20 lbs",
+  "page": 10
+ },
+ {
+  "id": "heaviestWeightLifted50Lbs",
+  "type": "checkbox",
+  "name": "Heaviest weight lifted - 50 lbs",
+  "page": 10
+ },
+ {
+  "id": "heaviestWeightLifted100LbsOrMore",
+  "type": "checkbox",
+  "name": "Heaviest weight lifted - 100 lbs or more",
+  "page": 10
+ },
+ {
+  "id": "heaviestWeightLiftedOther",
+  "type": "checkbox",
+  "name": "Heaviest weight lifted - Other",
+  "page": 10
+ },
+ {
+  "id": "heaviestWeightLiftedOtherDescription",
+  "type": "shortText",
+  "name": "Heaviest weight lifted - Other description",
+  "page": 10
+ },
+ {
+  "id": "frequentlyLiftedWeightLessThan1Lb",
+  "type": "checkbox",
+  "name": "Frequently lifted weight - Less than 1 lb",
+  "page": 10
+ },
+ {
+  "id": "frequentlyLiftedWeightLessThan10Lbs",
+  "type": "checkbox",
+  "name": "Frequently lifted weight - Less than 10 lbs",
+  "page": 10
+ },
+ {
+  "id": "frequentlyLiftedWeight10Lbs",
+  "type": "checkbox",
+  "name": "Frequently lifted weight - 10 lbs",
+  "page": 10
+ },
+ {
+  "id": "frequentlyLiftedWeight25Lbs",
+  "type": "checkbox",
+  "name": "Frequently lifted weight - 25 lbs",
+  "page": 10
+ },
+ {
+  "id": "frequentlyLiftedWeight50LbsOrMore",
+  "type": "checkbox",
+  "name": "Frequently lifted weight - 50 lbs or more",
+  "page": 10
+ },
+ {
+  "id": "frequentlyLiftedWeightOther",
+  "type": "checkbox",
+  "name": "Frequently lifted weight - Other",
+  "page": 10
+ },
+ {
+  "id": "frequentlyLiftedWeightOtherDescription",
+  "type": "shortText",
+  "name": "Frequently lifted weight - Other description",
+  "page": 10
+ },
+ {
+  "id": "jobExposureOutdoors",
+  "type": "checkbox",
+  "name": "Job exposure - Outdoors",
+  "page": 10
+ },
+ {
+  "id": "jobExposureExtremeHeatNonWeatherRelated",
+  "type": "checkbox",
+  "name": "Job exposure - Extreme heat (non-weather related)",
+  "page": 10
+ },
+ {
+  "id": "jobExposureExtremeColdNonWeatherRelated",
+  "type": "checkbox",
+  "name": "Job exposure - Extreme cold (non-weather related)",
+  "page": 10
+ },
+ {
+  "id": "jobExposureWetness",
+  "type": "checkbox",
+  "name": "Job exposure - Wetness",
+  "page": 10
+ },
+ {
+  "id": "jobExposureHumidity",
+  "type": "checkbox",
+  "name": "Job exposure - Humidity",
+  "page": 10
+ },
+ {
+  "id": "jobExposureHazardousSubstances",
+  "type": "checkbox",
+  "name": "Job exposure - Hazardous substances",
+  "page": 10
+ },
+ {
+  "id": "jobExposureMovingMechanicalParts",
+  "type": "checkbox",
+  "name": "Job exposure - Moving mechanical parts",
+  "page": 10
+ },
+ {
+  "id": "jobExposureHighExposedPlaces",
+  "type": "checkbox",
+  "name": "Job exposure - High, exposed places",
+  "page": 10
+ },
+ {
+  "id": "jobExposureHeavyVibrations",
+  "type": "checkbox",
+  "name": "Job exposure - Heavy vibrations",
+  "page": 10
+ },
+ {
+  "id": "jobExposureLoudNoises",
+  "type": "checkbox",
+  "name": "Job exposure - Loud noises",
+  "page": 10
+ },
+ {
+  "id": "jobExposureOther",
+  "type": "checkbox",
+  "name": "Job exposure - Other",
+  "page": 10
+ },
+ {
+  "id": "jobExposureOtherDescription",
+  "type": "shortText",
+  "name": "Job exposure - Other description",
+  "page": 10
+ },
+ {
+  "id": "exposureDetailsHowOftenExposed",
+  "type": "longText",
+  "name": "Exposure details (how often exposed)",
+  "page": 10
+ },
+ {
+  "id": "medicalConditionsEffectOnJobAbility",
+  "type": "longText",
+  "name": "Medical conditions effect on job ability",
+  "page": 10
+ },
+ {
+  "id": "jobTitleNo5",
+  "type": "shortText",
+  "name": "Job Title No. 5",
+  "page": 11
+ },
+ {
+  "id": "rateOfPay",
+  "type": "dollar",
+  "name": "Rate of Pay",
+  "page": 11
+ },
+ {
+  "id": "rateOfPayPeriod",
+  "type": "radioGroup",
+  "name": "Rate of Pay Period",
+  "page": 11
+ },
+ {
+  "id": "hoursPerDay",
+  "type": "number",
+  "name": "Hours per Day",
+  "page": 11
+ },
+ {
+  "id": "daysPerWeek",
+  "type": "number",
+  "name": "Days per Week",
+  "page": 11
+ },
+ {
+  "id": "jobNo5TypicalWorkdayTasksDescription",
+  "type": "longText",
+  "name": "Job No. 5 Typical Workday Tasks Description",
+  "page": 11
+ },
+ {
+  "id": "reportsWrittenOrCompletedDescription",
+  "type": "longText",
+  "name": "Reports Written or Completed Description",
+  "page": 11
+ },
+ {
+  "id": "supervisoryDutiesDescription",
+  "type": "longText",
+  "name": "Supervisory Duties Description",
+  "page": 11
+ },
+ {
+  "id": "machinesToolsAndEquipmentUsedDescription",
+  "type": "longText",
+  "name": "Machines, Tools, and Equipment Used Description",
+  "page": 11
+ },
+ {
+  "id": "didJobRequireInteractionWithOthers",
+  "type": "radioGroup",
+  "name": "Did Job Require Interaction with Others",
+  "page": 11
+ },
+ {
+  "id": "interactionDescription",
+  "type": "longText",
+  "name": "Interaction Description",
+  "page": 11
+ },
+ {
+  "id": "standingAndWalkingCombinedHoursMinutes1",
+  "type": "shortText",
+  "name": "Standing and Walking (combined) Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "sittingHoursMinutes1",
+  "type": "shortText",
+  "name": "Sitting Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "stoopingHoursMinutes1",
+  "type": "shortText",
+  "name": "Stooping Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "kneelingHoursMinutes1",
+  "type": "shortText",
+  "name": "Kneeling Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "crouchingHoursMinutes1",
+  "type": "shortText",
+  "name": "Crouching Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "crawlingHoursMinutes1",
+  "type": "shortText",
+  "name": "Crawling Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "usingFingersHandSelection1",
+  "type": "radioGroup",
+  "name": "Using Fingers Hand Selection",
+  "page": 12
+ },
+ {
+  "id": "usingFingersHoursMinutes1",
+  "type": "shortText",
+  "name": "Using Fingers Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "usingHandsToSeizeHoldHandSelection",
+  "type": "radioGroup",
+  "name": "Using Hands to Seize/Hold Hand Selection",
+  "page": 12
+ },
+ {
+  "id": "usingHandsToSeizeHoldHoursMinutes",
+  "type": "shortText",
+  "name": "Using Hands to Seize/Hold Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "reachingAtOrBelowShoulderArmSelection1",
+  "type": "radioGroup",
+  "name": "Reaching at or below shoulder Arm Selection",
+  "page": 12
+ },
+ {
+  "id": "reachingAtOrBelowShoulderHoursMinutes1",
+  "type": "shortText",
+  "name": "Reaching at or below shoulder Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "reachingOverheadArmSelection1",
+  "type": "radioGroup",
+  "name": "Reaching overhead Arm Selection",
+  "page": 12
+ },
+ {
+  "id": "reachingOverheadHoursMinutes1",
+  "type": "shortText",
+  "name": "Reaching overhead Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "climbingStairsOrRampsHoursMinutes1",
+  "type": "shortText",
+  "name": "Climbing Stairs or Ramps Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "climbingLaddersRopesOrScaffoldsHoursMinutes1",
+  "type": "shortText",
+  "name": "Climbing Ladders, Ropes, or Scaffolds Hours/Minutes",
+  "page": 12
+ },
+ {
+  "id": "liftingAndCarryingDescription1",
+  "type": "longText",
+  "name": "Lifting and Carrying Description",
+  "page": 12
+ },
+ {
+  "id": "heaviestWeightLiftedLessThan1Lb1",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - Less than 1 lb",
+  "page": 12
+ },
+ {
+  "id": "heaviestWeightLiftedLessThan10Lbs1",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - Less than 10 lbs",
+  "page": 12
+ },
+ {
+  "id": "heaviestWeightLifted10Lbs1",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - 10 lbs",
+  "page": 12
+ },
+ {
+  "id": "heaviestWeightLifted20Lbs1",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - 20 lbs",
+  "page": 12
+ },
+ {
+  "id": "heaviestWeightLifted50Lbs1",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - 50 lbs",
+  "page": 12
+ },
+ {
+  "id": "heaviestWeightLifted100LbsOrMore1",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - 100 lbs or more",
+  "page": 12
+ },
+ {
+  "id": "heaviestWeightLiftedOther1",
+  "type": "checkbox",
+  "name": "Heaviest Weight Lifted - Other",
+  "page": 12
+ },
+ {
+  "id": "heaviestWeightLiftedOtherDescription1",
+  "type": "shortText",
+  "name": "Heaviest Weight Lifted - Other Description",
+  "page": 12
+ },
+ {
+  "id": "frequentlyLiftedWeightLessThan1Lb1",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - Less than 1 lb",
+  "page": 12
+ },
+ {
+  "id": "frequentlyLiftedWeightLessThan10Lbs1",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - Less than 10 lbs",
+  "page": 12
+ },
+ {
+  "id": "frequentlyLiftedWeight10Lbs1",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - 10 lbs",
+  "page": 12
+ },
+ {
+  "id": "frequentlyLiftedWeight25Lbs1",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - 25 lbs",
+  "page": 12
+ },
+ {
+  "id": "frequentlyLiftedWeight50LbsOrMore1",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - 50 lbs or more",
+  "page": 12
+ },
+ {
+  "id": "frequentlyLiftedWeightOther1",
+  "type": "checkbox",
+  "name": "Frequently Lifted Weight - Other",
+  "page": 12
+ },
+ {
+  "id": "frequentlyLiftedWeightOtherDescription1",
+  "type": "shortText",
+  "name": "Frequently Lifted Weight - Other Description",
+  "page": 12
+ },
+ {
+  "id": "jobExposureOutdoors1",
+  "type": "checkbox",
+  "name": "Job Exposure - Outdoors",
+  "page": 12
+ },
+ {
+  "id": "jobExposureExtremeHeat",
+  "type": "checkbox",
+  "name": "Job Exposure - Extreme Heat",
+  "page": 12
+ },
+ {
+  "id": "jobExposureExtremeCold",
+  "type": "checkbox",
+  "name": "Job Exposure - Extreme Cold",
+  "page": 12
+ },
+ {
+  "id": "jobExposureWetness1",
+  "type": "checkbox",
+  "name": "Job Exposure - Wetness",
+  "page": 12
+ },
+ {
+  "id": "jobExposureHumidity1",
+  "type": "checkbox",
+  "name": "Job Exposure - Humidity",
+  "page": 12
+ },
+ {
+  "id": "jobExposureHazardousSubstances1",
+  "type": "checkbox",
+  "name": "Job Exposure - Hazardous Substances",
+  "page": 12
+ },
+ {
+  "id": "jobExposureMovingMechanicalParts1",
+  "type": "checkbox",
+  "name": "Job Exposure - Moving Mechanical Parts",
+  "page": 12
+ },
+ {
+  "id": "jobExposureHighExposedPlaces1",
+  "type": "checkbox",
+  "name": "Job Exposure - High Exposed Places",
+  "page": 12
+ },
+ {
+  "id": "jobExposureHeavyVibrations1",
+  "type": "checkbox",
+  "name": "Job Exposure - Heavy Vibrations",
+  "page": 12
+ },
+ {
+  "id": "jobExposureLoudNoises1",
+  "type": "checkbox",
+  "name": "Job Exposure - Loud Noises",
+  "page": 12
+ },
+ {
+  "id": "jobExposureOther1",
+  "type": "checkbox",
+  "name": "Job Exposure - Other",
+  "page": 12
+ },
+ {
+  "id": "jobExposureOtherDescription1",
+  "type": "shortText",
+  "name": "Job Exposure - Other Description",
+  "page": 12
+ },
+ {
+  "id": "exposureDetails",
+  "type": "longText",
+  "name": "Exposure Details",
+  "page": 12
+ },
+ {
+  "id": "medicalConditionsEffectOnJobAbility1",
+  "type": "longText",
+  "name": "Medical Conditions Effect on Job Ability",
+  "page": 12
+ },
+ {
+  "id": "section3Remarks",
+  "type": "longText",
+  "name": "Section 3 Remarks",
+  "page": 13
+ },
+ {
+  "id": "dateReportCompleted",
+  "type": "date",
+  "name": "Date Report Completed",
+  "page": 13
+ },
+ {
+  "id": "whoIsCompletingThisReport",
+  "type": "radioGroup",
+  "name": "Who is completing this report",
+  "page": 13
+ },
+ {
+  "id": "completerNameFirstMiddleInitialLast",
+  "type": "fullName",
+  "name": "Completer Name (First, Middle Initial, Last)",
+  "page": 13
+ },
+ {
+  "id": "relationshipToThePersonIn1A",
+  "type": "shortText",
+  "name": "Relationship to the Person in 1.A.",
+  "page": 13
+ },
+ {
+  "id": "completerMailingAddress",
+  "type": "usAddress",
+  "name": "Completer Mailing Address",
+  "page": 13
+ },
+ {
+  "id": "daytimePhoneNumber",
+  "type": "phone",
+  "name": "Daytime Phone Number",
+  "page": 13
+ },
+ {
+  "id": "daytimePhoneNumberExtra",
+  "type": "shortText",
+  "name": "Daytime Phone Number Extra",
+  "page": 13
+ }
+]

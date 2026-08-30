@@ -1,0 +1,24 @@
+{
+  "effectiveYear": 2026,
+  "sgaMonthlyNonblindUsd": 1690,
+  "sgaMonthlyBlindUsd": 2830,
+  "earningsPerCreditUsd": 1890,
+  "earningsForFourCreditsUsd": 7560,
+  "durationOfWork": [
+    { "ageAtOnset": 28, "requiredWorkYears": 1.5 },
+    { "ageAtOnset": 30, "requiredWorkYears": 2 },
+    { "ageAtOnset": 34, "requiredWorkYears": 3 },
+    { "ageAtOnset": 38, "requiredWorkYears": 4 },
+    { "ageAtOnset": 42, "requiredWorkYears": 5 },
+    { "ageAtOnset": 44, "requiredWorkYears": 5.5 },
+    { "ageAtOnset": 46, "requiredWorkYears": 6 },
+    { "ageAtOnset": 48, "requiredWorkYears": 6.5 },
+    { "ageAtOnset": 50, "requiredWorkYears": 7 },
+    { "ageAtOnset": 52, "requiredWorkYears": 7.5 },
+    { "ageAtOnset": 54, "requiredWorkYears": 8 },
+    { "ageAtOnset": 56, "requiredWorkYears": 8.5 },
+    { "ageAtOnset": 58, "requiredWorkYears": 9 },
+    { "ageAtOnset": 60, "requiredWorkYears": 9.5 },
+    { "ageAtOnset": 62, "requiredWorkYears": 10 }
+  ]
+}

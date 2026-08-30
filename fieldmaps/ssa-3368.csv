@@ -1,0 +1,427 @@
+field,type,label
+form1[0].BodyPage3[0].P3_N1B_FLD[0],text,1.B. Social Security Number
+form1[0].BodyPage3[0].P3_N1C_CB1[0],checkbox,"1.C. Have you used any other names on your medical or educational records? Examples include maiden name, other married names, other names, or nickname. Yes"
+form1[0].BodyPage3[0].P3_N1C_CB2[0],checkbox,NO
+form1[0].BodyPage3[0].P3_N1CIfYes_FLD[0],text,"If YES, please list names used:"
+form1[0].BodyPage3[0].P3_N1DAddress_FLD[0],text,"1.D. Mailing Address (Street or P O Box) Include apartment number, if applicable."
+form1[0].BodyPage3[0].P3_N1DCity_FLD[0],text,City
+form1[0].BodyPage3[0].P3_N1DState_FLD[0],text,State/Province
+form1[0].BodyPage3[0].P3_N1DZip_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage3[0].P3_N1DCountry_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage3[0].P3_N1EEmail_FLD[0],text,1.E. Email Address
+form1[0].BodyPage3[0].P3_N1FPhonePrim_FLD[0],text,"1.F. Daytime Phone Number(s) where we can call to speak with you or leave a message, if needed. Include area code or I D D and country code if outside the USA or Canada. Primary:"
+form1[0].BodyPage3[0].P3_N1FPhoneSec_FLD[0],text,Secondary: (if available)
+form1[0].BodyPage3[0].P3_N1G_CB1[0],checkbox,1.G. Can you speak and understand English? Yes
+form1[0].BodyPage3[0].P3_N1G_CB2[0],checkbox,No
+form1[0].BodyPage3[0].P3_N1GLang_FLD[0],text,"If no, what language do you prefer? If you cannot speak and understand English, we will provide an interpreter, free of charge."
+form1[0].BodyPage3[0].P3_N1H_CB1[0],checkbox,1.H. Can you read and understand English? Yes
+form1[0].BodyPage3[0].P3_N1H_CB2[0],checkbox,No
+form1[0].BodyPage3[0].P3_N1I_CB1[0],checkbox,1.I. Can you write more than your name in English? Yes
+form1[0].BodyPage3[0].P3_N1I_CB2[0],checkbox,No
+form1[0].BodyPage3[0].P3_IsThereSomeone_CB1[0],checkbox,"SECTION 2 - CONTACTS Is there someone we can contact who can help with your claim, if needed? Examples include a family member, friend, or neighbor. Yes Please provide the names of two people (other than your doctors) we can contact who know about your medical condition(s) and can help you with your claim and can help us reach you if you become unavailable."
+form1[0].BodyPage3[0].P3_IsThereSomeone_CB2[0],checkbox,"No We recommend that you provide at least one contact, if available. Providing the name of someone who knows you may help us to make a decision on your claim."
+form1[0].BodyPage3[0].P3_N2A_FLD[0],text,"2.Ay. Name (First, Middle Initial, Last)"
+form1[0].BodyPage3[0].P3_N2B_FLD[0],text,2.B. Relationship to the Person in 1.Ay.
+form1[0].BodyPage3[0].P3_N2CAddress_FLD[0],text,"2.C. Mailing Address (Street or PO Box) Include apartment number, if applicable."
+form1[0].BodyPage3[0].P3_N2CCity_FLD[0],text,city
+form1[0].BodyPage3[0].P3_N2CState_FLD[0],text,State/Province
+form1[0].BodyPage3[0].P3_N2C7ZIP_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage3[0].P3_N2CCountry_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage3[0].P3_N2D_FLD[0],text,2.D. Daytime Phone Number (as described in 1.F. above)
+form1[0].BodyPage4[0].P4_N2E_CB2[0],checkbox,No
+form1[0].BodyPage4[0].P4_N2EIfNo_FLD[0],text,"If no, what language is preferred?"
+form1[0].BodyPage4[0].P4_N2F_FLD[0],text,"2.F. Name (First, Middle Initial, Last)"
+form1[0].BodyPage4[0].P4_N2G_FLD[0],text,2.G. Relationship to the Person in 1.Ay.
+form1[0].BodyPage4[0].P4_N2HAddress_FLD[0],text,2.H. Mailing Address (Street or P O Box) Include apartment number if applicable.
+form1[0].BodyPage4[0].P4_N2HCity_FLD[0],text,city
+form1[0].BodyPage4[0].P4_N2HState_FLD[0],text,State/Province
+form1[0].BodyPage4[0].P4_N2H7ZIP_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage4[0].P4_N2HCountry_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage4[0].P4_N2I_FLD[0],text,2.I. Daytime Phone Number (as described in 1.F. above)
+form1[0].BodyPage4[0].P4_N2J_CB1[0],checkbox,2. J. Can this person speak and understand English? Yes
+form1[0].BodyPage4[0].P4_N2J_CB2[0],checkbox,No
+form1[0].BodyPage4[0].P4_N2JIfNo_FLD[0],text,"If no, what language is preferred?"
+form1[0].BodyPage4[0].P4_N3A1_FLD[0],text,"Section 3 - Medical Information 3.Ay. Separately list each physical and/or mental condition that limits your ability to work. If you have cancer, please include the type and stage. There is room for 5 entries. first condition"
+form1[0].BodyPage4[0].P4_N3A2_FLD[0],text,second condition
+form1[0].BodyPage4[0].P4_N3A3_FLD[0],text,third condition
+form1[0].BodyPage4[0].P4_N3A4_FLD[0],text,4th condition
+form1[0].BodyPage4[0].P4_N3A5_FLD[0],text,"5th condition If you need more space, go to Section 11"
+form1[0].BodyPage4[0].P4_N3BFeet_FLD[0],text,3.B. What is your height? Feet
+form1[0].BodyPage4[0].P4_N3BInches_FLD[0],text,Inches
+form1[0].BodyPage4[0].P4_N3BCentimeters_FLD[0],text,or centimeters
+form1[0].BodyPage4[0].P4_N3CPounds_FLD[0],text,3.C. What is your weight? Pounds
+form1[0].BodyPage4[0].P4_N3CKilograms_FLD[0],text,or kilograms
+form1[0].BodyPage4[0].P4_N4A_CB1[0],checkbox,"SECTION 4 - WORK ACTIVITY 4.Ay. Are you currently working? No, I have never worked (Go to question 4.B.)"
+form1[0].BodyPage4[0].P4_N4A_CB2[0],checkbox,"No, I have stopped working (Go to question 4.C. )"
+form1[0].BodyPage4[0].P4_N4A_CB3[0],checkbox,"Yes, I am currently working (Go to question 4.F. )"
+form1[0].BodyPage4[0].P4_N4B_FLD[0],text,IF YOU HAVE NEVER WORKED: 4.B. When do you believe your condition(s) became severe enough to keep you from working (even though you have never worked)? (MM/DD/Y Y Y Y) Go to Section 5
+form1[0].BodyPage4[0].P4_N4CDate1_FLD[0],text,IF YOU HAVE STOPPED WORKING: 4.C. When did you stop working? (MM?DD?Y Y Y Y)
+form1[0].BodyPage4[0].P4_N4CWhyStop_CB1[0],checkbox,Why did you stop working? Because of my condition(s)
+form1[0].BodyPage4[0].P4_N4CWhyStop_CB2[0],checkbox,Because of other reasons.
+form1[0].BodyPage4[0].P4_N4CWhyStop_FLD[0],text,"Please explain why you stopped working examples include laid off, early retirement, seasonal work ended, business closed"
+form1[0].BodyPage4[0].P4_N4CWhyStopWhen_FLD[0],text,"Even though you stopped working for other reasons, when do you believe your condition(s) became severe enough to keep you from working? (MM/DD/Y Y Y Y)"
+form1[0].BodyPage5[0].P5_N4D_CB2[0],checkbox,"Yes,"
+form1[0].BodyPage5[0].P5_N4DCB2_FLD[0],text,If Yes is checked When did the changes start? (MM/DD/Y Y Y Y)
+form1[0].BodyPage5[0].P5_N4E_CB1[0],checkbox,"4.E. Since the date in 4.D. above, have you had earnings greater than 1,550 dollars before tax in any month? Do not count sick leave, vacation, or disability pay. (We may contact you for more information.) Yes (Go to Section 5)"
+form1[0].BodyPage5[0].P5_N4E_CB2[0],checkbox,NO (Go to Section 5)
+form1[0].BodyPage5[0].P5_N4F_CB1[0],checkbox,"IF YOU ARE CURRENTLY WORKING: 4.F. Has your condition(s) caused you or your employer to make changes in your work activity? Examples include job duties, hours, or rate of pay. YES"
+form1[0].BodyPage5[0].P5_N4FCB1_FLD[0],text,If yes is checked When did the changes start? (MM/DD/Y Y Y Y)
+form1[0].BodyPage5[0].P5_N4F_CB2[0],checkbox,NO
+form1[0].BodyPage5[0].P5_N4FCB2_FLD[0],text,If no is checked When did your condition(s) first start bothering you? (MM/DD/Y Y Y Y)
+form1[0].BodyPage5[0].P5_N4G_CB1[0],checkbox,"4.G. Since your condition(s) first bothered you, have you had earnings greater than 1,550 dollars before tax in any month? Do not count sick leave, vacation, or disability pay. (We may contact you for more information.) Yes"
+form1[0].BodyPage5[0].P5_N4G_CB2[0],checkbox,No
+form1[0].BodyPage5[0].P5_N5A_CB1[0],checkbox,"SECTION 5 - EDUCATION, TRAINING, AND LITERACY 5.Ay. Select the highest level of school completed, including homeschooling, online education, and education received in another country. 0"
+form1[0].BodyPage5[0].P5_N5A_CB2[0],checkbox,Kindergarten
+form1[0].BodyPage5[0].P5_N5A_CB3[0],checkbox,First Grade
+form1[0].BodyPage5[0].P5_N5A_CB4[0],checkbox,Second Grade
+form1[0].BodyPage5[0].P5_N5A_CB5[0],checkbox,Third Grade
+form1[0].BodyPage5[0].P5_N5A_CB6[0],checkbox,Fourth Grade
+form1[0].BodyPage5[0].P5_N5A_CB7[0],checkbox,Fifth Grade
+form1[0].BodyPage5[0].P5_N5A_CB8[0],checkbox,Sixth Grade
+form1[0].BodyPage5[0].P5_N5A_CB9[0],checkbox,Seventh Grade
+form1[0].BodyPage5[0].P5_N5A_CB10[0],checkbox,Eighth Grade
+form1[0].BodyPage5[0].P5_N5A_CB11[0],checkbox,Ninth Grade
+form1[0].BodyPage5[0].P5_N5A_CB12[0],checkbox,Tenth Grade
+form1[0].BodyPage5[0].P5_N5A_CB13[0],checkbox,Eleventh Grade
+form1[0].BodyPage5[0].P5_N5A_CB14[0],checkbox,Twelfth Grade
+form1[0].BodyPage5[0].P5_N5A_CB15[0],checkbox,G E D
+form1[0].BodyPage5[0].P5_N5ACollege_CB1[0],checkbox,One Year of College
+form1[0].BodyPage5[0].P5_N5ACollege_CB2[0],checkbox,Two Years of College
+form1[0].BodyPage5[0].P5_N5ACollege_CB3[0],checkbox,Three Years of College
+form1[0].BodyPage5[0].P5_N5ACollege_CB4[0],checkbox,Four or more Years of College
+form1[0].BodyPage5[0].P5_N5ADateComp_FLD[0],text,Date completed: MM/Y Y Y Y
+form1[0].BodyPage5[0].P5_N5ASchoolName_FLD[0],text,Name of school:
+form1[0].BodyPage5[0].P5_N5ACity_FLD[0],text,City
+form1[0].BodyPage5[0].P5_N5AState_FLD[0],text,State/Province:
+form1[0].BodyPage5[0].P5_N5ACountry_FLD[0],text,Country (if not U S Ay)
+form1[0].BodyPage5[0].P5_N5B_CB1[0],checkbox,5.B. Were you in special education? NO (Go to 5.C.)
+form1[0].BodyPage5[0].P5_N5B_CB2[0],checkbox,YES (Complete below)
+form1[0].BodyPage5[0].P5_N5BFrom_FLD[0],text,Dates from: MM/Y Y Y Y
+form1[0].BodyPage5[0].P5_N5BTo_FLD[0],text,to MM/Y Y Y Y
+form1[0].BodyPage5[0].P5_N5BSchool_CB1[0],checkbox,"If Yes is checked, Check the last grade you received special education. Pre K"
+form1[0].BodyPage5[0].P5_N5BSchool_CB2[0],checkbox,Kindergarten
+form1[0].BodyPage5[0].P5_N5BSchool_CB3[0],checkbox,First Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB4[0],checkbox,Second Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB5[0],checkbox,Third Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB6[0],checkbox,Fourth Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB7[0],checkbox,Fifth Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB8[0],checkbox,Sixth Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB9[0],checkbox,Seventh Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB10[0],checkbox,Eighth Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB11[0],checkbox,Ninth Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB12[0],checkbox,Tenth Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB13[0],checkbox,Eleventh Grade
+form1[0].BodyPage5[0].P5_N5BSchool_CB14[0],checkbox,Twelfth Grade
+form1[0].BodyPage5[0].P5_N5BReason_FLD[0],text,Reason(s) for special education:
+form1[0].BodyPage5[0].P5_N5BSchoolSpEd_CB1[0],checkbox,The school where you were last in special education: Same as 5.Ay.
+form1[0].BodyPage5[0].P5_N5BSchoolSpEd_CB2[0],checkbox,"If different from 5.Ay., complete below."
+form1[0].BodyPage5[0].P5_N5BSchoolName_FLD[0],text,Name of school:
+form1[0].BodyPage5[0].P5_N5BCity_FLD[0],text,City
+form1[0].BodyPage5[0].P5_N5BState_FLD[0],text,State/Province::
+form1[0].BodyPage5[0].P5_N5BCountry_FLD[0],text,Country (if not U S Ay)
+form1[0].BodyPage6[0].P6_N5C_CB2[0],checkbox,YES (Complete the table below.)
+form1[0].BodyPage6[0].P6_N5CFacilityName_FLD[0],text,Name of Training Facility
+form1[0].BodyPage6[0].P6_N5CFacilityPhone_FLD[0],text,Phone Number
+form1[0].BodyPage6[0].P6_N5CFacilityAddress_FLD[0],text,Address
+form1[0].BodyPage6[0].P6_N5CFacilityCity_FLD[0],text,city
+form1[0].BodyPage6[0].P6_N5CFacilityState_FLD[0],text,State/Province
+form1[0].BodyPage6[0].P6_N5CFacilityZIP_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage6[0].P6_N5CFacilityCountry_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage6[0].P6_N5CProgramType_FLD[0],text,TYPE OF PROGRAM
+form1[0].BodyPage6[0].P6_N5CDateComp_FLD[0],text,Date Completed (or scheduled to be completed) MM/Y Y Y Y
+form1[0].BodyPage6[0].P6_N5D_FLD[0],text,"5.D. What written language do you use every day in most situations (at home, work, school, in community, etc.)?"
+form1[0].BodyPage6[0].P6_N5E_CB1[0],checkbox,"5.E. READING - In the language you identified in 5.D., can you read a simple message, such as a shopping list or short and simple notes? Yes"
+form1[0].BodyPage6[0].P6_N5E_CB2[0],checkbox,No
+form1[0].BodyPage6[0].P6_N5F_CB1[0],checkbox,"5.F. WRITING - In the language you identified in 5.D., can you write a simple message, such as a shopping list or short and simple notes? Yes"
+form1[0].BodyPage6[0].P6_N5F_CB2[0],checkbox,No
+form1[0].BodyPage6[0].P6_N6A_CB1[0],checkbox,"SECTION 6 - WORK HISTORY (If you need more space, use Section 11) 6.A. Did you have a job in the 5 years before you became unable to work because of your medical conditions? NO (Go to Section 7)"
+form1[0].BodyPage6[0].P6_N6A_CB2[0],checkbox,YES (Complete the table below.)
+form1[0].BodyPage6[0].P6_N6AJobTitle1_FLD[0],text,"List all the jobs you had in the 5 years before you became unable to work because of your medical conditions: • List your most recent job first • List all job titles even if they were for the same employer • Do not include jobs you held less than 30 calendar days • Include self-employment (e.g., ride share driver, hair stylist) • Include work in a foreign country Below is a table of 8 columns and 5 rows. The columns are labeled Job Title (e.g., Cashier), Type of Business (e.g., Grocery Store), Date Worked From MM/Y Y Y Y Date Worked To MM/Y Y Y Y, Hours Per Day, Days Per Week, Rate of Pay Amount, and Rate of Pay Frequency (per) hour, day, week, month, or year. 1. Job title (e.g., Cashier)"
+form1[0].BodyPage6[0].P6_N6ABusType1_FLD[0],text,"Type of Business (e.g., Grocery Store)"
+form1[0].BodyPage6[0].P6_N6AFrom1_FLD[0],text,dates worked from M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6ATo1_FLD[0],text,To M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6AHourPerDay1_FLD[0],text,Hours per day
+form1[0].BodyPage6[0].P6_N6ADaysPerWk1_FLD[0],text,Days per week
+form1[0].BodyPage6[0].P6_N6APayAmount1_FLD[0],text,Rate of pay Amount
+form1[0].BodyPage6[0].P6_N6APayFreq1_FLD[0],text,"Rate of Pay Frequency (per) hour, day, week, month, or year"
+form1[0].BodyPage6[0].P6_N6AJobTitle2_FLD[0],text,2. Job Title
+form1[0].BodyPage6[0].P6_N6ABusType2_FLD[0],text,Type of Business
+form1[0].BodyPage6[0].P6_N6AFrom2_FLD[0],text,dates worked from M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6ATo2_FLD[0],text,To M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6AHourPerDay2_FLD[0],text,Hours per day
+form1[0].BodyPage6[0].P6_N6ADaysPerWk2_FLD[0],text,Days per week
+form1[0].BodyPage6[0].P6_N6APayAmount2_FLD[0],text,Rate of pay Amount
+form1[0].BodyPage6[0].P6_N6APayFreq2_FLD[0],text,Rate of Pay Frequency
+form1[0].BodyPage6[0].P6_N6AJobTitle3_FLD[0],text,3. Job title
+form1[0].BodyPage6[0].P6_N6ABusType3_FLD[0],text,type of business
+form1[0].BodyPage6[0].P6_N6AFrom3_FLD[0],text,dates worked from M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6ATo3_FLD[0],text,To M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6AHourPerDay3_FLD[0],text,Hours per day
+form1[0].BodyPage6[0].P6_N6ADaysPerWk3_FLD[0],text,Days per week
+form1[0].BodyPage6[0].P6_N6APayAmount3_FLD[0],text,Rate of pay Amount
+form1[0].BodyPage6[0].P6_N6APayFreq3_FLD[0],text,Rate of Pay Frequency
+form1[0].BodyPage6[0].P6_N6AJobTitle4_FLD[0],text,4. Job title
+form1[0].BodyPage6[0].P6_N6ABusType4_FLD[0],text,type of business
+form1[0].BodyPage6[0].P6_N6AFrom4_FLD[0],text,dates worked from M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6ATo4_FLD[0],text,To M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6AHourPerDay4_FLD[0],text,Hours per day
+form1[0].BodyPage6[0].P6_N6ADaysPerWk4_FLD[0],text,Days per week
+form1[0].BodyPage6[0].P6_N6APayAmount4_FLD[0],text,Rate of pay Amount
+form1[0].BodyPage6[0].P6_N6APayFreq4_FLD[0],text,Rate of Pay Frequency
+form1[0].BodyPage6[0].P6_N6AJobTitle5_FLD[0],text,5. Job title
+form1[0].BodyPage6[0].P6_N6ABusType5_FLD[0],text,type of business
+form1[0].BodyPage6[0].P6_N6AFrom5_FLD[0],text,dates worked from M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6ATo5_FLD[0],text,To M M/Y Y Y Y
+form1[0].BodyPage6[0].P6_N6AHourPerDay5_FLD[0],text,Hours per day
+form1[0].BodyPage6[0].P6_N6ADaysPerWk5_FLD[0],text,Days per week
+form1[0].BodyPage6[0].P6_N6APayAmount5_FLD[0],text,Rate of pay Amount
+form1[0].BodyPage6[0].P6_N6APayFreq5_FLD[0],text,Rate of Pay Frequency
+form1[0].Bodypage7[0].P7_Checkthebox_CB2[0],checkbox,"I had only one job. (If you had only one job, complete the questions in 6.B. through 6.D.)"
+form1[0].Bodypage7[0].P7_N6B1_FLD[0],text,"6.B. Information about your work 6.B.1. For the job you listed in 6.Ay., describe in detail the tasks you did in a typical workday. Examples of tasks include stocking shelves, greeting customers, scheduling appointments, or maintaining records."
+form1[0].Bodypage7[0].P7_N6B2_FLD[0],text,"6.B.2. If any of the tasks listed above involved writing or completing reports, describe the type of report you wrote or completed and how much time you spent on it per workday or workweek."
+form1[0].Bodypage7[0].P7_N6B3_FLD[0],text,"6.B.3. If any of the tasks listed above involved supervising others, describe who or what you supervised and what supervisory duties you had. Examples of supervisory duties include evaluating employee job performance, making schedules, or maintaining time records."
+form1[0].Bodypage7[0].P7_N6B4_FLD[0],text,"6.B.4. List the machines, tools, and equipment you used regularly when doing this job and explain what you used them for. Examples of equipment include computer, telephone, forklift, air compressor, or meat slicer."
+form1[0].Bodypage7[0].P7_N6B5_CB1[0],checkbox,"6.B.5. Did this job require you to interact with coworkers, the general public, or anyone else? Yes"
+form1[0].Bodypage7[0].P7_N6B5_CB2[0],checkbox,No
+form1[0].Bodypage7[0].P7_N6B5_FLD[0],text,"If YES, describe who you interacted with, the purpose of the interaction, how you interacted, and how much time you spent doing it per workday or workweek. Examples include answering customer questions on the telephone for 5 hours per day or showing clients sale properties in person for 4 hours per day."
+form1[0].BodyPage8[0].P8_N6CSitting_FLD[0],text,Row 2: Sitting How much of your workday? Example 6 hours
+form1[0].BodyPage8[0].P8_N6CStooping_FLD[0],text,"Row 3: Stooping (i.e., bending down & forward at waist) How much of your workday? Example 15 minutes"
+form1[0].BodyPage8[0].P8_N6CKneeling_FLD[0],text,"Row 4: Kneeling (i.e., bending legs to rest on knees) How much of your workday? Example 15 minutes"
+form1[0].BodyPage8[0].P8_N6CCrouching_FLD[0],text,"Row 5: Crouching (i.e., bending legs & back down & forward) How much of your workday? Example None"
+form1[0].BodyPage8[0].P8_N6CCrawling_FLD[0],text,"Row 6: Crawling (i.e., moving on hands and knees) How much of your workday? Example None"
+form1[0].BodyPage8[0].P8_N6CTouch_CB1[0],checkbox,"Row 7 Using fingers to touch, pick, or pinch (e.g., using a mouse, keyboard, turning pages, or buttoning a shirt): One Hand"
+form1[0].BodyPage8[0].P8_N6CTouch_CB2[0],checkbox,Both Hands
+form1[0].BodyPage8[0].P8_N6CTouch_FLD[0],text,How much of your workday? (Hours/Minutes) Example: 2 hours (both hands)
+form1[0].BodyPage8[0].P8_N6CSieze_CB1[0],checkbox,"Row 8 Using hands to seize, hold, grasp, or turn (e.g., holding a large envelope, a small box, a hammer, or water bottle): One Hand"
+form1[0].BodyPage8[0].P8_N6CSieze_CB2[0],checkbox,Both Hands
+form1[0].BodyPage8[0].P8_N6CSieze_FLD[0],text,How much of your workday? (Hours/Minutes) Example: 1 hour (both hands)
+form1[0].BodyPage8[0].P8_N6CReachBelow_CB1[0],checkbox,Row 9 Reaching at or below the shoulder: One Arm
+form1[0].BodyPage8[0].P8_N6CReachBelow_CB2[0],checkbox,Both Arms
+form1[0].BodyPage8[0].P8_N6CReachBelow_FLD[0],text,How much of your workday? (Hours/Minutes) Example: 1 hour (both arms)
+form1[0].BodyPage8[0].P8_N6CReachOver_CB1[0],checkbox,Row 10 Reaching overhead (above the shoulder): One Arm
+form1[0].BodyPage8[0].P8_N6CReachOver_CB2[0],checkbox,Both Arms
+form1[0].BodyPage8[0].P8_N6CReachOver_FLD[0],text,How much of your workday? (Hours/Minutes) Example: None
+form1[0].BodyPage8[0].P8_N6CClimbStairs_FLD[0],text,Row 11: Climbing stairs or ramps How much of your workday? Example None
+form1[0].BodyPage8[0].P8_N6CClimbLadder_FLD[0],text,"Row 11: Climbing ladders, ropes, or scaffolds How much of your workday? Example None If you need more space, use Section 11"
+form1[0].BodyPage8[0].P8_TellUsLifinting_FLD[0],text,"Tell us about lifting and carrying in this job. Explain what you lifted, how far you carried it, and how often you did it in a typical workday."
+form1[0].BodyPage8[0].P8_HeaviestWeight_CB1[0],checkbox,Select the heaviest weight lifted: Less than 1 pound
+form1[0].BodyPage8[0].P8_HeaviestWeight_CB2[0],checkbox,Less than 10 pounds
+form1[0].BodyPage8[0].P8_HeaviestWeight_CB3[0],checkbox,10 pounds
+form1[0].BodyPage8[0].P8_HeaviestWeight_CB4[0],checkbox,20 pounds
+form1[0].BodyPage8[0].P8_HeaviestWeight_CB5[0],checkbox,50 pounds
+form1[0].BodyPage8[0].P8_HeaviestWeight_CB6[0],checkbox,100 pounds or more
+form1[0].BodyPage8[0].P8_HeaviestWeight_CB7[0],checkbox,Other
+form1[0].BodyPage8[0].P8_HeaviestWeightCB7_FLD[0],text,If other is checked enter weight
+form1[0].BodyPage8[0].P8_WtFreq_CB1[0],checkbox,"Select the weight frequently lifted (i.e., one third to two thirds of the workday): Less than 1 pound"
+form1[0].BodyPage8[0].P8_WtFreq_CB2[0],checkbox,Less than 10 pounds
+form1[0].BodyPage8[0].P8_WtFreq_CB3[0],checkbox,10 pounds
+form1[0].BodyPage8[0].P8_WtFreq_CB4[0],checkbox,25 pounds
+form1[0].BodyPage8[0].P8_WtFreq_CB5[0],checkbox,50 pounds or more
+form1[0].BodyPage8[0].P8_WtFreq_CB6[0],checkbox,Other
+form1[0].BodyPage8[0].P8_WtFreqCB6_FLD[0],text,If other is checked enter weight
+form1[0].BodyPage8[0].P8_DidYourJob_CB1[0],checkbox,Did this job expose you to any of the following? Check all that apply. Outdoors
+form1[0].BodyPage8[0].P8_DidYourJob_CB2[0],checkbox,Extreme heat (non-weather related)
+form1[0].BodyPage8[0].P8_DidYourJob_CB3[0],checkbox,Extreme cold (non-weather related)
+form1[0].BodyPage8[0].P8_DidYourJob_CB4[0],checkbox,Wetness
+form1[0].BodyPage8[0].P8_DidYourJob_CB5[0],checkbox,Humidity
+form1[0].BodyPage8[0].P8_DidYourJob_CB6[0],checkbox,Hazardous substances
+form1[0].BodyPage8[0].P8_DidYourJob_CB7[0],checkbox,Moving mechanical parts
+form1[0].BodyPage8[0].P8_DidYourJob_CB8[0],checkbox,"High, exposed places"
+form1[0].BodyPage8[0].P8_DidYourJob_CB9[0],checkbox,Heavy vibrations
+form1[0].BodyPage8[0].P8_DidYourJob_CB10[0],checkbox,Loud noise
+form1[0].BodyPage8[0].P8_DidYourJob_CB11[0],checkbox,Other
+form1[0].BodyPage8[0].P8_JobExposure_FLD[0],text,"If one or more boxes are checked, tell us about the exposure(s) and how often you were exposed."
+form1[0].BodyPage9[0].P9_N7_CB1[0],checkbox,SECTION 7 - MEDICINES 7. Are you currently taking any prescription or non-prescription medicine(s)? NO (Go to Section 8)
+form1[0].BodyPage9[0].P9_N7_CB2[0],checkbox,YES (Complete the information below. You may need to look at your medicine containers.)
+form1[0].BodyPage9[0].P9_N7R1MedName_FLD[0],text,"This is a table of 3 columns and 11 rows. Column Headers are Name of Medicine, IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN), and REASON FOR MEDICINE (IF KNOWN). There are no row headers. Row 1 Name of Medicine"
+form1[0].BodyPage9[0].P9_N7R1DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R1Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R2MedName_FLD[0],text,Row 2 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R2DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R2Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R3MedName_FLD[0],text,Row 3 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R3DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R3Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R4MedName_FLD[0],text,Row 4 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R4DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R4Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R5MedName_FLD[0],text,Row 5 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R5DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R5Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R6MedName_FLD[0],text,Row 6 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R6DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R6Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R7MedName_FLD[0],text,Row 7 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R7DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R7Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R8MedName_FLD[0],text,Row 8 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R8DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R8Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R9MedName_FLD[0],text,Row 9 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R9DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R9Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R10MedName_FLD[0],text,Row 10 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R10DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R10Reason_FLD[0],text,REASON FOR MEDICINE (IF KNOWN)
+form1[0].BodyPage9[0].P9_N7R11MedName_FLD[0],text,Row 11 Name of Medicine
+form1[0].BodyPage9[0].P9_N7R11DocName_FLD[0],text,"IF PRESCRIBED, GIVE DOCTOR NAME (IF KNOWN)"
+form1[0].BodyPage9[0].P9_N7R11Reason_FLD[0],text,"REASON FOR MEDICINE (IF KNOWN). If you need to list more medicines, use Section 11."
+form1[0].BodyPage10[0].P10_N8A_CB2[0],checkbox,YES (Complete the chart(s) below)
+form1[0].BodyPage10[0].P10_N8A1FacilityName_FLD[0],text,"You may find this information on medical bills, online medical chart, or the internet. 8.Ay.1. NAME OF FACILITY OR OFFICE"
+form1[0].BodyPage10[0].P10_N8A1ProviderName_FLD[0],text,NAME OF HEALTHCARE PROVIDER THAT TREATED YOU
+form1[0].BodyPage10[0].P10_N8A1MedCond_FLD[0],text,What medical conditions were treated or evaluated?
+form1[0].BodyPage10[0].P10_N8A1Phone_FLD[0],text,PHONE NUMBER
+form1[0].BodyPage10[0].P10_N8A1DateFirstSeen_FLD[0],text,DATE FIRST SEEN: MM/Y Y Y Y
+form1[0].BodyPage10[0].P10_N8A1DateLastSeen_FLD[0],text,DATE last SEEN: MM/Y Y Y Y
+form1[0].BodyPage10[0].P10_N8A1DateNextAppt_FLD[0],text,DATE OF NEXT APPOINTMENT: (IF KNOWN) MM/Y Y Y Y
+form1[0].BodyPage10[0].P10_N8A1Address_FLD[0],text,ADDRESS
+form1[0].BodyPage10[0].P10_N8A1City_FLD[0],text,city
+form1[0].BodyPage10[0].P10_N8A1State_FLD[0],text,State/Province
+form1[0].BodyPage10[0].P10_N8A1ZIP_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage10[0].P10_N8A1Country_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage10[0].P10_N8A2FacilityName_FLD[0],text,8.Ay.2. NAME OF FACILITY OR OFFICE
+form1[0].BodyPage10[0].P10_N8A2ProviderName_FLD[0],text,NAME OF HEALTHCARE PROVIDER THAT TREATED YOU
+form1[0].BodyPage10[0].P10_N8A2MedCond_FLD[0],text,What medical conditions were treated or evaluated?
+form1[0].BodyPage10[0].P10_N8A2Phone_FLD[0],text,PHONE NUMBER
+form1[0].BodyPage10[0].P10_N8A2DateFirstSeen_FLD[0],text,DATE FIRST SEEN: MM/Y Y Y Y
+form1[0].BodyPage10[0].P10_N8A2DateLastSeen_FLD[0],text,DATE last SEEN: MM/Y Y Y Y
+form1[0].BodyPage10[0].P10_N8A2DateNextAppt_FLD[0],text,DATE OF NEXT APPOINTMENT: (IF KNOWN) MM/Y Y Y Y
+form1[0].BodyPage10[0].P10_N8A2Address_FLD[0],text,ADDRESS
+form1[0].BodyPage10[0].P10_N8A2City_FLD[0],text,city
+form1[0].BodyPage10[0].P10_N8A2State_FLD[0],text,State/Province
+form1[0].BodyPage10[0].P10_N8A2ZIP_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage10[0].P10_N8A2Country_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage10[0].P10_N8A3FacilityName_FLD[0],text,8.Ay.3. NAME OF FACILITY OR OFFICE
+form1[0].BodyPage10[0].P10_N8A3ProviderName_FLD[0],text,NAME OF HEALTHCARE PROVIDER THAT TREATED YOU
+form1[0].BodyPage10[0].P10_N8A3MedCond_FLD[0],text,What medical conditions were treated or evaluated?
+form1[0].BodyPage10[0].P10_N8A3Phone_FLD[0],text,PHONE NUMBER
+form1[0].BodyPage10[0].P10_N8A3DateFirstSeen_FLD[0],text,DATE FIRST SEEN: MM/Y Y Y Y
+form1[0].BodyPage10[0].P10_N8A3DateLastSeen_FLD[0],text,DATE last SEEN: MM/Y Y Y Y
+form1[0].BodyPage10[0].P10_N8A3DateNextAppt_FLD[0],text,DATE OF NEXT APPOINTMENT: (IF KNOWN) MM/Y Y Y Y
+form1[0].BodyPage10[0].P10_N8A3Address_FLD[0],text,ADDRESS
+form1[0].BodyPage10[0].P10_N8A3City_FLD[0],text,city
+form1[0].BodyPage10[0].P10_N8A3State_FLD[0],text,State/Province
+form1[0].BodyPage10[0].P10_N8A3ZIP_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage10[0].P10_N8A3Country_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage11[0].P11_N8A4ProviderName_FLD[0],text,NAME OF HEALTHCARE PROVIDER THAT TREATED YOU
+form1[0].BodyPage11[0].P11_N8A4MedCond_FLD[0],text,What medical conditions were treated or evaluated?
+form1[0].BodyPage11[0].P11_N8A4Phone_FLD[0],text,PHONE NUMBER
+form1[0].BodyPage11[0].P11_N8A4DateFirstSeen_FLD[0],text,DATE FIRST SEEN: MM/Y Y Y Y
+form1[0].BodyPage11[0].P11_N8A4DateLastSeen_FLD[0],text,DATE last SEEN: MM/Y Y Y Y
+form1[0].BodyPage11[0].P11_N8A4DateNextAppt_FLD[0],text,DATE OF NEXT APPOINTMENT: (IF KNOWN) MM/Y Y Y Y
+form1[0].BodyPage11[0].P11_N8A4Address_FLD[0],text,ADDRESS
+form1[0].BodyPage11[0].P11_N8A4City_FLD[0],text,city
+form1[0].BodyPage11[0].P11_N8A4State_FLD[0],text,State/Province
+form1[0].BodyPage11[0].P11_N8A4ZIP_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage11[0].P11_N8A4Country_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage11[0].P11_N8A5FacilityName_FLD[0],text,8.Ay.5. NAME OF FACILITY OR OFFICE
+form1[0].BodyPage11[0].P11_N8A5ProviderName_FLD[0],text,NAME OF HEALTHCARE PROVIDER THAT TREATED YOU
+form1[0].BodyPage11[0].P11_N8A5MedCond_FLD[0],text,What medical conditions were treated or evaluated?
+form1[0].BodyPage11[0].P11_N8A5Phone_FLD[0],text,PHONE NUMBER
+form1[0].BodyPage11[0].P11_N8A5DateFirstSeen_FLD[0],text,DATE FIRST SEEN: MM/Y Y Y Y
+form1[0].BodyPage11[0].P11_N8A5DateLastSeen_FLD[0],text,DATE last SEEN: MM/Y Y Y Y
+form1[0].BodyPage11[0].P11_N8A5DateNextAppt_FLD[0],text,DATE OF NEXT APPOINTMENT: (IF KNOWN) MM/Y Y Y Y
+form1[0].BodyPage11[0].P11_N8A5Address_FLD[0],text,ADDRESS
+form1[0].BodyPage11[0].P11_N8A5City_FLD[0],text,city
+form1[0].BodyPage11[0].P11_N8A5State_FLD[0],text,State/Province
+form1[0].BodyPage11[0].P11_N8A5ZIP_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage11[0].P11_N8A5Country_FLD[0],text,"Country (If not U S Ay) If you need to list more facilities or healthcare providers, use Section 11."
+form1[0].BodyPage11[0].P11_N8A6FacilityName_FLD[0],text,8.Ay.6. NAME OF FACILITY OR OFFICE
+form1[0].BodyPage11[0].P11_N8A6ProviderName_FLD[0],text,NAME OF HEALTHCARE PROVIDER THAT TREATED YOU
+form1[0].BodyPage11[0].P11_N8A6MedCond_FLD[0],text,What medical conditions were treated or evaluated?
+form1[0].BodyPage11[0].P11_N8A6Phone_FLD[0],text,PHONE NUMBER
+form1[0].BodyPage11[0].P11_N8A6DateFirstSeen_FLD[0],text,DATE FIRST SEEN: MM/Y Y Y Y
+form1[0].BodyPage11[0].P11_N8A6DateLastSeen_FLD[0],text,DATE last SEEN: MM/Y Y Y Y
+form1[0].BodyPage11[0].P11_N8A6DateNextAppt_FLD[0],text,DATE OF NEXT APPOINTMENT: (IF KNOWN) MM/Y Y Y Y
+form1[0].BodyPage11[0].P11_N8A6Address_FLD[0],text,ADDRESS
+form1[0].BodyPage11[0].P11_N8A6City_FLD[0],text,city
+form1[0].BodyPage11[0].P11_N8A6State_FLD[0],text,State/Province
+form1[0].BodyPage11[0].P11_N8A6ZIP_FLD[0],text,ZIP/Postal Code
+form1[0].BodyPage11[0].P11_N8A6Country_FLD[0],text,"Country (If not U S Ay) If you need to list more facilities or healthcare providers, use Section 11."
+form1[0].BodyPage12[0].P12-N8B_CB2[0],checkbox,YES (Select tests from the chart below)
+form1[0].BodyPage12[0].P12-N8BBloodName_FLD[0],text,"Below is a table of 3 columns and 15 rows. Column headers are Test, Name of Healthcare Provider or Facility, and Date of Test MM/Y Y Y Y). The column of Tests is pre-filled. Row 1 Test: Blood test (not H I V). Name of Healthcare Provider or Facility"
+form1[0].BodyPage12[0].P12-N8BBloodDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BBreathName_FLD[0],text,Row 2 Test: Breathing test. Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BBreathDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BCardiacName_FLD[0],text,Row 3 Test: Cardiac catheterization. Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BCardiacDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BEEGName_FLD[0],text,Row 4 Test: E E G (brain wave test). Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BEEGDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BEKGName_FLD[0],text,Row 5 Test: E K G (heart test). Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BEKGDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BHearingName_FLD[0],text,Row 6 Test: Hearing test. Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BHearingDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BHIVName_FLD[0],text,Row 7 Test: H I V test Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BHIVDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BSpeechName_FLD[0],text,Row 8 Test: Speech/language test Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BSpeechDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BTreadmillName_FLD[0],text,Row 9 Test: Treadmill (exercise test) Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BTreadmillDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BVisionName_FLD[0],text,Row 10 Test: Vision test Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BVisionDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BIQName_FLD[0],text,Row 11 Test: Psychological/I Q test Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BIQDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BBiopsyTest_FLD[0],text,Row 12 Test Biopsy (list body part):
+form1[0].BodyPage12[0].P12-N8BBiopsyName_FLD[0],text,Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BBiopsyDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BMRITest_FLD[0],text,Row 13 Test M R I/C T scan (list body part):
+form1[0].BodyPage12[0].P12-N8BMRIName_FLD[0],text,Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BMRIDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BXRayTest_FLD[0],text,Row 14 Test X-ray (list body part):
+form1[0].BodyPage12[0].P12-N8BXRayName_FLD[0],text,Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BXRayDate_FLD[0],text,DATE OF TEST (MM/Y Y Y Y)
+form1[0].BodyPage12[0].P12-N8BOtherTest_FLD[0],text,Row 15 Test Other - please specify:
+form1[0].BodyPage12[0].P12-N8BOtherName_FLD[0],text,Name of Healthcare Provider or Facility
+form1[0].BodyPage12[0].P12-N8BOtherDate_FLD[0],text,"DATE OF TEST (MM/Y Y Y Y) If you need to list more tests, use Section 11."
+form1[0].BodyPage13[0].P13_N9_CB2[0],checkbox,YES (Complete the information below)
+form1[0].BodyPage13[0].P13_N9NameOfOrg_FLD[0],text,Name of Organization
+form1[0].BodyPage13[0].P13_N9Phone_FLD[0],text,Phone Number
+form1[0].BodyPage13[0].P13_N9Address_FLD[0],text,address
+form1[0].BodyPage13[0].P13_N9City_FLD[0],text,City
+form1[0].BodyPage13[0].P13_N9State_FLD[0],text,State/Province
+form1[0].BodyPage13[0].P13_N9ZIP_FLD[0],text,Zip/Postal Code
+form1[0].BodyPage13[0].P13_N9Country_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage13[0].P13_N9NameOfContact_FLD[0],text,Name of Contact Person
+form1[0].BodyPage13[0].P13_N9ClaimNum_FLD[0],text,Claim number (if any)
+form1[0].BodyPage13[0].P13_N9FirstContact_FLD[0],text,Date of First Contact
+form1[0].BodyPage13[0].P13_N9LastContact_FLD[0],text,Date of last contact
+form1[0].BodyPage13[0].P13_N9NextContact_FLD[0],text,Date of next contact (if any)
+form1[0].BodyPage13[0].P13_N9ReasonForContact_FLD[0],text,"Reasons for contacts If you need to list other people or organizations, use Section 11"
+form1[0].BodyPage13[0].P13_N10A_CB1[0],checkbox,"COMPLETE THIS SECTION ONLY IF YOU ARE ALREADY RECEIVING SSI. SECTION 10 - SUPPORT SERVICES Provide information about your participation in support services, if applicable. Examples of support services can include: • An Individualized Education Program (I E P) through a school (if a student aged 18-21) • An individual work plan with an employment network under the Ticket to Work Program • A Plan to Achieve Self-Support (P Ay S S) • An individualized plan for employment with a vocational rehabilitation agency or any other organization 10.Ay. Have you participated or are you participating in any support services mentioned above or any other vocational rehabilitation, employment services, or other support services to help you to go to work? YES (Complete the information below)"
+form1[0].BodyPage13[0].P13_N10A_CB2[0],checkbox,No (Go to Section 11)
+form1[0].BodyPage13[0].P13_N10BOrgName_FLD[0],text,10.B. FACILITY OR ORGANIZATION NAME
+form1[0].BodyPage13[0].P13_N10BOrgPhone_FLD[0],text,Phone Number
+form1[0].BodyPage13[0].P13_N10BCounselor_FLD[0],text,"COUNSELOR, INSTRUCTOR, OR JOB COACH NAME"
+form1[0].BodyPage13[0].P13_N10BOrgAddress_FLD[0],text,"ADDRESS (Street or P O Box) Include Suite, Building, etc."
+form1[0].BodyPage13[0].P13_N10BOrgCity_FLD[0],text,City
+form1[0].BodyPage13[0].P13_N10BOrgState_FLD[0],text,State/Province
+form1[0].BodyPage13[0].P13_N10BOrgZIP_FLD[0],text,Zip/Postal Code
+form1[0].BodyPage13[0].P13_N10BOrgCountry_FLD[0],text,Country (If not U S Ay)
+form1[0].Bodypage14[0].P14_N10CCB1DateBegan_FLD[0],text,"If yes is checked, Date began: MM/ Y Y Y Y"
+form1[0].Bodypage14[0].P14_N10CCB1ExpComp_FLD[0],text,Expected completion date: MM/Y Y Y Y
+form1[0].Bodypage14[0].P14_N10C_CB2[0],checkbox,No
+form1[0].Bodypage14[0].P14_N10CCB2DateBegan_FLD[0],text,"If no is checked, Date began: MM/ Y Y Y Y"
+form1[0].Bodypage14[0].P14_N10CCB2DateStopped_FLD[0],text,Date stopped: MM/ Y Y Y Y
+form1[0].Bodypage14[0].P14_N10CCB2ReasonStopped_FLD[0],text,Reason stopped:
+form1[0].Bodypage14[0].P14_N10D_CB1[0],checkbox,"10.D. What types of services, tests, or evaluation were provided? Select all that apply: Vision test"
+form1[0].Bodypage14[0].P14_N10D_CB2[0],checkbox,Psychological/I Q test
+form1[0].Bodypage14[0].P14_N10D_CB3[0],checkbox,Work classes
+form1[0].Bodypage14[0].P14_N10D_CB4[0],checkbox,Hearing test
+form1[0].Bodypage14[0].P14_N10D_CB5[0],checkbox,Work evaluation
+form1[0].Bodypage14[0].P14_N10D_CB6[0],checkbox,Other
+form1[0].Bodypage14[0].P14_N10DCB6_FLD[0],text,"If other is checked, please explain If you need to list another plan or program, use Section 11"
+form1[0].Bodypage14[0].P14_Remarks_FLD[0],text,"SECTION 11 - REMARKS Please provide any additional information you did not give in earlier parts of this report. If you did not have enough space in the sections of this report to provide the requested information, please use this space to provide the additional information requested in those sections. Be sure to include the section and question number to which you are referring. If you need additional space, use Section 11 - Remarks (continued)"
+form1[0].BodyPage15[0].P15_Section12DateComp_FLD[0],text,SECTION 12 - WHO IS COMPLETING THIS REPORT Date Report Completed (MM/DD/YYYY)
+form1[0].BodyPage15[0].P15_Section12WhoIsComp_CB1[0],checkbox,Who is completing this report? The person listed in 1.Ay.
+form1[0].BodyPage15[0].P15_Section12WhoIsComp_CB2[0],checkbox,The person listed in 2.Ay.
+form1[0].BodyPage15[0].P15_Section12WhoIsComp_CB3[0],checkbox,The person listed in 2.F.
+form1[0].BodyPage15[0].P15_Section12WhoIsComp_CB4[0],checkbox,Someone else (Complete the information below)
+form1[0].BodyPage15[0].P15_Section12Name_FLD[0],text,"NAME (First, Middle Initial, Last)"
+form1[0].BodyPage15[0].P15_Section12Relation_FLD[0],text,Relationship to the Person in 1.Ay.
+form1[0].BodyPage15[0].P15_Section12Address_FLD[0],text,"MAILING ADDRESS (Street or P O Box) Include the apartment number, if applicable."
+form1[0].BodyPage15[0].P15_Section12City_FLD[0],text,City
+form1[0].BodyPage15[0].P15_Section12State_FLD[0],text,State/Province
+form1[0].BodyPage15[0].P15_Section12ZIP_FLD[0],text,Zip/Postal Code
+form1[0].BodyPage15[0].P15_Section12Country_FLD[0],text,Country (If not U S Ay)
+form1[0].BodyPage15[0].P15_Section12DaytimePhone_FLD[0],text,"DAYTIME PHONE NUMBER where we may reach you or leave a message, if needed. Include the area code or I D D and country code if outside the USA or Canada."
+form1[0].BodyPage15[0].P15_EOF_FLD[0],text,"This is the end of the form. If you tab, you will be at the beginning of the form."

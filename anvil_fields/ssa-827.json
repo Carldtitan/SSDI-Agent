@@ -1,0 +1,122 @@
+[
+ {
+  "id": "nameFirstMiddleLastSuffix",
+  "type": "fullName",
+  "name": "NAME (First, Middle, Last, Suffix)",
+  "page": 0
+ },
+ {
+  "id": "ssn",
+  "type": "shortText",
+  "name": "SSN",
+  "page": 0
+ },
+ {
+  "id": "birthday",
+  "type": "date",
+  "name": "Birthday",
+  "page": 0
+ },
+ {
+  "id": "determiningWhetherCapableOfManagingBenefitsOnly",
+  "type": "checkbox",
+  "name": "Determining whether capable of managing benefits only",
+  "page": 0
+ },
+ {
+  "id": "additionalInformationToIdentifySubjectOtherNamesSpecificSourceMaterialToBeDisclosed",
+  "type": "longText",
+  "name": "Additional information to identify subject (other names, specific source, material to be disclosed)",
+  "page": 0
+ },
+ {
+  "id": "authorityToSignRadio",
+  "type": "radioGroup",
+  "name": "Authority to Sign (radio)",
+  "page": 0
+ },
+ {
+  "id": "individualAuthorizingDisclosureSignature",
+  "type": "signature",
+  "name": "Individual Authorizing Disclosure - Signature",
+  "page": 0
+ },
+ {
+  "id": "otherPersonalRepresentativeExplain",
+  "type": "shortText",
+  "name": "Other personal representative (explain)",
+  "page": 0
+ },
+ {
+  "id": "parentGuardianPersonalRepresentativeSignIfTwoSignaturesRequiredByStateLaw",
+  "type": "signature",
+  "name": "Parent/guardian/personal representative sign (if two signatures required by State law)",
+  "page": 0
+ },
+ {
+  "id": "dateSigned",
+  "type": "signatureDate",
+  "name": "Date Signed",
+  "page": 0
+ },
+ {
+  "id": "signerStreetAddress",
+  "type": "usAddress",
+  "name": "Signer Street Address",
+  "page": 0
+ },
+ {
+  "id": "phoneNumberWithAreaCode",
+  "type": "phone",
+  "name": "Phone Number (with area code)",
+  "page": 0
+ },
+ {
+  "id": "witnessSignature",
+  "type": "signature",
+  "name": "Witness Signature",
+  "page": 0
+ },
+ {
+  "id": "secondWitnessSignature",
+  "type": "signature",
+  "name": "Second Witness Signature",
+  "page": 0
+ },
+ {
+  "id": "witnessPhoneNumberOrAddress",
+  "type": "shortText",
+  "name": "Witness Phone Number (or Address)",
+  "page": 0
+ },
+ {
+  "id": "secondWitnessPhoneNumberOrAddress",
+  "type": "shortText",
+  "name": "Second Witness Phone Number (or Address)",
+  "page": 0
+ },
+ {
+  "id": "pageNumber",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 1
+ },
+ {
+  "id": "pageNumber1",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 1
+ },
+ {
+  "id": "pageNumber2",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 1
+ },
+ {
+  "id": "pageNumber3",
+  "type": "integer",
+  "name": "Page Number",
+  "page": 1
+ }
+]
